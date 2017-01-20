@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"calendarFieldsMapping" : "pre 1/20/2017 16:45" },
+	"instance" : {
+		"client" : "pre 1/20/2017 10:45",
+		"doesNotUnderstand:" : "pre 1/20/2017 16:44",
+		"events" : "pre 1/20/2017 16:42",
+		"events:" : "pre 1/20/2017 10:43",
+		"serverColor" : "pre 1/20/2017 16:51",
+		"serverColor:" : "pre 1/20/2017 16:52",
+		"serverData" : "pre 1/20/2017 16:36",
+		"serverData:" : "pre 1/20/2017 16:36",
+		"updateCalendar" : "pre 1/20/2017 16:44",
+		"updateEvents" : "pre 1/20/2017 15:33",
+		"url" : "pre 1/20/2017 10:43",
+		"url:" : "pre 1/20/2017 15:53" } }

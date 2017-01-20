@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"ClientRegistry" : "pre 1/20/2017 10:47",
+		"registerClient:for:" : "pre 1/20/2017 15:55",
+		"registeredClientFor:" : "pre 1/20/2017 15:53" },
+	"instance" : {
+		"addAuthorizationInformation:" : "pre 1/20/2017 10:55",
+		"assumesAuthorization" : "pre 1/20/2017 10:54",
+		"fetchCalendarDataFrom:" : "pre 1/20/2017 16:06",
+		"fetchCalendarQuery" : "pre 1/20/2017 15:37",
+		"fetchEventQuery" : "pre 1/20/2017 15:34",
+		"fetchEventsDataFrom:" : "pre 1/20/2017 16:07",
+		"handleResponse:" : "pre 1/20/2017 15:49",
+		"parseCalendarInformation:" : "pre 1/20/2017 16:45",
+		"parseEventsInformation:" : "pre 1/20/2017 16:07",
+		"parseXML:" : "pre 1/20/2017 16:11",
+		"retryRequest" : "pre 1/20/2017 18:52",
+		"sendTo:theRequest:withHeader:" : "pre 1/20/2017 18:51",
+		"webDavClient" : "pre 1/20/2017 10:56" } }

@@ -1,13 +1,13 @@
 requests
-sendTo: anUrl theRequest: queryString withHeader: headerConfigs
+sendGetTo: anUrl theRequest: query withHeader: headerConfigs
 
 	| sendRequest |
 	sendRequest := [
 		| response |
-		response := self webDavClient new davPropfind: anUrl query: self fetchCalendarQuery do: [:request |
+		response := self webDavClient new davGet: anUrl query: query do: [:request |
 			headerConfigs do: [:config | request headerAt: config key put: config value].
 			self addAuthorizationInformation: request].
 		^ self handleResponse: response.].
 	
 	[sendRequest on: CalDavRetryException do: sendRequest]
-		on: CalDavRetryException do: [self halt].
+		on: CalDavRetryException do: [Exception signal].

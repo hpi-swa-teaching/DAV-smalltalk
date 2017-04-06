@@ -1,5 +1,5 @@
 requests
-parseEventsInformation: responseContent
+parseEventsInformation: responseContent at: calendarUrl
 
 	| xmlDocument eventResults result |
 
@@ -8,7 +8,6 @@ parseEventsInformation: responseContent
 	eventResults := result elements.
 	^ eventResults 
 		select: [:resultNode |
-			((resultNode firstTagNamed: #'D:resourcetype') elements
-				anySatisfy: [:e | e name = 'caldav:calendar']) not]
+			(resultNode firstTagNamed: #'D:href') contents first string ~= calendarUrl localPartUrl]
 		thenCollect: [:resultNode |
 			self parseEventInformation: resultNode].

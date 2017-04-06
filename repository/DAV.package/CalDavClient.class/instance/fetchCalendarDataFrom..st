@@ -4,8 +4,7 @@ fetchCalendarDataFrom: anUrl
 	| response |
 	self assumesAuthorization.
 	
-	response := self sendTo: anUrl theRequest: self fetchCalendarQuery withHeader: {
-		'Prefer' -> 'return-minimal'.
+	response := self sendPropfindTo: anUrl theRequest: self fetchCalendarQuery withHeader: {
 		'Depth' -> '0' }.
 		
 	^ self parseCalendarInformation: response content

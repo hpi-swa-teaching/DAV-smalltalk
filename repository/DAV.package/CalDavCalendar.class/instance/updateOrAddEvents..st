@@ -9,5 +9,4 @@ updateOrAddEvents: updateInformation
 				self addEvent: newEvent.
 				newEvent].
 		etag := rawEventData at: #'D:getetag'.
-		etag regex: '(\d+)' matchesDo: [:match | self halt].
 		eventObject updateOrNotDependingOnChangeInEtag: etag].

@@ -1,7 +1,7 @@
 requests
 saveEvent: anIcalObject to: anUrl at: etag
 
-	| response serializedEvent newEtag header |
+	| response serializedEvent header |
 	self assumesAuthorization.
 	
 	serializedEvent := (ICCalendarExporter calendar: anIcalObject) export export dataStream contents.
@@ -19,6 +19,4 @@ saveEvent: anIcalObject to: anUrl at: etag
 	
 	response isSuccess ifFalse: [Exception signal].
 	
-	newEtag := self fetchEtagOfEventFrom: anUrl.
-	
-	^ newEtag
+	^ true

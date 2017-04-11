@@ -3,5 +3,5 @@ initialize
 
 	self 
 		etag: '';
-		dirty: false
+		setClean
 	

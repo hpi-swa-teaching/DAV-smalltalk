@@ -6,6 +6,7 @@
 		"queryDisplayName" : "pre 1/19/2017 17:15",
 		"queryFindAll" : "pre 12/8/2016 12:32" },
 	"instance" : {
+		"davDelete:do:" : "pre 4/11/2017 11:52",
 		"davGet:query:do:" : "pre 4/6/2017 11:54",
 		"davPropfind:properties:" : "pre 4/6/2017 11:06",
 		"davPropfind:properties:do:" : "pre 4/6/2017 11:06",

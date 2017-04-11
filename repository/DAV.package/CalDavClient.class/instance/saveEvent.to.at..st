@@ -1,14 +1,21 @@
 requests
 saveEvent: anIcalObject to: anUrl at: etag
 
-	| response serializedEvent newEtag |
+	| response serializedEvent newEtag header |
 	self assumesAuthorization.
 	
 	serializedEvent := (ICCalendarExporter calendar: anIcalObject) export export dataStream contents.
-	response := self sendPutTo: anUrl theRequest: serializedEvent withHeader: {
-		'Content-Type' -> 'text/calendar'.
-		'If-Match' -> etag asString.
-	}.
+	
+	header := etag
+		ifEmpty: [{
+			'Content-Type' -> 'text/calendar'.
+		}]
+		ifNotEmpty: [{
+			'Content-Type' -> 'text/calendar'.
+			'If-Match' -> etag asString.
+		}].
+	
+	response := self sendPutTo: anUrl theRequest: serializedEvent withHeader: header.
 	
 	response isSuccess ifFalse: [Exception signal].
 	

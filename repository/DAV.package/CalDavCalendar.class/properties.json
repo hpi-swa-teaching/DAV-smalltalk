@@ -8,7 +8,8 @@
 	"instvars" : [
 		"url",
 		"events",
-		"serverData" ],
+		"serverData",
+		"calendarName" ],
 	"name" : "CalDavCalendar",
 	"pools" : [
 		 ],

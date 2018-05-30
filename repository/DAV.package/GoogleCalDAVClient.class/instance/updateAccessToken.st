@@ -11,5 +11,6 @@ updateAccessToken
 		
 	result := self sendRequestToGoogle: basePostBody.
 	
-	(result includesKey: #error) ifTrue: [CalDavGenericException signal: 'Got an erroneous response when trying to update the authorization token from Google'].
+	(result includesKey: #error) ifTrue: [
+		CalDavGenericException signal: 'Got an erroneous response when trying to update the authorization token from Google'].
 	self accessToken: (result at: #access_token).

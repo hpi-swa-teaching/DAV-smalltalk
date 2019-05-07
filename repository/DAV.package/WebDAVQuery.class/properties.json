@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "DAVPropFindQuery",
+		"namespaces",
+		"properties" ],
+	"name" : "WebDAVQuery",
 	"pools" : [
 		 ],
-	"super" : "WebDAVQuery",
+	"super" : "Object",
 	"type" : "normal" }

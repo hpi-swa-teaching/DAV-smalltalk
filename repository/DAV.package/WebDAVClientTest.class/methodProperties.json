@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "JB 5/7/2019 16:43",
+		"testWebDAVPropfind" : "JB 5/7/2019 16:43",
+		"testWriteProperties" : "JB 5/7/2019 16:43" } }

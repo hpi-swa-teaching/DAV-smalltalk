@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"query" ],
 	"name" : "WebDAVClientTest",
 	"pools" : [
 		 ],

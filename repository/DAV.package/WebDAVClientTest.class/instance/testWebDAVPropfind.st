@@ -1,7 +1,7 @@
 tests - methods
 testWebDAVPropfind
 
-	| client resp query |
+	| client resp |
 
 	server addService: '/propfind' action:[:req | 
 		req send200Response: req method.

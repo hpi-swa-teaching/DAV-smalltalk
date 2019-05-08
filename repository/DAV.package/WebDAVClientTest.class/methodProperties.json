@@ -2,6 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "JB 5/7/2019 16:43",
-		"testWebDAVPropfind" : "JB 5/7/2019 16:43",
-		"testWriteProperties" : "JB 5/7/2019 16:43" } }
+		"setUp" : "JB 5/8/2019 14:09",
+		"testAsXml" : "JB 5/8/2019 14:41",
+		"testMethod" : "JB 5/8/2019 15:02",
+		"testNameSpacesDictionary" : "JB 5/8/2019 14:32",
+		"testWebDAVPropfind" : "JB 5/8/2019 14:08",
+		"testWriteProperties" : "JB 5/8/2019 14:08",
+		"testWriteQuerySpecificContent" : "JB 5/8/2019 14:39" } }

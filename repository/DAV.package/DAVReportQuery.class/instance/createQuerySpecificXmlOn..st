@@ -1,11 +1,11 @@
 queryBuilding
-writeQuerySpecificContentOn: aXMLWriter
+createQuerySpecificXmlOn: aXMLWriter
 
 	aXMLWriter
 		startElement: 'c:calendar-query' attributeList: self namespacesDictionary;
 		endTag.
 	
-	self writePropertiesOn: aXMLWriter.
+	self createPropertiesXmlOn: aXMLWriter.
 		
 	aXMLWriter
 		startTag: 'c:filter';

@@ -4,5 +4,5 @@ davPropfind: anUrl properties: propfindQuery do: aBlock
 	^ self 
 		sendDavRequest: anUrl 
 		method: 'PROPFIND' 
-		query: propfindQuery asXML 
+		query: propfindQuery createXmlBody 
 		do: aBlock

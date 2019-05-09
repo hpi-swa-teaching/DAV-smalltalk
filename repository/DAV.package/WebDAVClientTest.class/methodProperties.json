@@ -3,9 +3,9 @@
 		 },
 	"instance" : {
 		"setUp" : "JB 5/8/2019 14:09",
-		"testAsXml" : "JB 5/8/2019 14:41",
+		"testAsXml" : "JB 5/9/2019 21:08",
 		"testMethod" : "JB 5/8/2019 15:02",
 		"testNameSpacesDictionary" : "JB 5/8/2019 14:32",
 		"testWebDAVPropfind" : "JB 5/8/2019 14:08",
-		"testWriteProperties" : "JB 5/8/2019 14:08",
-		"testWriteQuerySpecificContent" : "JB 5/8/2019 14:39" } }
+		"testWriteProperties" : "JB 5/9/2019 21:25",
+		"testWriteQuerySpecificContent" : "JB 5/9/2019 21:25" } }

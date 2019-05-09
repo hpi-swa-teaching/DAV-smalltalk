@@ -7,9 +7,10 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"namespaces",
-		"properties" ],
+		"properties",
+		"body" ],
 	"name" : "WebDAVQuery",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "WebRequest",
 	"type" : "normal" }

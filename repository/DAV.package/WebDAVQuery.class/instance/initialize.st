@@ -1,5 +1,10 @@
-as yet unclassified
+initialization
 initialize
-	
-	self namespaces: #().
-	self properties: #().
+
+	super initialize.
+	self
+		namespaces: #();
+		properties: #();
+		headerAt: 'Prefer' put: 'return-minimal';
+		headerAt: 'Depth' put: '0';
+		headerAt: 'Content-Type' put: 'application/xml'

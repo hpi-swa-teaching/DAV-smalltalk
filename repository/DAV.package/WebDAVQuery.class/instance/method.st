@@ -1,4 +1,4 @@
-queryBuilding
+accessing
 method
 
 	self subclassResponsibility

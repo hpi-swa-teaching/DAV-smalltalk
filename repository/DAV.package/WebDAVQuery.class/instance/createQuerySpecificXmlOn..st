@@ -1,4 +1,4 @@
 queryBuilding
-writeQuerySpecificContentOn: aXMLWriter
+createQuerySpecificXmlOn: aXMLWriter
 
 	^ self subclassResponsibility

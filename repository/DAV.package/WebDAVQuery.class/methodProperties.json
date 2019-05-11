@@ -1,14 +1,18 @@
 {
 	"class" : {
-		 },
+		"url:namespaces:properties:" : "JB 5/9/2019 21:05" },
 	"instance" : {
-		"asXML" : "JB 5/7/2019 16:38",
-		"initialize" : "JB 5/8/2019 14:38",
+		"body" : "JB 5/9/2019 21:20",
+		"body:" : "JB 5/9/2019 21:09",
+		"createPropertiesXmlOn:" : "JB 5/9/2019 21:25",
+		"createQuerySpecificXmlOn:" : "JB 5/9/2019 21:25",
+		"createXmlBody" : "JB 5/9/2019 21:29",
+		"initialize" : "c a 5/10/2019 09:39",
 		"method" : "JB 5/8/2019 14:52",
 		"namespaces" : "JB 5/7/2019 16:38",
 		"namespaces:" : "JB 5/7/2019 16:38",
 		"namespacesDictionary" : "JB 5/7/2019 16:38",
 		"properties" : "JB 5/7/2019 16:38",
 		"properties:" : "JB 5/7/2019 16:38",
-		"writePropertiesOn:" : "JB 5/7/2019 16:39",
-		"writeQuerySpecificContentOn:" : "JB 5/7/2019 16:39" } }
+		"setHeaders" : "c a 5/11/2019 19:32",
+		"size" : "JB 5/9/2019 21:27" } }

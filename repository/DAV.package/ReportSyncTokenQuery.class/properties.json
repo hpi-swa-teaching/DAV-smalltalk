@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"filters",
-		"queryType",
-		"objectURLs" ],
-	"name" : "DAVReportQuery",
+		"syncToken",
+		"limit" ],
+	"name" : "ReportSyncTokenQuery",
 	"pools" : [
 		 ],
 	"super" : "WebDAVQuery",

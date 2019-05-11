@@ -1,0 +1,4 @@
+accessing
+size
+
+	^ body size

@@ -1,5 +1,5 @@
 queryBuilding
-writePropertiesOn: aXMLWriter
+createPropertiesXmlOn: aXMLWriter
 	
 	aXMLWriter
 		startTag: 'D:prop';

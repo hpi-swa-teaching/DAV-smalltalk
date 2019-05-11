@@ -1,5 +1,8 @@
-as yet unclassified
+initialization
 initialize
-	
-	self namespaces: #().
-	self properties: #().
+
+	super initialize.
+	self
+		namespaces: #();
+		properties: #();
+		setHeaders.

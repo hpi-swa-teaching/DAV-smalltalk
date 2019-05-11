@@ -3,9 +3,9 @@ testWebDAVPropfind
 
 	| client resp |
 
-	 server addService: '/propfind' action:[:req | 
+	server addService: '/propfind' action:[:req | 
 		req send200Response: req method.
-	].
+	] methods: {'PROPFIND'}.
 
 	query := DAVPropFindQuery
 		namespaces: #((cs 'https://www.caldavserver.com/ns'))

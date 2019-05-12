@@ -1,0 +1,16 @@
+{
+	"category" : "DAV-Cal",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"syncToken",
+		"calendarName",
+		"status" ],
+	"name" : "CalDAVParser",
+	"pools" : [
+		 ],
+	"super" : "XMLParser",
+	"type" : "normal" }

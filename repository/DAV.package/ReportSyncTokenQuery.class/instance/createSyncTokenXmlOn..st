@@ -1,4 +1,4 @@
-as yet unclassified
+queryBuilding
 createSyncTokenXmlOn: aXMLWriter
 
 	self syncToken isNil

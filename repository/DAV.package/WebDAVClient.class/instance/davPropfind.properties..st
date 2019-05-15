@@ -1,5 +1,6 @@
-as yet unclassified
+deprecated
 davPropfind: urlString properties: propfindQuery
+	"deprecated"
 
 	^ self davPropfind: urlString properties: propfindQuery do: [:request |
 		request headerAt: 'Content-Type' put: 'application/xml'.

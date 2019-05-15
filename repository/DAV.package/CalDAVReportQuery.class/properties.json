@@ -6,9 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "DAVReportQuery",
+		"filters",
+		"queryType",
+		"objectURLs" ],
+	"name" : "CalDAVReportQuery",
 	"pools" : [
 		 ],
-	"super" : "WebDAVQuery",
+	"super" : "DAVReportQuery",
 	"type" : "normal" }

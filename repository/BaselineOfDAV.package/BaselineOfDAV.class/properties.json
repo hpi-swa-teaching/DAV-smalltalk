@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfDAV",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfDAV",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }

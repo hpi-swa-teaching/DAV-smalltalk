@@ -14,6 +14,6 @@ baseline: spec
 				package: 'DAV-Web-Tests' with: [spec requires: #('DAV-Web')];
 				yourself.
 			spec
-				group: 'default' with: #('DAV-Web', 'DAV-Cal');
+				group: 'default' with: #('DAV-Web' 'DAV-Cal');
 				group: 'tests' with: #('DAV-Web-Tests')];
 				yourself

@@ -1,15 +1,15 @@
 {
 	"class" : {
-		 },
+		"url:namespaces:properties:queryType:" : "JB 5/15/2019 16:59" },
 	"instance" : {
 		"createFilterXmlOn:" : "c a 5/10/2019 21:15",
 		"createQuerySpecificXmlOn:" : "c a 5/10/2019 21:15",
-		"createURLXmlOn:" : "c a 5/11/2019 17:56",
+		"createURLXmlOn:" : "JB 5/15/2019 16:44",
 		"filters" : "c a 5/10/2019 10:05",
 		"filters:" : "c a 5/10/2019 19:17",
 		"filtersDictionary" : "c a 5/10/2019 10:05",
 		"objectURLs" : "c a 5/10/2019 21:12",
 		"objectURLs:" : "c a 5/10/2019 21:12",
-		"queryType" : "c a 5/10/2019 12:11",
+		"queryType" : "JB 5/15/2019 16:37",
 		"queryType:" : "c a 5/10/2019 21:21",
 		"setHeaders" : "JB 5/15/2019 16:13" } }

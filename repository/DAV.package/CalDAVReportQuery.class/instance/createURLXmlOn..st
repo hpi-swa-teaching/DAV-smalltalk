@@ -1,7 +1,7 @@
 queryBuilding
 createURLXmlOn: aXMLWriter
 
-	objectURLs do: [ :objectURL |
+	objectURLs ifNotNilDo: [ :objectURL |
 		aXMLWriter
 				startTag: 'd:href';
 				endTag: 'd:href'.

@@ -1,7 +1,7 @@
 tests - methods
 testWebDAVReportMultiget
 
-query := DAVReportQuery new.
+query := CalDAVReportQuery new.
 query queryType: 'c:calendar-multiget'.
 query properties: #('getetag' 'calendar-data').
 

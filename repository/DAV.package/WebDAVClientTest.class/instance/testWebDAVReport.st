@@ -3,7 +3,7 @@ testWebDAVReport
 
  | filter filter2 |
  
-query := DAVReportQuery new.
+query := CalDAVReportQuery new.
 query queryType: 'c:calendar-query'.
 
 filter := Filter new.

@@ -1,5 +1,5 @@
 methods
-davPropfind: urlString namespaces: namespacesArray properties: propertiesArray
+davPropfind: urlString namespaces: namespacesArray properties: propertiesArray do: aBlock
 
 	| request |
 	
@@ -10,4 +10,4 @@ davPropfind: urlString namespaces: namespacesArray properties: propertiesArray
 
 	^ self
 		initializeFromUrl: urlString;
-		sendRequest: request
+		sendRequest: request do: aBlock

@@ -1,4 +1,4 @@
-accessing
+queryBuilding
 createFilterXmlOn: aXMLWriter
 
 	| lastFilter |		

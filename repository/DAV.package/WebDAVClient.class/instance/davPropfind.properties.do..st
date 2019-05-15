@@ -1,5 +1,6 @@
-as yet unclassified
+deprecated
 davPropfind: anUrl properties: propfindQuery do: aBlock
+	"deprecated"
 	
 	^ self 
 		sendDavRequest: anUrl 

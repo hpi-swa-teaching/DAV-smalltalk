@@ -11,5 +11,5 @@
 	"name" : "ReportSyncTokenQuery",
 	"pools" : [
 		 ],
-	"super" : "WebDAVQuery",
+	"super" : "DAVReportQuery",
 	"type" : "normal" }

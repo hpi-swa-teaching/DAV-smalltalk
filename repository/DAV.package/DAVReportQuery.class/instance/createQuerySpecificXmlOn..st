@@ -1,17 +1,13 @@
-queryBuilding
+accessing
 createQuerySpecificXmlOn: aXMLWriter
 
 	aXMLWriter
-		startElement: 'c:calendar-query' attributeList: self namespacesDictionary;
+		startElement: self queryType attributeList: self namespacesDictionary;
 		endTag.
 	
 	self createPropertiesXmlOn: aXMLWriter.
+	self createFilterXmlOn: aXMLWriter.
+	self createURLXmlOn: aXMLWriter.
 		
 	aXMLWriter
-		startTag: 'c:filter';
-		endTag;
-		startElement: 'c:comp-filter' attributeList: self filtersDictionary;
-		endTag;
-		endTag: 'c:comp-filter';
-		endTag: 'c:filter';
-		endTag: 'c:calendar-query'
+		endTag: self queryType.

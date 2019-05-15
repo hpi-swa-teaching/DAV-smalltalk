@@ -2,8 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"createQuerySpecificXmlOn:" : "JB 5/9/2019 21:25",
-		"filters" : "JB 5/7/2019 16:42",
-		"filters:" : "JB 5/7/2019 16:42",
-		"filtersDictionary" : "JB 5/7/2019 16:42",
-		"method" : "JB 5/8/2019 14:52" } }
+		"createFilterXmlOn:" : "c a 5/10/2019 21:15",
+		"createQuerySpecificXmlOn:" : "c a 5/10/2019 21:15",
+		"createURLXmlOn:" : "c a 5/11/2019 17:56",
+		"filters" : "c a 5/10/2019 10:05",
+		"filters:" : "c a 5/10/2019 19:17",
+		"filtersDictionary" : "c a 5/10/2019 10:05",
+		"method" : "c a 5/10/2019 21:36",
+		"objectURLs" : "c a 5/10/2019 21:12",
+		"objectURLs:" : "c a 5/10/2019 21:12",
+		"queryType" : "c a 5/10/2019 12:11",
+		"queryType:" : "c a 5/10/2019 21:21",
+		"setHeaders" : "c a 5/11/2019 19:20" } }

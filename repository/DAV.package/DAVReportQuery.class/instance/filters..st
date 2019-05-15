@@ -1,4 +1,4 @@
 accessing
-filters: anArray
-
-	filters := anArray
+filters: anOrderedCollection
+	filters := anOrderedCollection
+	

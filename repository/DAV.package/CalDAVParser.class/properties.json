@@ -1,16 +1,16 @@
 {
-	"category" : "DAV-Web",
+	"category" : "DAV-Cal",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"filters",
-		"queryType",
-		"objectURLs" ],
-	"name" : "DAVReportQuery",
+		"syncToken",
+		"calendarName",
+		"status" ],
+	"name" : "CalDAVParser",
 	"pools" : [
 		 ],
-	"super" : "WebDAVQuery",
+	"super" : "XMLParser",
 	"type" : "normal" }

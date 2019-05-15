@@ -2,4 +2,4 @@ setup
 setUp
 
 	super setUp.
-	query := WebDAVQuery new
+	query := WebDAVQuery new.

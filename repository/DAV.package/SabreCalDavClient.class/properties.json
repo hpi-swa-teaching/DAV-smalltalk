@@ -1,0 +1,15 @@
+{
+	"category" : "DAV-Cal",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"username",
+		"password" ],
+	"name" : "SabreCalDavClient",
+	"pools" : [
+		 ],
+	"super" : "CalDavClient",
+	"type" : "normal" }

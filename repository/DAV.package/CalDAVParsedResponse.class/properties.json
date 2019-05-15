@@ -1,0 +1,14 @@
+{
+	"category" : "DAV-Cal",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CalDAVParsedResponse",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

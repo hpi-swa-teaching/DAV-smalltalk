@@ -1,0 +1,15 @@
+{
+	"category" : "DAV-Cal-Test",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"checkResponse",
+		"propfindResponse" ],
+	"name" : "CalDAVParserTest",
+	"pools" : [
+		 ],
+	"super" : "WebClientServerTest",
+	"type" : "normal" }

@@ -1,4 +1,4 @@
-queryBuilding
+as yet unclassified
 createSyncTokenXmlOn: aXMLWriter
 
 	self syncToken isNil
@@ -9,7 +9,7 @@ createSyncTokenXmlOn: aXMLWriter
 		ifFalse: [ 
 			aXMLWriter
 				startTag: 'D:sync-token';
-				endTag: 'D:sync-token'.
+				endTag.
 			aXMLWriter stream nextPutAll: self syncToken.
 			aXMLWriter endTag: 'D:sync-token'.]
 		

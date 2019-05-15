@@ -1,13 +1,13 @@
 methods
-davPropfind: urlString namespaces: namespacesArray properties: propertiesArray
+davPut: urlString namespaces: namespacesArray properties: propertiesArray do: aBlock
 
 	| request |
 	
-	request := DAVPropFindQuery
+	request := DAVPutQuery
 		url: urlString
 		namespaces: namespacesArray
 		properties: propertiesArray.
 
 	^ self
 		initializeFromUrl: urlString;
-		sendRequest: request
+		sendRequest: request do: aBlock

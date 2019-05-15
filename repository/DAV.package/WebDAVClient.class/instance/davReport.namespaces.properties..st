@@ -1,9 +1,9 @@
 methods
-davPropfind: urlString namespaces: namespacesArray properties: propertiesArray
+davReport: urlString namespaces: namespacesArray properties: propertiesArray
 
 	| request |
 	
-	request := DAVPropFindQuery
+	request := CalDAVReportQuery
 		url: urlString
 		namespaces: namespacesArray
 		properties: propertiesArray.

@@ -1,9 +1,9 @@
 methods
-davPropfind: urlString namespaces: namespacesArray properties: propertiesArray
+davPut: urlString namespaces: namespacesArray properties: propertiesArray
 
 	| request |
 	
-	request := DAVPropFindQuery
+	request := DAVPutQuery
 		url: urlString
 		namespaces: namespacesArray
 		properties: propertiesArray.

@@ -1,4 +1,4 @@
-accessing
+queryBuilding
 createURLXmlOn: aXMLWriter
 
 	objectURLs do: [ :objectURL |

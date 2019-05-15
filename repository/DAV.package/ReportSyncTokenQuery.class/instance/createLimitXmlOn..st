@@ -1,4 +1,4 @@
-as yet unclassified
+queryBuilding
 createLimitXmlOn: aXMLWriter
 
 	self limit isNil

@@ -2,13 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"calendarName" : "TSP 5/12/2019 15:59",
-		"calendarName:" : "TSP 5/12/2019 15:59",
 		"initialize" : "TSP 5/12/2019 15:52",
 		"parseCheckElem:" : "TSP 5/15/2019 16:53",
 		"parseCheckResponse:" : "TSP 5/15/2019 16:50",
-		"parsePropfindResponse:" : "TSP 5/15/2019 17:33",
-		"status" : "TSP 5/12/2019 16:06",
-		"status:" : "TSP 5/12/2019 16:06",
-		"syncToken" : "TSP 5/12/2019 15:59",
-		"syncToken:" : "TSP 5/12/2019 15:59" } }
+		"parseProperty:from:" : "TSP 5/22/2019 14:49",
+		"parsePropfindResponse:" : "TSP 5/22/2019 14:52" } }

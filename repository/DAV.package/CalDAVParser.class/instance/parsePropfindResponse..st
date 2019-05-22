@@ -5,11 +5,10 @@ parsePropfindResponse: aResponse
 	
 	xmlDocument := XMLDOMParser parseDocumentFrom: (aResponse readStream).
 	response := PropfindParsedResponse new.
-	
 
-	response calendarName: (xmlDocument root firstTagNamed: #d:displayname) characterData.
-	response ctag: (xmlDocument root firstTagNamed: #cs:getctag) characterData.
-	response syncToken: (xmlDocument root firstTagNamed: #'d:sync-token') characterData.
-	response status: (xmlDocument root firstTagNamed: #'d:status') characterData.
-	
+	response calendarName: (self parseProperty: #d:displayname from:  xmlDocument root).
+	response ctag: (self parseProperty: #cs:getctag from:  xmlDocument root).
+	response syncToken: (self parseProperty: #'d:sync-token' from:  xmlDocument root).
+	response status: (self parseProperty: #d:status from:  xmlDocument root).
+
 	^ response

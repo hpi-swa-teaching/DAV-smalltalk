@@ -1,5 +1,6 @@
-queries
+deprecated
 fetchEtagOfEventQuery
+	"deprecated"
 
 	^ DAVPropFindQuery
 		namespaces: #()

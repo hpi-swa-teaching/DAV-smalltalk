@@ -1,4 +1,5 @@
-queries
+deprecated
 fetchEventsDataQuery
+	"deprecated"
 
 	^ DAVPropFindQuery empty

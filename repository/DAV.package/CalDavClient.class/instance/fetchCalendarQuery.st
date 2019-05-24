@@ -1,5 +1,6 @@
-queries
+deprecated
 fetchCalendarQuery
+	"deprecated"
 
 	^ DAVPropFindQuery
 		namespaces: #((cs 'http://calendarserver.org/ns/') (caldav 'urn:ietf:params:xml:ns:caldav'))

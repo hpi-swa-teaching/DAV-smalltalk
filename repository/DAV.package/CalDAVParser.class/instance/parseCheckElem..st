@@ -3,9 +3,9 @@ parseCheckElem: anElem
 	
 	| response |
 
-	response := CheckParsedResponse new.
-	response href: ((anElem firstTagNamed: #d:href) characterData);
-			etag: ((anElem firstTagNamed: #d:getetag) characterData);
-			status: ((anElem firstTagNamed: #d:status) characterData).
+	response := Dictionary new.
+	response at: #href put: ((anElem firstTagNamed: #d:href) characterData);
+			at: #etag put: ((anElem firstTagNamed: #d:getetag) characterData);
+			at: #status put: ((anElem firstTagNamed: #d:status) characterData).
 			
 	^ response

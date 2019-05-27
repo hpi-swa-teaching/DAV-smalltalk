@@ -9,7 +9,7 @@ createFilterXmlOn: aXMLWriter
 			self filters removeLast.
 			
 			aXMLWriter
-				startTag: 'C:filter';
+				startTag: 'c:filter';
 				endTag.
 			
 			self filters do: [:filter |  filter printStartTagOn: aXMLWriter ].
@@ -17,7 +17,7 @@ createFilterXmlOn: aXMLWriter
 			self filters reverseDo: [:filter | filter printLastTagOn: aXMLWriter].
 			
 			aXMLWriter
-				endTag: 'C:filter'.
+				endTag: 'c:filter'.
 				
 			self filters add: lastFilter]
 				

@@ -1,4 +1,4 @@
-accessing
+mockResponses
 propfindResponse
 
 	^ '<?xml version="1.0"?>

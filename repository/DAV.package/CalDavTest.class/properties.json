@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"client" ],
-	"name" : "CalDavClientTest",
+		 ],
+	"name" : "CalDavTest",
 	"pools" : [
 		 ],
-	"super" : "WebClientServerTest",
+	"super" : "Object",
 	"type" : "normal" }

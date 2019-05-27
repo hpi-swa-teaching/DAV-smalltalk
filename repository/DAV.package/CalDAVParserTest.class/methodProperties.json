@@ -2,8 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"checkResponse" : "TSP 5/15/2019 17:02",
-		"propfindResponse" : "TSP 5/15/2019 17:23",
 		"setUp" : "TSP 5/15/2019 17:00",
-		"testCheckParsing" : "TSP 5/15/2019 18:04",
-		"testPropfindParsing" : "TSP 5/15/2019 17:31" } }
+		"testCheckParsing" : "JB 5/27/2019 19:38",
+		"testPropfindParsing" : "JB 5/27/2019 19:38" } }

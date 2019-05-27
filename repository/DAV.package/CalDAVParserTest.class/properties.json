@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"checkResponse",
-		"propfindResponse" ],
+		 ],
 	"name" : "CalDAVParserTest",
 	"pools" : [
 		 ],
-	"super" : "WebClientServerTest",
+	"super" : "TestCase",
 	"type" : "normal" }

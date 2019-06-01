@@ -1,15 +1,18 @@
 requests
-sendPropfindTo: anUrl theRequest: query 
+sendPropfindTo: anUrl theRequest: query
 
-	| client |
+	| client response |
 	
-	client := self webDavClient new.
 	self addAuthorizationInformation: query.
+	client := self webDavClient new.
+	"client username: 'petr.tsayun'. 
+	client password: 'JQ3QNP3Fg3'. "
 	client initializeFromUrl: anUrl.
 	query initializeFromUrl: anUrl.
-	^  client sendRequest: query.
+	response := client sendRequest: query.
 	
-
-
-
+	^ response.
+	
+	"^ self handleResponse: response."
+	
 	

@@ -1,4 +1,4 @@
 as yet unclassified
 username
 
-	^ username
+	^self username

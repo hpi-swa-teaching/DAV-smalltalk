@@ -1,7 +1,7 @@
 requests
 sendPropfindTo: anUrl theRequest: query withHeader: headerConfigs
 
-	"deprecated"
+	"schould be deprecated"
 
 	| sendRequest |
 	sendRequest := [

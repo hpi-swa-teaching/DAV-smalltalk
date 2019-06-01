@@ -1,14 +1,16 @@
 updating
 updateEvents
 	
-	| updateInformation |
+	| updateInformation eventsInformation |
 	updateInformation := self client fetchEventsDataFrom: self url.
 	
 	updateInformation do: [:rawEventData | 
-		rawEventData at: #url put: (self url authorityUrl , (rawEventData at: #urlLocalPart)) asURI].
+		rawEventData at: #url put: ('https://', self url authority , (rawEventData at: #urlLocalPart)) asURI].
+	
+	eventsInformation := updateInformation copyFrom: 2 to: updateInformation size.
 	
 	self 
-		removeDeletedEvents: updateInformation;
-		updateOrAddEvents: updateInformation.
+		removeDeletedEvents: eventsInformation;
+		updateOrAddEvents: eventsInformation.
 	
 	

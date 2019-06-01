@@ -1,5 +1,5 @@
 requests
-sendPropfindTo: anUrl theRequest: query
+sendGetTo: anUrl theRequest: query
 
 	| client response |
 	

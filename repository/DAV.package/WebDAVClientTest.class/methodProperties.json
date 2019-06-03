@@ -9,6 +9,7 @@
 		"testWebDAVPropfind" : "c a 5/11/2019 20:13",
 		"testWebDAVReport" : "c a 5/15/2019 18:39",
 		"testWebDAVReportMultiget" : "c a 5/15/2019 18:39",
+		"testWebDAVReportSendingRequest" : "TSP 5/26/2019 16:22",
 		"testWebDAVReportSyncTokenQuery" : "c a 5/15/2019 17:59",
 		"testWriteProperties" : "JB 5/9/2019 21:25",
 		"testWriteQuerySpecificContent" : "JB 5/9/2019 21:25",

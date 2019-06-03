@@ -8,5 +8,5 @@ updateOrAddEvents: updateInformation
 				newEvent := CalDavEvent newIn: self withUrl: (rawEventData at: #url).
 				self addEvent: newEvent.
 				newEvent].
-		etag := rawEventData at: #'D:getetag'.
+		etag := rawEventData at: #'d:getetag'.
 		eventObject updateOrNotDependingOnChangeInEtag: etag].

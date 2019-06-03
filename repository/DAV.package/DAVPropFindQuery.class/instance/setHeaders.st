@@ -3,5 +3,5 @@ setHeaders
 	
 	self
 		headerAt: 'Prefer' put: 'return-minimal';
-		headerAt: 'Depth' put: '0';
+		headerAt: 'Depth' put: '1';
 		headerAt: 'Content-Type' put: 'application/xml'

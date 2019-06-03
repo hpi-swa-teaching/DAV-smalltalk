@@ -1,4 +1,4 @@
-requests
-fetchEventDataQuery 
+queries
+fetchEventDataQuery
 
-	^ DAVPropFindQuery empty
+	^ DAVGetQuery new

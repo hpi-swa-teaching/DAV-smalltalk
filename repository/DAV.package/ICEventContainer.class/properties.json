@@ -1,0 +1,14 @@
+{
+	"category" : "DAV-Cal",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Events" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ICEventContainer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,6 +1,6 @@
 sending
-sendRequest: aDAVPropFindQuery
+sendRequest: aWebDAVQuery
 
 	^ self
-		initializeFromUrl: aDAVPropFindQuery rawUrl;
-		sendRequest: aDAVPropFindQuery content: aDAVPropFindQuery body readStream size: aDAVPropFindQuery size
+		initializeFromUrl: aWebDAVQuery rawUrl;
+		sendRequest: aWebDAVQuery content: aWebDAVQuery body readStream size: aWebDAVQuery size

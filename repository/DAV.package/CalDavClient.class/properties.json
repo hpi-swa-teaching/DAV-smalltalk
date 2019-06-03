@@ -6,7 +6,7 @@
 		"ClientRegistry" ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"webDAVClient" ],
 	"name" : "CalDavClient",
 	"pools" : [
 		 ],

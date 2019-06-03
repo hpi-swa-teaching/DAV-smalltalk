@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "CalDAVParserTest",
+	"name" : "CalDavTest",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "Object",
 	"type" : "normal" }

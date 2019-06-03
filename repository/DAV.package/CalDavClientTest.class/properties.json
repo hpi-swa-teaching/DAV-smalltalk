@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "CalDAVParserTest",
+		"client" ],
+	"name" : "CalDavClientTest",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "WebClientServerTest",
 	"type" : "normal" }

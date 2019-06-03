@@ -3,7 +3,6 @@ fetchEtagOfEventFrom: anUrl
 
 	| response responseContent nodes |
 	self assumesAuthorization.
-	
 	response := self sendPropfindTo: anUrl 
 					theRequest: self fetchEtagOfEventQuery 
 					withHeader: { 'Depth' -> '1' }.

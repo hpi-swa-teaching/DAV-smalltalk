@@ -1,4 +1,4 @@
 as yet unclassified
 empty
 
-	^ DAVEmptyPropFindQuery
+	^ DAVEmptyPropFindQuery new

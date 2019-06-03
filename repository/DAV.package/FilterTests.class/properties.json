@@ -1,14 +1,14 @@
 {
-	"category" : "DAV-Web",
+	"category" : "DAV-Web-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "DAVEmptyPropFindQuery",
+		"filter" ],
+	"name" : "FilterTests",
 	"pools" : [
 		 ],
-	"super" : "DAVPropFindQuery",
+	"super" : "TestCase",
 	"type" : "normal" }

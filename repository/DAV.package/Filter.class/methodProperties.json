@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"validFilterTypes" : "ph 6/3/2019 16:51" },
 	"instance" : {
 		"attributes" : "c a 5/10/2019 19:19",
 		"attributes:" : "c a 5/10/2019 19:20",
@@ -9,4 +9,4 @@
 		"printStartTagOn:" : "c a 5/10/2019 20:24",
 		"printWithEmpyLastTagOn:" : "c a 5/10/2019 20:37",
 		"type" : "c a 5/10/2019 19:19",
-		"type:" : "c a 5/10/2019 21:23" } }
+		"type:" : "ph 6/3/2019 16:37" } }

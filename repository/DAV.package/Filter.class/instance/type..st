@@ -1,4 +1,6 @@
 accessing
 type: aString
-	"Valid types include: c:comp-filter, c:time-range"
-	type := aString
+
+	(Filter validFilterTypes includes: aString)
+		ifTrue: [type := aString]
+		ifFalse: [Warning signal: 'Invalid filter type!']

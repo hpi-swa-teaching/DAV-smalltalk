@@ -1,15 +1,16 @@
 {
 	"class" : {
-		"url:namespaces:properties:queryType:" : "JB 5/15/2019 16:59" },
+		"url:namespaces:properties:queryType:" : "ph 6/3/2019 16:24",
+		"validQueryTypes" : "ph 6/3/2019 16:14" },
 	"instance" : {
 		"createFilterXmlOn:" : "TSP 5/26/2019 14:16",
 		"createQuerySpecificXmlOn:" : "c a 5/10/2019 21:15",
 		"createURLXmlOn:" : "c a 5/15/2019 18:48",
-		"filters" : "c a 5/10/2019 10:05",
-		"filters:" : "c a 5/10/2019 19:17",
+		"filters" : "ph 6/3/2019 16:03",
+		"filters:" : "ph 6/3/2019 16:03",
 		"filtersDictionary" : "c a 5/10/2019 10:05",
-		"objectURLs" : "c a 5/10/2019 21:12",
-		"objectURLs:" : "c a 5/10/2019 21:12",
+		"objectURLs" : "ph 6/3/2019 16:06",
+		"objectURLs:" : "ph 6/3/2019 16:06",
 		"queryType" : "JB 5/15/2019 16:37",
-		"queryType:" : "c a 5/10/2019 21:21",
+		"queryType:" : "ph 6/3/2019 16:59",
 		"setHeaders" : "JB 5/15/2019 16:13" } }

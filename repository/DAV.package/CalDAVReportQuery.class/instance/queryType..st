@@ -1,4 +1,8 @@
 accessing
 queryType: aString
-	" Valid types include: c:calendar-query, c:calendar-multiget, card:addressbook-multiget, card:addressbook-query "
-	queryType := aString
+
+	(self class validQueryTypes includes: aString) 
+	ifTrue:
+		[queryType := aString]
+	ifFalse: 
+		[Warning signal: 'Invalid queryType!']

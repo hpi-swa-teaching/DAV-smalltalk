@@ -1,0 +1,28 @@
+as yet unclassified
+testfiltersasXml
+	
+		| xmlWriter output |
+		
+	xmlWriter := XMLWriter on: (WriteStream on: '').	
+
+	filter type: 'c:comp-filter'.
+	filter attributes: #(('name' 'VCALENDAR')).
+	filter printStartTagOn: xmlWriter. 
+	filter printLastTagOn: xmlWriter.
+	
+	self assert: xmlWriter flush stream contents = '
+<c:comp-filter name="VCALENDAR"></c:comp-filter>'.
+	
+	
+	xmlWriter := XMLWriter on: (WriteStream on: '').	
+	self filter type: 'c:time-range'.
+	self filter attributes: #(('start' '20160321T140000')('end' '20160322T140000')).
+	self filter printWithEmpyLastTagOn: xmlWriter.
+	output := xmlWriter flush stream contents.
+	
+	 self assert: ((output value = '
+<c:time-range end="20160322T140000" start="20160321T140000"/> ') or: (output value = '
+<c:time-range  start="20160321T140000" end="20160322T140000"/> '))
+	
+	
+	

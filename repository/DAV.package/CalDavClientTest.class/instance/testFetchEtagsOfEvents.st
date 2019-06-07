@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testFetchEtagsOfEvents
 
 	"WIP needs credentials to pass"

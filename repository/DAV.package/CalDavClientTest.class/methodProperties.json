@@ -7,4 +7,5 @@
 		"setUp" : "JB 5/27/2019 19:25",
 		"testClientRegistry" : "TSP 6/7/2019 18:29",
 		"testFetchCalendarData" : "TSP 6/7/2019 18:42",
+		"testFetchCalendarQuery" : "TSP 6/7/2019 19:59",
 		"testFetchEtagsOfEvents" : "JB 5/27/2019 20:22" } }

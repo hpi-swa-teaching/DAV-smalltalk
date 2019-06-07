@@ -9,4 +9,4 @@ fetchEtagOfEventFrom: anUrl
 
 	responseContent := response content.
 	nodes := self parseXML: responseContent.
-	^ (nodes firstTagNamed: #'D:getetag') contents first string
+	^ (nodes firstTagNamed: #'d:getetag') contents first string

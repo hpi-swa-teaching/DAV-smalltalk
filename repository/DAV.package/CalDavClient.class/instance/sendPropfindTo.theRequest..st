@@ -5,8 +5,8 @@ sendPropfindTo: anUrl theRequest: query
 	
 	self addAuthorizationInformation: query.
 	client := self webDavClient new.
-	client initializeFromUrl: anUrl.
-	query initializeFromUrl: anUrl.
+	client initializeFromUrl: anUrl asString.
+	query initializeFromUrl: anUrl asString.
 	response := client sendRequest: query.
 	
 	^ response.

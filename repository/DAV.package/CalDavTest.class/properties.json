@@ -10,5 +10,5 @@
 	"name" : "CalDavTest",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TestCase",
 	"type" : "normal" }

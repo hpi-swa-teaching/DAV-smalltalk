@@ -1,7 +1,6 @@
-deprecated
+queries
 fetchCalendarQuery
-	"deprecated"
 
 	^ DAVPropFindQuery
 		namespaces: #((cs 'http://calendarserver.org/ns/') (caldav 'urn:ietf:params:xml:ns:caldav'))
-		properties: #('cs:getctag' 'D:displayname' 'caldav:calendar-description')
+		properties: #('cs:getctag' 'D:displayname' 'D:sync-token' 'D:getcontenttype'  'caldav:calendar-description')

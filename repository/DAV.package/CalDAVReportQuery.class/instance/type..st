@@ -5,4 +5,4 @@ type: aString
 	ifTrue:
 		[queryType := aString asLowercase]
 	ifFalse: 
-		[Warning signal: 'Invalid queryType!']
+		[Warning signal: ' is not a valid query type!']

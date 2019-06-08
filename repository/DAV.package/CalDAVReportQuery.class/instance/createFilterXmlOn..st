@@ -3,8 +3,7 @@ createFilterXmlOn: aXMLWriter
 
 	| lastFilter |		
 	
-	self filters isNil
-		ifFalse: [ 
+	self filters ifNotEmpty: [ 
 			lastFilter := filters last.
 			self filters removeLast.
 			

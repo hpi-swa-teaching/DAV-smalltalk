@@ -1,5 +1,0 @@
-accessing
-printLastTagOn: aXMLWriter
-
-	aXMLWriter
-		endTag: self type.

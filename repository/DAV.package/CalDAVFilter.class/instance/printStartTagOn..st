@@ -1,6 +1,6 @@
-accessing
-printWithEmpyLastTagOn: aXMLWriter
+xml
+printStartTagOn: aXMLWriter
 
 	aXMLWriter
 		startElement: self type attributeList: self attributesDictionary;
-		endEmptyTag: self type.
+		endTag.

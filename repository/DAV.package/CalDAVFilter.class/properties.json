@@ -8,7 +8,7 @@
 	"instvars" : [
 		"type",
 		"attributes" ],
-	"name" : "Filter",
+	"name" : "CalDAVFilter",
 	"pools" : [
 		 ],
 	"super" : "Object",

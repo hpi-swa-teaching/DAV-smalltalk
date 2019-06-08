@@ -1,9 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"filter" : "ph 6/3/2019 16:44",
-		"filter:" : "ph 6/3/2019 16:44",
-		"setUp" : "ph 6/3/2019 16:46",
-		"testFilterType" : "ph 6/3/2019 16:45",
-		"testfiltersasXml" : "ph 6/3/2019 16:48" } }

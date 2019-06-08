@@ -9,6 +9,7 @@
 		"testCreateEmptyPropertiesXml" : "JB 6/8/2019 12:38",
 		"testCreatePropertiesXml" : "JB 6/8/2019 12:39",
 		"testCreateXmlBody" : "JB 6/8/2019 14:01",
+		"testFiltersAsXml" : "JB 6/8/2019 15:47",
 		"testMethod" : "JB 6/8/2019 11:23",
 		"testNameSpacesDictionary" : "JB 5/8/2019 14:32",
 		"testNamespacesSetToLowerCase" : "JB 6/8/2019 14:08",
@@ -20,5 +21,4 @@
 		"testWebDAVReportMultiget" : "JB 6/8/2019 14:58",
 		"testWebDAVReportSendingRequest" : "JB 6/8/2019 14:58",
 		"testWebDAVReportSyncTokenQuery" : "JB 6/8/2019 11:46",
-		"testWriteQuerySpecificContent" : "JB 6/8/2019 11:47",
-		"testfiltersasXml" : "c a 5/11/2019 19:31" } }
+		"testWriteQuerySpecificContent" : "JB 6/8/2019 11:47" } }

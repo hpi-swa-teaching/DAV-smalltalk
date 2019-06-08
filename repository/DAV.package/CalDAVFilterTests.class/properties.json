@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"filter" ],
-	"name" : "FilterTests",
+	"name" : "CalDAVFilterTests",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

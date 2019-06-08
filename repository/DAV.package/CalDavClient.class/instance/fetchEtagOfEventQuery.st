@@ -2,6 +2,6 @@ deprecated
 fetchEtagOfEventQuery
 	"deprecated"
 
-	^ DAVPropFindQuery
+	^ DAVPropfindQuery
 		namespaces: #()
 		properties: #('D:getetag')

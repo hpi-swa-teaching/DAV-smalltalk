@@ -1,5 +1,5 @@
-deprecated
+queries
 fetchEventsDataQuery
 	"deprecated"
 
-	^ DAVPropFindQuery empty
+	^ DAVEmptyPropfindQuery new

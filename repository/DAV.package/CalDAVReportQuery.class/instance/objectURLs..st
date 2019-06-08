@@ -1,4 +1,4 @@
 accessing
-objectURLs: anObject
+objectURLs: anArray
 
-	objectURLs := anObject
+	objectURLs := anArray

@@ -19,6 +19,3 @@ createFilterXmlOn: aXMLWriter
 				endTag: 'c:filter'.
 				
 			self filters add: lastFilter]
-				
-			
-	

@@ -9,6 +9,7 @@
 		"testCalendarMultigetQueryCreation" : "JB 6/8/2019 15:02",
 		"testCalendarQueryCreation" : "JB 6/8/2019 14:58",
 		"testCreateFilters" : "JB 6/8/2019 14:40",
+		"testCreateUrlXml" : "JB 6/8/2019 16:32",
 		"testQueryCreation" : "JB 6/8/2019 14:54",
 		"testQueryTypeSetToLowerCase" : "JB 6/8/2019 14:58",
 		"testWarningOnInvalidQueryType" : "JB 6/8/2019 14:58" } }

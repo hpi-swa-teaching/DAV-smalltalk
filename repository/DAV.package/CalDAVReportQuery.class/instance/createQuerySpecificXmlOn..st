@@ -9,5 +9,4 @@ createQuerySpecificXmlOn: aXMLWriter
 	self createFilterXmlOn: aXMLWriter.
 	self createUrlXmlOn: aXMLWriter.
 		
-	aXMLWriter
-		endTag: self type.
+	aXMLWriter endTag: self type.

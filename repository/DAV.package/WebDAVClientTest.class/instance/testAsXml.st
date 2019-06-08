@@ -4,23 +4,23 @@ testAsXml
 	query := DAVPropfindQuery new.
 	query createXmlBody.
 	self assert: query body = '<?xml  version="1.0" ?>
-<D:propfind xmlns:D="DAV:"><d:prop></d:prop></D:propfind>'.
+<d:propfind xmlns:d="DAV:"><d:prop></d:prop></d:propfind>'.
 	
 	query := DAVPropfindQuery new.
-	query properties: #('D:displayname').
+	query properties: #('d:displayname').
 	query createXmlBody.
 	self assert: query body = '<?xml  version="1.0" ?>
-<D:propfind xmlns:D="DAV:"><d:prop><d:displayname/> </d:prop></D:propfind>'.
+<d:propfind xmlns:d="DAV:"><d:prop><d:displayname/> </d:prop></d:propfind>'.
 
 	query := DAVPropfindQuery new.
 	query namespaces: #((cs 'https://www.caldavserver.com/ns')).
 	query createXmlBody.
 	self assert: query body =  '<?xml  version="1.0" ?>
-<D:propfind xmlns:D="DAV:" xmlns:cs="https://www.caldavserver.com/ns"><d:prop></d:prop></D:propfind>'.
+<d:propfind xmlns:cs="https://www.caldavserver.com/ns" xmlns:d="DAV:"><d:prop></d:prop></d:propfind>'.
 
 	query := DAVPropfindQuery new.
 	query namespaces: #((cs 'https://www.caldavserver.com/ns')).
-	query properties: #('D:displayname' 'cs:getctag').
+	query properties: #('d:displayname' 'cs:getctag').
 	query createXmlBody.
 	self assert: query body =  '<?xml  version="1.0" ?>
-<D:propfind xmlns:D="DAV:" xmlns:cs="https://www.caldavserver.com/ns"><d:prop><d:displayname/> <cs:getctag/> </d:prop></D:propfind>'
+<d:propfind xmlns:cs="https://www.caldavserver.com/ns" xmlns:d="DAV:"><d:prop><d:displayname/> <cs:getctag/> </d:prop></d:propfind>'

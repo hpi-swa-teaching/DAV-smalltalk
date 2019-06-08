@@ -5,7 +5,7 @@
 		"query" : "JB 6/8/2019 12:40",
 		"query:" : "JB 6/8/2019 12:40",
 		"setUp" : "c a 5/11/2019 21:53",
-		"testAsXml" : "JB 6/8/2019 12:33",
+		"testAsXml" : "TSP 6/8/2019 18:57",
 		"testCreateEmptyPropertiesXml" : "JB 6/8/2019 12:38",
 		"testCreatePropertiesXml" : "JB 6/8/2019 12:39",
 		"testCreateXmlBody" : "JB 6/8/2019 14:01",
@@ -17,8 +17,8 @@
 		"testQueryCreation" : "JB 6/8/2019 12:43",
 		"testWebDAVEmptyQuery" : "JB 6/8/2019 11:08",
 		"testWebDAVPropfind" : "JB 6/8/2019 11:23",
-		"testWebDAVReport" : "JB 6/8/2019 16:17",
-		"testWebDAVReportMultiget" : "JB 6/8/2019 14:58",
+		"testWebDAVReport" : "TSP 6/8/2019 18:59",
+		"testWebDAVReportMultiget" : "TSP 6/8/2019 19:00",
 		"testWebDAVReportSendingRequest" : "JB 6/8/2019 16:17",
 		"testWebDAVReportSyncTokenQuery" : "JB 6/8/2019 16:18",
-		"testWriteQuerySpecificContent" : "JB 6/8/2019 11:47" } }
+		"testWriteQuerySpecificContent" : "TSP 6/8/2019 19:01" } }

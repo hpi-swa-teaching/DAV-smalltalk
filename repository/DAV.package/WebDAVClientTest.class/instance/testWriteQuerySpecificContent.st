@@ -8,4 +8,4 @@ testWriteQuerySpecificContent
 	query := DAVPropfindQuery new.
 	query createQuerySpecificXmlOn: xmlWriter.
 	self assert: (xmlWriter flush stream contents) =  '
-<D:propfind xmlns:D="DAV:"><d:prop></d:prop></D:propfind>'.
+<d:propfind xmlns:d="DAV:"><d:prop></d:prop></d:propfind>'.

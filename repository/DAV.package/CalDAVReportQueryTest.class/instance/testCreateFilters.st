@@ -1,4 +1,4 @@
-as yet unclassified
+tests - accessors
 testCreateFilters
 
 	| firstFilter secondFilter |

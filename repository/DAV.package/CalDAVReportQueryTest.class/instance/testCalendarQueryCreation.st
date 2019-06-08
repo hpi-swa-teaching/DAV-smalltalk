@@ -1,4 +1,4 @@
-as yet unclassified
+tests - instanceCreation
 testCalendarQueryCreation
 
 	self query: (CalDAVReportQuery calendarQueryFromUrl: 'testUrl' namespaces: #() properties: #() filters: #()).

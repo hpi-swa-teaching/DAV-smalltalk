@@ -1,4 +1,4 @@
-tests - methods
+tests - accessors
 testMethod
 
 	query := DAVPropfindQuery new.

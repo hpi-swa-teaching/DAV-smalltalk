@@ -1,4 +1,4 @@
-as yet unclassified
+tests - accessors
 testWarningOnInvalidQueryType
 
 	self should: [self query type: 'invalidType'] raise: Warning.

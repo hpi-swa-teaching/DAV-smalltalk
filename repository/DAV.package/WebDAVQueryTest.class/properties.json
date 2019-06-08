@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "CalDAVReportQueryTest",
+		"query" ],
+	"name" : "WebDAVQueryTest",
 	"pools" : [
 		 ],
-	"super" : "WebDAVQueryTest",
+	"super" : "TestCase",
 	"type" : "normal" }

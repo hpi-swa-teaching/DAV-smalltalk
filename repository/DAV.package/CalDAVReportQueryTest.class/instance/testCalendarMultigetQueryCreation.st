@@ -1,4 +1,4 @@
-as yet unclassified
+tests - instanceCreation
 testCalendarMultigetQueryCreation
 
 	self query: (CalDAVReportQuery calendarMultigetQueryFromUrl: 'testUrl' namespaces: #() properties: #() filters: #()).

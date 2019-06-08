@@ -1,4 +1,4 @@
-as yet unclassified
+tests - accessors
 testQueryTypeSetToLowerCase
 
 	self query type: self query validQueryTypes first asUppercase.

@@ -1,4 +1,4 @@
-tests - methods
+tests - instanceCreation
 testWebDAVEmptyQuery
 
 	| emptyDAVQuery emptyDAVPropfindQuery emptyDAVReportQuery |

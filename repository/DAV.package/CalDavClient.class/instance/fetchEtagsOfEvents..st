@@ -4,7 +4,7 @@ fetchEtagsOfEvents: anUrl
 	| request filter |
 	
 	request := CalDAVReportQuery new initializeFromUrl: anUrl.
-	filter := Filter new.
+	filter := CalDAVFilter new.
 	filter type: 'c:comp-filter'.
 	filter attributes: #(('name' 'VCALENDAR')).
 	request

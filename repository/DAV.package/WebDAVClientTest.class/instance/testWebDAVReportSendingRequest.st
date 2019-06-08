@@ -14,7 +14,7 @@ query initializeFromUrl: url.
 query properties: #('D:getetag' 'c:calendar-data').
 query namespaces: #((c 'urn:ietf:params:xml:ns:caldav')).
 	
-filter := Filter new.
+filter := CalDAVFilter new.
 filter type: 'c:comp-filter'.
 filter attributes: #(('name' 'VCALENDAR')).
 query filters: (OrderedCollection new add: filter; yourself).

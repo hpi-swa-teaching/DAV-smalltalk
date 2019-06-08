@@ -1,5 +1,5 @@
 queryBuilding
-createURLXmlOn: aXMLWriter
+createUrlXmlOn: aXMLWriter
 
 	objectURLs notNil
 	ifTrue:

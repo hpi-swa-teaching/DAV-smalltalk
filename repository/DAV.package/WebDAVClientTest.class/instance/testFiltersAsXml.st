@@ -5,7 +5,7 @@ testFiltersAsXml
 		
 	xmlWriter := XMLWriter on: (WriteStream on: '').	
 		
-	filter := Filter new.
+	filter := CalDAVFilter new.
 	filter type: 'c:comp-filter'.
 	filter attributes: #(('name' 'VCALENDAR')).
 	filter printStartTagOn: xmlWriter. 
@@ -16,7 +16,7 @@ testFiltersAsXml
 	
 	
 	xmlWriter := XMLWriter on: (WriteStream on: '').	
-	filter := Filter new.
+	filter := CalDAVFilter new.
 	filter type: 'c:time-range'.
 	filter attributes: #(('start' '20160321T140000')('end' '20160322T140000')).
 	filter printWithEmpyLastTagOn: xmlWriter.

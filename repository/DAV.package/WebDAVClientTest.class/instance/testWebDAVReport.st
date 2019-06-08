@@ -6,11 +6,11 @@ testWebDAVReport
 query := CalDAVReportQuery new.
 query type: 'c:calendar-query'.
 
-filter := Filter new.
+filter := CalDAVFilter new.
 filter type: 'c:comp-filter'.
 filter attributes: #(('name' 'VCALENDAR')).
 
-filter2 := Filter new.
+filter2 := CalDAVFilter new.
 filter2 type: 'c:time-range'.
 filter2 attributes: #(('start' '20160321T140000')('end' '20160322T140000')).
 

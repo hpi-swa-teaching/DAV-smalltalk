@@ -1,7 +1,7 @@
 tests - methods
 testWebDAVReportSyncTokenQuery
 
-query := ReportSyncTokenQuery new.
+query := SyncTokenDAVReportQuery new.
 query limit: 1.
 query createXmlBody.
 query body. '<?xml  version="1.0" ?>

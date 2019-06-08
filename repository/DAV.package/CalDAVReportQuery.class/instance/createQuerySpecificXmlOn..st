@@ -7,7 +7,7 @@ createQuerySpecificXmlOn: aXMLWriter
 	
 	self createPropertiesXmlOn: aXMLWriter.
 	self createFilterXmlOn: aXMLWriter.
-	self createURLXmlOn: aXMLWriter.
+	self createUrlXmlOn: aXMLWriter.
 		
 	aXMLWriter
 		endTag: self type.

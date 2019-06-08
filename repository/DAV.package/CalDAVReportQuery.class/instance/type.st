@@ -1,4 +1,4 @@
 accessing
-queryType
+type
 
 	^ queryType

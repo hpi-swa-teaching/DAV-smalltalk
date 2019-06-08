@@ -1,16 +1,22 @@
 {
 	"class" : {
-		"url:namespaces:properties:queryType:" : "ph 6/3/2019 16:24",
-		"validQueryTypes" : "ph 6/3/2019 16:14" },
+		"calendarMultigetQueryFromUrl:namespaces:properties:filters:" : "JB 6/8/2019 15:01",
+		"calendarQueryFromUrl:namespaces:properties:filters:" : "JB 6/8/2019 15:00",
+		"url:namespaces:properties:queryType:" : "JB 6/8/2019 14:58",
+		"url:namespaces:properties:queryType:filters:" : "JB 6/8/2019 14:58" },
 	"instance" : {
+		"addFilter:" : "JB 6/8/2019 14:30",
 		"createFilterXmlOn:" : "TSP 5/26/2019 14:16",
-		"createQuerySpecificXmlOn:" : "c a 5/10/2019 21:15",
+		"createFilters:" : "JB 6/8/2019 14:38",
+		"createQuerySpecificXmlOn:" : "JB 6/8/2019 14:58",
 		"createURLXmlOn:" : "c a 5/15/2019 18:48",
 		"filters" : "ph 6/3/2019 16:03",
 		"filters:" : "ph 6/3/2019 16:03",
 		"filtersDictionary" : "c a 5/10/2019 10:05",
+		"initialize" : "JB 6/8/2019 14:29",
 		"objectURLs" : "ph 6/3/2019 16:06",
 		"objectURLs:" : "ph 6/3/2019 16:06",
-		"queryType" : "JB 5/15/2019 16:37",
-		"queryType:" : "ph 6/3/2019 16:59",
-		"setDefaultHeaders" : "JB 6/8/2019 11:11" } }
+		"setDefaultHeaders" : "JB 6/8/2019 11:11",
+		"type" : "JB 6/8/2019 14:58",
+		"type:" : "JB 6/8/2019 14:58",
+		"validQueryTypes" : "JB 6/8/2019 14:00" } }

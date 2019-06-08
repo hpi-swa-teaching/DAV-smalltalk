@@ -8,7 +8,7 @@
 	"instvars" : [
 		"syncToken",
 		"limit" ],
-	"name" : "ReportSyncTokenQuery",
+	"name" : "SyncTokenDAVReportQuery",
 	"pools" : [
 		 ],
 	"super" : "DAVReportQuery",

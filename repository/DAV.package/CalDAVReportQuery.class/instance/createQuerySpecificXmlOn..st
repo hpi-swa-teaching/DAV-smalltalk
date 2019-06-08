@@ -2,7 +2,7 @@ queryBuilding
 createQuerySpecificXmlOn: aXMLWriter
 
 	aXMLWriter
-		startElement: self queryType attributeList: self namespacesDictionary;
+		startElement: self type attributeList: self namespacesDictionary;
 		endTag.
 	
 	self createPropertiesXmlOn: aXMLWriter.
@@ -10,4 +10,4 @@ createQuerySpecificXmlOn: aXMLWriter
 	self createURLXmlOn: aXMLWriter.
 		
 	aXMLWriter
-		endTag: self queryType.
+		endTag: self type.

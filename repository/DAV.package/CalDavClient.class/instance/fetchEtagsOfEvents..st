@@ -8,7 +8,7 @@ fetchEtagsOfEvents: anUrl
 	filter type: 'c:comp-filter'.
 	filter attributes: #(('name' 'VCALENDAR')).
 	request
-		 queryType: 'c:calendar-query';
+		 type: 'c:calendar-query';
 		filters: (OrderedCollection new add: filter; yourself);
 		namespaces: #((c 'urn:ietf:params:xml:ns:caldav'));
 		properties: #('D:getetag').

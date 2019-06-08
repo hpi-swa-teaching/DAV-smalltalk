@@ -5,4 +5,10 @@
 		"query" : "ph 6/3/2019 19:55",
 		"query:" : "ph 6/3/2019 19:55",
 		"setUp" : "ph 6/3/2019 19:55",
-		"testqueryType" : "ph 6/3/2019 19:56" } }
+		"testAddFilters" : "JB 6/8/2019 14:28",
+		"testCalendarMultigetQueryCreation" : "JB 6/8/2019 15:02",
+		"testCalendarQueryCreation" : "JB 6/8/2019 14:58",
+		"testCreateFilters" : "JB 6/8/2019 14:40",
+		"testQueryCreation" : "JB 6/8/2019 14:54",
+		"testQueryTypeSetToLowerCase" : "JB 6/8/2019 14:58",
+		"testWarningOnInvalidQueryType" : "JB 6/8/2019 14:58" } }

@@ -2,7 +2,7 @@ tests - methods
 testWebDAVReportMultiget
 
 query := CalDAVReportQuery new.
-query queryType: 'c:calendar-multiget'.
+query type: 'c:calendar-multiget'.
 query properties: #('getetag' 'calendar-data').
 
 query objectURLs: #('/calendars/user/home/132456762153245.ics' '/calendars/user/home/13245676123245.ics' ).

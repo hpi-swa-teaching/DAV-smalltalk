@@ -1,6 +1,6 @@
 sending
-sendRequest: aWebDAVQuery
+sendRequest: aDAVQuery
 
 	^ self
-		initializeFromUrl: aWebDAVQuery rawUrl;
-		sendRequest: aWebDAVQuery content: aWebDAVQuery body readStream size: aWebDAVQuery size
+		initializeFromUrl: aDAVQuery rawUrl;
+		sendRequest: aDAVQuery content: aDAVQuery body readStream size: aDAVQuery size

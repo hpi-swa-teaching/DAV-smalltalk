@@ -1,7 +1,7 @@
 tests - methods
 testMethod
 
-	query := DAVPropFindQuery new.
+	query := DAVPropfindQuery new.
 	self assert: query method = 'PROPFIND'.
 	
 	query := DAVReportQuery new.

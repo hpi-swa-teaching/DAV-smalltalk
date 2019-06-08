@@ -5,4 +5,5 @@ initialize
 	self
 		namespaces: #();
 		properties: #();
-		setHeaders.
+		initializeFromUrl: '';
+		setDefaultHeaders.

@@ -8,7 +8,7 @@ testWebDAVPropfind
 		req send200Response: req method.
 	] methods: {'PROPFIND'}.
 
-	query := DAVPropFindQuery
+	query := DAVPropfindQuery
 		url: url
 		namespaces: #((cs 'https://www.caldavserver.com/ns'))
 		properties: #('D:displayname').

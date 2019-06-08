@@ -8,8 +8,8 @@
 	"instance" : {
 		"davDelete:do:" : "JB 5/15/2019 16:03",
 		"davGet:query:do:" : "JB 5/15/2019 15:58",
-		"davPropfind:namespaces:properties:" : "JB 5/15/2019 15:35",
-		"davPropfind:namespaces:properties:do:" : "JB 5/15/2019 15:55",
+		"davPropfind:namespaces:properties:" : "JB 6/8/2019 11:06",
+		"davPropfind:namespaces:properties:do:" : "JB 6/8/2019 11:06",
 		"davPropfind:properties:" : "JB 5/15/2019 15:26",
 		"davPropfind:properties:do:" : "JB 5/15/2019 15:27",
 		"davPut:data:do:" : "JB 5/15/2019 15:27",
@@ -18,6 +18,6 @@
 		"davReport:query:do:" : "JB 5/15/2019 15:58",
 		"sendDavRequest:method:query:do:" : "TSP 6/1/2019 20:36",
 		"sendDavRequest:query:do:" : "JB 5/15/2019 15:29",
-		"sendRequest:" : "ph 6/3/2019 20:09",
-		"sendRequest:content:size:" : "c a 5/30/2019 16:37",
-		"sendRequest:do:" : "JB 5/15/2019 15:54" } }
+		"sendRequest:" : "JB 6/8/2019 11:32",
+		"sendRequest:content:size:" : "JB 6/8/2019 11:32",
+		"sendRequest:do:" : "JB 6/8/2019 11:31" } }

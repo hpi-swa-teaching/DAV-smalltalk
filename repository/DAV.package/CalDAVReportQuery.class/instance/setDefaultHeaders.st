@@ -1,5 +1,5 @@
 initialization
-setHeaders	
+setDefaultHeaders	
 	
-	super setHeaders.
+	super setDefaultHeaders.
 	self headerAt: 'Depth' put: '1'

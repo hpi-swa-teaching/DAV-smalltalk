@@ -1,4 +1,4 @@
-as yet unclassified
+deprecated
 namespaces: namespaces properties: properties
 	"DEPRECATED"
 

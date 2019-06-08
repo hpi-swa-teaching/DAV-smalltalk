@@ -2,7 +2,7 @@ queryBuilding
 createPropertiesXmlOn: aXMLWriter
 	
 	aXMLWriter
-		startTag: 'D:prop';
+		startTag: 'd:prop';
 		endTag.
 	self properties notNil
 	ifTrue:
@@ -12,4 +12,4 @@ createPropertiesXmlOn: aXMLWriter
 				endEmptyTag: propertyName. ]].
 			
 	aXMLWriter
-		endTag: 'D:prop'.
+		endTag: 'd:prop'.

@@ -1,8 +1,8 @@
 {
 	"class" : {
-		"empty" : "ph 6/3/2019 19:10" },
+		 },
 	"instance" : {
 		"createQuerySpecificXmlOn:" : "JB 5/9/2019 21:25",
 		"initialize" : "JB 5/15/2019 15:43",
 		"method" : "JB 5/8/2019 14:50",
-		"setHeaders" : "c a 6/1/2019 14:32" } }
+		"setDefaultHeaders" : "JB 6/8/2019 11:11" } }

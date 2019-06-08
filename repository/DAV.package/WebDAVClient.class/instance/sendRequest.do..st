@@ -1,8 +1,8 @@
 sending
-sendRequest: aDAVPropFindQuery do: aBlock
+sendRequest: aDAVQuery do: aBlock
 
-	aBlock value: aDAVPropFindQuery.
+	aBlock value: aDAVQuery.
 
 	^ self
-		initializeFromUrl: aDAVPropFindQuery rawUrl;
-		sendRequest: aDAVPropFindQuery content: aDAVPropFindQuery body readStream size: aDAVPropFindQuery size
+		initializeFromUrl: aDAVQuery rawUrl;
+		sendRequest: aDAVQuery content: aDAVQuery body readStream size: aDAVQuery size

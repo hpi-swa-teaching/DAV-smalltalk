@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "DAVPropFindQuery",
+	"name" : "DAVPropfindQuery",
 	"pools" : [
 		 ],
 	"super" : "WebDAVQuery",

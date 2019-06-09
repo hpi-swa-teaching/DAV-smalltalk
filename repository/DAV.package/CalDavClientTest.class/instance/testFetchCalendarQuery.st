@@ -1,9 +1,8 @@
-queries tests
+tests - queries
 testFetchCalendarQuery
 
-	| client query |
+	| query |
 	
-	client := SabreCalDavClient new.
 	query := client fetchCalendarQuery.
 	query createXmlBody.
 	

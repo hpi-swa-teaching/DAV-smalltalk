@@ -1,4 +1,4 @@
-deprecated
+queries
 fetchEtagOfEventQuery
 	"deprecated"
 

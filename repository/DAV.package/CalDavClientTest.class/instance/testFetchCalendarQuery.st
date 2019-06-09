@@ -12,6 +12,6 @@ testFetchCalendarQuery
 	self assert: '1' equals: (query headerAt: 'Depth').
 	self assert: 'application/xml' equals: (query headerAt: 'Content-Type').
 	
-	self assert: CalDavTest fetchCalendarQueryBody equals: query body.
+	self assert: CalDavClientTest mockFetchCalendarQueryBody equals: query body.
 	
 	

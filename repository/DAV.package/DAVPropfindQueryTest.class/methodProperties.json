@@ -5,4 +5,5 @@
 		"setUp" : "JB 6/8/2019 18:43",
 		"testCreateXmlBody" : "JB 6/8/2019 19:01",
 		"testCreateXmlBodyNamespaces" : "JB 6/8/2019 19:01",
-		"testCreateXmlBodyProperties" : "JB 6/8/2019 19:01" } }
+		"testCreateXmlBodyProperties" : "JB 6/8/2019 19:01",
+		"testEmptyPropfindQuery" : "JB 6/10/2019 10:14" } }

@@ -1,4 +1,4 @@
 instance creation
 empty
 
-	^ DAVEmptyQuery new
+	^ self new

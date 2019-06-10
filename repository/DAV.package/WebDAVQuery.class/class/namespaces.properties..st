@@ -1,5 +1,5 @@
 deprecated
-namespaces: namespaces properties: properties
+namespaces: namespacesArray properties: propertiesArray
 	"DEPRECATED"
 
-	^ self new   namespaces: namespaces;   properties: properties;   yourself
+	^ self new   namespaces: namespacesArray;   properties: propertiesArray;   yourself

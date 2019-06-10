@@ -1,5 +1,5 @@
 tests - instanceCreation
-testReportQueryCreation
+testQueryCreation
 
 	self assert: self query namespaces isEmpty.
 	self assert: self query properties isEmpty.

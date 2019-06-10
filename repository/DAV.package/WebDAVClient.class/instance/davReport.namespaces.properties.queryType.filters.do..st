@@ -1,5 +1,5 @@
 methods
-davReport: urlString namespaces: namespacesArray properties: propertiesArray queryType: aString do: aBlock
+davReport: urlString namespaces: namespacesArray properties: propertiesArray queryType: aString filters: filtersArray do: aBlock
 
 	| request |
 	
@@ -7,7 +7,8 @@ davReport: urlString namespaces: namespacesArray properties: propertiesArray que
 		url: urlString
 		namespaces: namespacesArray
 		properties: propertiesArray
-		queryType: aString.
+		queryType: aString
+		filters: filtersArray.
 
 	^ self
 		initializeFromUrl: urlString;

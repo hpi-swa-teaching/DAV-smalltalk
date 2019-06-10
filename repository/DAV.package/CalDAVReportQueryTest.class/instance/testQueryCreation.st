@@ -1,5 +1,5 @@
 tests - instanceCreation
-testReportQueryCreation
+testQueryCreation
 
 	self query: (CalDAVReportQuery
 		url: 'testUrl'

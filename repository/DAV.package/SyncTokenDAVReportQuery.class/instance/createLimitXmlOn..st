@@ -4,12 +4,12 @@ createLimitXmlOn: aXMLWriter
 	self limit isNil
 		ifFalse: [ 
 			aXMLWriter
-				startTag: 'D:limit';
+				startTag: 'd:limit';
 				endTag;
-				startTag: 'D:nresults';
+				startTag: 'd:nresults';
 				endTag.
 			aXMLWriter stream nextPutAll: self limit asString.
 			aXMLWriter
-				 endTag: 'D:nresults';
-				 endTag: 'D:limit'.]
+				 endTag: 'd:nresults';
+				 endTag: 'd:limit'.]
 		

@@ -1,11 +1,18 @@
 {
 	"class" : {
-		 },
+		"mockFetchCalendarQueryBody" : "TSP 6/9/2019 13:41",
+		"mockFetchEtagsOfEventsQueryBody" : "TSP 6/9/2019 13:47",
+		"mockFetchEventsDataQueryBody" : "TSP 6/9/2019 13:52" },
 	"instance" : {
 		"client" : "JB 5/24/2019 16:51",
 		"client:" : "JB 5/24/2019 16:51",
-		"setUp" : "JB 5/27/2019 19:25",
-		"testClientRegistry" : "TSP 6/7/2019 18:29",
-		"testFetchCalendarData" : "TSP 6/7/2019 18:42",
-		"testFetchCalendarQuery" : "TSP 6/7/2019 19:59",
-		"testFetchEtagsOfEvents" : "JB 5/27/2019 20:22" } }
+		"setUp" : "TSP 6/9/2019 13:22",
+		"testClientRegistry" : "TSP 6/9/2019 13:21",
+		"testFetchCalendarData" : "TSP 6/9/2019 13:22",
+		"testFetchCalendarQuery" : "TSP 6/9/2019 13:44",
+		"testFetchEtagOfEvent" : "TSP 6/9/2019 13:23",
+		"testFetchEtagsOfEvents" : "TSP 6/9/2019 13:23",
+		"testFetchEtagsOfEventsQuery" : "TSP 6/9/2019 13:55",
+		"testFetchEventDataQuery" : "TSP 6/9/2019 13:49",
+		"testFetchEventsData" : "TSP 6/9/2019 13:24",
+		"testFetchEventsDataQuery" : "TSP 6/9/2019 13:56" } }

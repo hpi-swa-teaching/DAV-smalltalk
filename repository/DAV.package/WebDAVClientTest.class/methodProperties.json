@@ -5,8 +5,10 @@
 		"query" : "JB 6/8/2019 12:40",
 		"query:" : "JB 6/8/2019 12:40",
 		"setUp" : "JB 6/8/2019 18:27",
+		"testAsXml" : "TSP 6/8/2019 18:57",
+		"testWebDAVEmptyPropfind" : "TSP 6/8/2019 19:31",
 		"testWebDAVPropfind" : "JB 6/8/2019 11:23",
 		"testWebDAVReport" : "JB 6/8/2019 18:16",
-		"testWebDAVReportMultiget" : "JB 6/8/2019 18:13",
+		"testWebDAVReportMultiget" : "TSP 6/8/2019 19:00",
 		"testWebDAVReportSendingRequest" : "JB 6/8/2019 16:17",
 		"testWebDAVReportSyncTokenQuery" : "JB 6/8/2019 16:18" } }

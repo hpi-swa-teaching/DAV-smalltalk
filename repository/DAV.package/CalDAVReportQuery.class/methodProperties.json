@@ -2,6 +2,8 @@
 	"class" : {
 		"calendarMultigetQueryFromUrl:namespaces:properties:filters:" : "JB 6/8/2019 15:01",
 		"calendarQueryFromUrl:namespaces:properties:filters:" : "JB 6/8/2019 15:00",
+		"calendarQueryWithNamespaces:properties:filters:" : "TSP 6/8/2019 18:26",
+		"namespaces:properties:queryType:filters:" : "TSP 6/8/2019 18:25",
 		"url:namespaces:properties:queryType:" : "JB 6/8/2019 14:58",
 		"url:namespaces:properties:queryType:filters:" : "JB 6/8/2019 14:58" },
 	"instance" : {

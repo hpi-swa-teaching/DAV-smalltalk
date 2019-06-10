@@ -1,9 +1,7 @@
 queries
-fetchEventsDataQuery
+fetchEtagsOfEventsQuery
 
 	^ CalDAVReportQuery 
 		calendarQueryWithNamespaces: #((c 'urn:ietf:params:xml:ns:caldav'))
-		properties: #('d:getetag' 'd:getlastmodified' 'd:getcontentlength' 'd:getcontenttype')
+		properties: #('d:getetag')
 		filters: #(('c:comp-filter' #(('name' 'VCALENDAR'))))
-	
-	"^ DAVEmptyPropfindQuery new"

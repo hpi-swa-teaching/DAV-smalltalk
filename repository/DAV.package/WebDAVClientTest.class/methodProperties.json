@@ -21,8 +21,8 @@
 		"testDAVPropfindNamespacesProperties" : "JB 6/11/2019 12:01",
 		"testDAVPropfindNamespacesPropertiesDo" : "JB 6/11/2019 20:48",
 		"testDAVPropfindProperties" : "JB 6/11/2019 16:38",
-		"testDAVReport" : "JB 6/10/2019 22:00",
-		"testWebDAVReport" : "JB 6/8/2019 18:16",
+		"testDAVReportNamespacesPropertiesQueryType" : "JB 6/11/2019 21:48",
+		"testDAVReportNamespacesPropertiesQueryTypeFilters" : "JB 6/11/2019 21:48",
+		"testDAVReportNamespacesPropertiesQueryTypeFiltersDo" : "JB 6/11/2019 22:02",
 		"testWebDAVReportMultiget" : "TSP 6/8/2019 19:00",
-		"testWebDAVReportSendingRequest" : "JB 6/11/2019 12:15",
-		"testWebDAVReportSyncTokenQuery" : "JB 6/8/2019 16:18" } }
+		"testWebDAVReportSendingRequest" : "JB 6/11/2019 12:15" } }

@@ -2,4 +2,5 @@ setup
 setUp
 
 	super setUp.
-	self query: WebDAVQuery new.
+	self client: WebDAVClient new.
+	self query: WebDAVQuery new

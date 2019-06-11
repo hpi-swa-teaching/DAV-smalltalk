@@ -1,0 +1,4 @@
+setup
+reportTestQuery
+
+	^ DAVReportQuery new

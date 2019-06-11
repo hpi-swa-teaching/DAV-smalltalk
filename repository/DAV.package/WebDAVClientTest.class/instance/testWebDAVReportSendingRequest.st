@@ -10,7 +10,7 @@ url := 'https://www.caldavserver.com/DAV/calendars/968cdb81-71bc-45a1-af82-4ff01
  
 query := CalDAVReportQuery new.
 query type: 'c:calendar-query'.
-query initializeFromUrl: url.
+query fullUrl: url.
 query properties: #('D:getetag' 'c:calendar-data').
 query namespaces: #((c 'urn:ietf:params:xml:ns:caldav')).
 	
@@ -20,6 +20,8 @@ filter attributes: #(('name' 'VCALENDAR')).
 query filters: (OrderedCollection new add: filter; yourself).
 query createXmlBody.
 
+Transcript show: 'URL'.
+Transcript show: url.
 client initializeFromUrl: url.
 response := client sendRequest: query.
 

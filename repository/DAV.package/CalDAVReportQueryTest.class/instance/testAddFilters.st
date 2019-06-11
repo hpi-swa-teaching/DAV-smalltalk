@@ -6,4 +6,4 @@ testAddFilters
 	filter := CalDAVFilter new.
 	filter type: 'c:comp-filter'.
 	self query addFilter: filter.
-	self assert: self query filters first type equals: 'c:comp-filter'
+	self assert: 'c:comp-filter' equals: self query filters first type

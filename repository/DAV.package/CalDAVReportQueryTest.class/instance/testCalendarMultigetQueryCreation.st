@@ -2,4 +2,4 @@ tests - instanceCreation
 testCalendarMultigetQueryCreation
 
 	self query: (CalDAVReportQuery calendarMultigetQueryFromUrl: 'testUrl' namespaces: #() properties: #() filters: #()).
-	self assert: query type equals: 'c:calendar-multiget'
+	self assert: 'c:calendar-multiget' equals: query type

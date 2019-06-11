@@ -3,13 +3,13 @@
 		 },
 	"instance" : {
 		"setUp" : "JB 6/8/2019 19:03",
-		"testAddFilters" : "JB 6/8/2019 16:16",
-		"testCalendarMultigetQueryCreation" : "JB 6/8/2019 15:02",
-		"testCalendarQueryCreation" : "JB 6/8/2019 14:58",
-		"testCreateFilters" : "JB 6/8/2019 14:40",
-		"testCreateUrlXml" : "JB 6/8/2019 16:32",
-		"testDefaultQueryType" : "JB 6/10/2019 11:05",
-		"testEmptyCalDAVReportQuery" : "JB 6/10/2019 10:53",
-		"testQueryCreation" : "JB 6/10/2019 21:58",
-		"testQueryTypeSetToLowerCase" : "JB 6/8/2019 14:58",
-		"testWarningOnInvalidQueryType" : "JB 6/8/2019 14:58" } }
+		"testAddFilters" : "JB 6/11/2019 21:01",
+		"testCalendarMultigetQueryCreation" : "JB 6/11/2019 21:03",
+		"testCalendarQueryCreation" : "JB 6/11/2019 21:03",
+		"testCreateFilters" : "JB 6/11/2019 21:02",
+		"testCreateUrlXml" : "JB 6/11/2019 21:06",
+		"testDefaultQueryType" : "JB 6/11/2019 21:02",
+		"testEmptyCalDAVReportQuery" : "JB 6/11/2019 21:05",
+		"testQueryCreation" : "JB 6/11/2019 21:05",
+		"testQueryTypeSetToLowerCase" : "JB 6/11/2019 21:03",
+		"testWarningOnInvalidQueryType" : "JB 6/11/2019 21:03" } }

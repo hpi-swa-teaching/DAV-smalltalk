@@ -7,9 +7,10 @@
 		"setUp" : "JB 6/8/2019 18:29",
 		"testCreateEmptyPropertiesXml" : "JB 6/8/2019 18:33",
 		"testCreatePropertiesXml" : "JB 6/8/2019 18:33",
+		"testInitializeFromUrl" : "JB 6/11/2019 13:02",
 		"testMethod" : "JB 6/8/2019 18:31",
 		"testNameSpacesDictionary" : "JB 6/8/2019 19:02",
 		"testNamespacesSetToLowerCase" : "JB 6/8/2019 18:29",
 		"testPropertiesSetToLowerCase" : "JB 6/8/2019 18:30",
-		"testQueryCreation" : "JB 6/10/2019 11:09",
+		"testQueryCreation" : "JB 6/10/2019 21:57",
 		"testWriteQuerySpecificContent" : "JB 6/8/2019 18:30" } }

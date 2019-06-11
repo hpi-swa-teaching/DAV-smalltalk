@@ -1,4 +1,5 @@
-initialization
-initializeFromUrl: urlString
+accessing
+initializeFromUrl: aString
 
-	self rawUrl: urlString
+	super initializeFromUrl: aString.
+	self fullUrl: aString.

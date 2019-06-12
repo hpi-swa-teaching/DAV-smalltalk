@@ -1,7 +1,7 @@
 setup
-setUpReportRoute
+setUpMockedReportRoute
 
-	self server addService: '/report' action:[:req | 
+	self mockserver addService: '/report' action:[:req | 
 		self isValidReportQuery: req
 			ifTrue: [ req send200Response: req method]
 			ifFalse: [ req send400Response ]

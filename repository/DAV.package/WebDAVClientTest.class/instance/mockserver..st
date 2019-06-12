@@ -1,4 +1,4 @@
 accessing
-server: aWebServer
+mockserver: aWebServer
 	
 	server := aWebServer

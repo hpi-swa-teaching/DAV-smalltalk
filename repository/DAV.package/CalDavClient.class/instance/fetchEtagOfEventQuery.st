@@ -1,11 +1,11 @@
 queries
 fetchEtagOfEventQuery
 
-	^ CalDAVReportQuery 
+	"^ CalDAVReportQuery 
 	calendarMultigetQueryWithNamespaces: #((c 'urn:ietf:params:xml:ns:caldav')) 
-	properties: #('d:getetag')
+	properties: #('d:getetag')"
 
-	"
+	
 	^ DAVPropfindQuery
 		namespaces: #()
-		properties: #('D:getetag')"
+		properties: #('d:getetag')

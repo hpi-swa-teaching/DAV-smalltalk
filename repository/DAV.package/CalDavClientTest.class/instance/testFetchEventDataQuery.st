@@ -6,8 +6,8 @@ testFetchEventDataQuery
 	query := client fetchEventDataQuery.
 	query createXmlBody.
 	
-	self assert: 'GET' equals: query method.
+	self assert: 'PROPFIND' equals: query method.
 	
-	self assert: '' equals: query body.
+	"self assert: '' equals: query body."
 	
 	

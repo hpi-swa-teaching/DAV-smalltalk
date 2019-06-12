@@ -1,10 +1,10 @@
 queries
-fetchEtagsOfEventsQueryFor: hrefArray
+fetchEventsICalDataQueryFor: hrefArray
 
 
 	^ CalDAVReportQuery 
 	calendarMultigetQueryWithNamespaces: #((c 'urn:ietf:params:xml:ns:caldav')) 
-	properties: #('d:getetag')
+	properties: #('d:getetag' 'c:calendar-data')
 	objectURLs: hrefArray
 	
 	

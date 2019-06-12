@@ -3,7 +3,7 @@ testDAVEmptyPropfind
 
 	| resp url |
 
-	url := self setUpPropfindRoute.
+	url := self setUpMockedPropfindRoute.
 
 	query := DAVPropfindQuery empty.
 	resp := self client davPropfind: url properties: query.

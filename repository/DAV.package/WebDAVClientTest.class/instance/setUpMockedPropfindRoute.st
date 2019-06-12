@@ -1,7 +1,7 @@
 setup
-setUpPropfindRoute
+setUpMockedPropfindRoute
 
-	self server addService: '/propfind' action:[:req |
+	self mockserver addService: '/propfind' action:[:req |
 		self isValidPropfindQuery: req
 			ifTrue: [ req send200Response: req method ]
 			ifFalse: [req send400Response ]

@@ -2,5 +2,5 @@ tests - instanceCreation
 testEmptyDAVReportQuery
 
 	self query: DAVReportQuery empty.
-	self assert: self query body equals:  '<?xml  version="1.0" ?>'.
-	self assert: self query method equals: 'REPORT'
+	self assert: '<?xml  version="1.0" ?>' equals: self query body.
+	self assert: 'REPORT' equals: self query method

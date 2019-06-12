@@ -7,7 +7,8 @@ testQueryCreation
 		properties: #('D:getetag')
 		queryType: 'c:calendar-query'
 		filters: #(('c:comp-filter' #(('name' 'VCALENDAR'))))).
-	self assert: query fullUrl equals: 'testUrl'.
-	self assert: (query namespacesDictionary at: 'xmlns:c') equals: 'urn:ietf:params:xml:ns:caldav'.
+	self assert: 'testUrl' equals: query fullUrl.
+	self assert: 'urn:ietf:params:xml:ns:caldav' equals:
+		(query namespacesDictionary at: 'xmlns:c').
 	self assert: (query properties includes: 'd:getetag').
 	self assert: (query filters first type) equals: 'c:comp-filter'

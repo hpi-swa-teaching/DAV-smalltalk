@@ -1,4 +1,4 @@
 tests - accessors
 testDefaultQueryType
 
-	self assert: self query type equals: self query defaultQueryType
+	self assert: self query defaultQueryType equals: self query type

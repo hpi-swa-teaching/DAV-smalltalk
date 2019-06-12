@@ -1,4 +1,4 @@
-setup
+helpers
 reportTestQuery
 
 	^ DAVReportQuery new

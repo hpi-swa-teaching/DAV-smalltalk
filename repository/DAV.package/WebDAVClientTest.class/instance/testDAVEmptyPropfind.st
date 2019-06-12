@@ -5,6 +5,6 @@ testDAVEmptyPropfind
 
 	url := self setUpPropfindRoute.
 
-	query := DAVEmptyPropfindQuery new.
+	query := DAVPropfindQuery empty.
 	resp := self client davPropfind: url properties: query.
 	self assert: 200 equals: resp code

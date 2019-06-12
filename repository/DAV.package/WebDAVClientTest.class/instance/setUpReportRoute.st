@@ -2,7 +2,9 @@ setup
 setUpReportRoute
 
 	self server addService: '/report' action:[:req | 
-		req send200Response: req method.
+		self isValidReportQuery: req
+			ifTrue: [ req send200Response: req method]
+			ifFalse: [ req send400Response ]
 	] methods: {'REPORT'}.
 
 	^ self localHostUrl, '/report' 

@@ -2,7 +2,7 @@ tests - accessors
 testMethod
 
 	query := DAVPropfindQuery new.
-	self assert: query method = 'PROPFIND'.
+	self assert: 'PROPFIND' equals: query method.
 	
 	query := DAVReportQuery new.
-	self assert: query method = 'REPORT'.
+	self assert: 'REPORT' equals: query method.

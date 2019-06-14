@@ -1,5 +1,4 @@
-as yet unclassified
-sendRequest: aRequest content: content size: contentSize
-
-	^ [super sendRequest: aRequest content: content size: contentSize] on: WebAuthRequired do: [:ex |
-		ex username: '' password: '' ]
+sending
+sendRequest: aDAVQuery content: content size: contentSize
+	
+	^ super sendRequest: aDAVQuery content: content size: contentSize

@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 url: urlString namespaces: namespacesArray properties: propertiesArray
 
 	^ self new

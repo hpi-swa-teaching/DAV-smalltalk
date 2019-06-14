@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "JB 6/8/2019 19:03",
+		"testAddFilter" : "JB 6/11/2019 21:22",
+		"testAddFilters" : "JB 6/11/2019 21:35",
+		"testCalendarMultigetQueryCreation" : "JB 6/11/2019 21:03",
+		"testCalendarQueryCreation" : "JB 6/11/2019 21:03",
+		"testCreateFilterXmlOn" : "JB 6/11/2019 21:46",
+		"testCreateFilters" : "JB 6/11/2019 21:02",
+		"testCreateUrlXml" : "JB 6/11/2019 21:06",
+		"testDAVReportMultigetXml" : "JB 6/12/2019 11:14",
+		"testDefaultQueryType" : "JB 6/11/2019 21:02",
+		"testEmptyCalDAVReportQuery" : "JB 6/11/2019 21:05",
+		"testQueryCreation" : "JB 6/11/2019 21:05",
+		"testQueryTypeSetToLowerCase" : "JB 6/11/2019 21:03",
+		"testWarningOnInvalidQueryType" : "JB 6/11/2019 21:03" } }

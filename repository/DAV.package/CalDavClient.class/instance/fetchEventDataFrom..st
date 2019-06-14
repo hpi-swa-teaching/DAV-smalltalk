@@ -4,8 +4,11 @@ fetchEventDataFrom: anUrl
 	| response |
 	self assumesAuthorization.
 	
-	response := self sendGetTo: anUrl theRequest: '' withHeader: {
-		'Depth' -> '1' }.
+	response := self sendRequest: self fetchEventDataQuery to: anUrl.
+	
+	"response := self sendGetTo: anUrl theRequest: self fetchEventDataQuery.
+	 withHeader: {
+		'Depth' -> '1' }."
 
-	^ self parseCompleteEventInformation: response content
+	^ (self parseEventsInformation: response content) first
 	

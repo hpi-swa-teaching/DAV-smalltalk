@@ -6,9 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"filters",
-		"queryType",
-		"objectURLs" ],
+		 ],
 	"name" : "DAVReportQuery",
 	"pools" : [
 		 ],

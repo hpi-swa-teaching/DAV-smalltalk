@@ -1,4 +1,4 @@
 as yet unclassified
 password
 
-	^self password
+	^ password

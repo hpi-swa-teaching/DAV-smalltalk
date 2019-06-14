@@ -1,0 +1,8 @@
+{
+	"class" : {
+		"propfindResponse" : "JB 5/27/2019 19:36",
+		"reportEtagsResponse" : "JB 5/27/2019 20:19" },
+	"instance" : {
+		"setUp" : "TSP 6/7/2019 17:17",
+		"testSabreClientAccessors" : "TSP 6/7/2019 17:21",
+		"testSabreClientAddAuthentificationInformation" : "TSP 6/7/2019 17:50" } }

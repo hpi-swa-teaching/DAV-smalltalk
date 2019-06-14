@@ -1,6 +1,7 @@
-as yet unclassified
+deprecated
 sendDavRequest: anUrl query: query do: aBlock
 
+	"deprecated"
 	| request |
 	self initializeFromUrl: anUrl asString.
 	request := self requestWithUrl: anUrl asString.

@@ -1,0 +1,16 @@
+{
+	"category" : "DAV-Web",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"filters",
+		"queryType",
+		"objectURLs" ],
+	"name" : "CalDAVReportQuery",
+	"pools" : [
+		 ],
+	"super" : "DAVReportQuery",
+	"type" : "normal" }

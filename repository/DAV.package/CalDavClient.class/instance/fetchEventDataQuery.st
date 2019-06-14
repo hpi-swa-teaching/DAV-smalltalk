@@ -1,4 +1,7 @@
-requests
-fetchEventDataQuery 
+queries
+fetchEventDataQuery
 
-	^ DAVPropFindQuery empty
+		
+	^ DAVPropfindQuery
+		namespaces: #()
+		properties: #('d:getetag'  'd:getlastmodified' 'd:getcontentlength' 'd:getcontenttype')

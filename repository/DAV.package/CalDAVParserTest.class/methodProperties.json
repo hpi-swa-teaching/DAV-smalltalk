@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "TSP 5/15/2019 17:00",
+		"testCheckParsing" : "TSP 6/10/2019 22:08",
+		"testPropfindParsing" : "TSP 6/10/2019 22:11" } }

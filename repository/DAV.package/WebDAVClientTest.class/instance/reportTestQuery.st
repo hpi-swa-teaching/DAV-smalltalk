@@ -1,0 +1,4 @@
+helpers
+reportTestQuery
+
+	^ DAVReportQuery new

@@ -1,0 +1,4 @@
+accessing
+syncToken
+
+	^ syncToken

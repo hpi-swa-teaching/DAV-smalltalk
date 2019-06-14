@@ -1,13 +1,13 @@
-as yet unclassified
+methods
 davPropfind: urlString namespaces: namespacesArray properties: propertiesArray
 
 	| request |
 	
-	request := DAVPropFindQuery
+	request := DAVPropfindQuery
 		url: urlString
 		namespaces: namespacesArray
 		properties: propertiesArray.
 
 	^ self
 		initializeFromUrl: urlString;
-		sendRequest: request content: request body readStream size: request size.
+		sendRequest: request

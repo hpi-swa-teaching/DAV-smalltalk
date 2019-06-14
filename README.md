@@ -1,4 +1,6 @@
 # DAV-smalltalk
+[![Build Status](https://travis-ci.org/hpi-swa-teaching/DAV-smalltalk.svg)](https://travis-ci.org/hpi-swa-teaching/DAV-smalltalk)
+
 A Smalltalk implementation of WebDAV and CalDAV
 
 ## Setup

@@ -1,10 +1,14 @@
 parsing
 parsePropfindResponse: aResponse
 
-	|  xmlDocument  |
+	|  xmlDocument response  |
 	
 	xmlDocument := XMLDOMParser parseDocumentFrom: (aResponse readStream).
-	self status: (xmlDocument root firstTagNamed: #d:status) characterData.
-	self calendarName: (xmlDocument root firstTagNamed: #d:displayname) characterData.
-	self syncToken: (xmlDocument root firstTagNamed: #'d:sync-token') characterData
-	
+	response := Dictionary new.
+
+	response at: #calendarName put: (self parseProperty: #d:displayname from:  xmlDocument root).
+	response at: #ctag put: (self parseProperty: #cs:getctag from:  xmlDocument root).
+	response at: #'sync-token' put: (self parseProperty: #'d:sync-token' from:  xmlDocument root).
+	response at: #status put: (self parseProperty: #d:status from:  xmlDocument root).
+
+	^ response

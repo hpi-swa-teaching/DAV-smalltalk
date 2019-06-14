@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"filter" : "JB 6/8/2019 15:29",
+		"filter:" : "JB 6/8/2019 15:29",
+		"setUp" : "JB 6/8/2019 15:31",
+		"testAttributesDictionary" : "JB 6/8/2019 15:50",
+		"testFilterCreation" : "JB 6/8/2019 15:46",
+		"testFiltersAsXml" : "JB 6/11/2019 21:17",
+		"testTypeSetter" : "JB 6/8/2019 15:46" } }

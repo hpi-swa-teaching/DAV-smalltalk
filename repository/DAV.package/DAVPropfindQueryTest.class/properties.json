@@ -1,0 +1,14 @@
+{
+	"category" : "DAV-Web-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "DAVPropfindQueryTest",
+	"pools" : [
+		 ],
+	"super" : "WebDAVQueryTest",
+	"type" : "normal" }

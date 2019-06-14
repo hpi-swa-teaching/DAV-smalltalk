@@ -1,0 +1,14 @@
+{
+	"category" : "DAV-Cal-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"client" ],
+	"name" : "CalDavClientTest",
+	"pools" : [
+		 ],
+	"super" : "WebClientServerTest",
+	"type" : "normal" }

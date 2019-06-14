@@ -1,5 +1,7 @@
-as yet unclassified
+deprecated
 sendDavRequest: anUrl method: method query: query do: aBlock
+
+	"deprecated"
 
 	| request |
 	self initializeFromUrl: anUrl asString.
@@ -9,4 +11,6 @@ sendDavRequest: anUrl method: method query: query do: aBlock
 	request headerAt: 'Content-Length' put: query size.
 	userAgent ifNotNil:[request headerAt: 'User-Agent' put: userAgent].
 	aBlock value: request.
+	"^self sendRequest: request content: query readStream size: query size"
+
 	^self sendRequest: request content: query body readStream size: query size

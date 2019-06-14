@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "JB 6/10/2019 11:03",
+		"testEmptyDAVReportQuery" : "JB 6/11/2019 21:00",
+		"testWriteQuerySpecificContent" : "JB 6/10/2019 11:20" } }

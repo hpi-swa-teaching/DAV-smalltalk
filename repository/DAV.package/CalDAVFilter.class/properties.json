@@ -1,0 +1,15 @@
+{
+	"category" : "DAV-Web",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"type",
+		"attributes" ],
+	"name" : "CalDAVFilter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

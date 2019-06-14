@@ -1,0 +1,15 @@
+SmalltalkCISpec {
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #baseline : DAV,
+      #platforms : [ #squeak ],
+      #directory : repository,
+      #load : [ tests ]
+    }
+  ],
+  #testing : {
+    #coverage : {
+      #packages : [ 'DAV' ]
+    }
+  }
+}

@@ -2,11 +2,11 @@ updating
 removeDeletedEvents: updateInformation
 
 	| urlsToRemove |
-	urlsToRemove := ((self events keys) 
+	urlsToRemove := ((self eventsDictionary keys) 
 						difference: (updateInformation collect: [:info | info at: #urlLocalPart asSymbol])).
 				
 	urlsToRemove do: [ :elem |
-		self events removeKey: elem ifAbsent: [].
+		self eventsDictionary removeKey: elem ifAbsent: [].
 		].
 
 

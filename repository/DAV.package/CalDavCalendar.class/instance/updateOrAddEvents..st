@@ -9,7 +9,7 @@ updateOrAddEvents: updateInformation
 		etag := rawEventData at: #'d:getetag'.
 		url := rawEventData at: #url.
 		href := rawEventData at: #urlLocalPart.
-		eventObject := self events at: href asSymbol 
+		eventObject := self eventsDictionary at: href asSymbol 
 			ifAbsent: [ urlsToFetch add: url asString. nil].
 			
 		eventObject
@@ -29,9 +29,9 @@ updateOrAddEvents: updateInformation
 		iCalendar := elem at: #calendarData. 
 		object etag: etag.
 		object serverCalendar: iCalendar.
-		object serverData: iCalendar events first.
+		object serverData: iCalendar eventsDictionary first.
 		
-		self events at: (elem at: #urlLocalPart) asSymbol put: object.
+		self eventsDictionary at: (elem at: #urlLocalPart) asSymbol put: object.
 		].	
 		
 			

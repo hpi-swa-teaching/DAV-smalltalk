@@ -3,4 +3,4 @@ initialize
 
 	"self events: Set new"
 	
-	self events: Dictionary new
+	self eventsDictionary: Dictionary new

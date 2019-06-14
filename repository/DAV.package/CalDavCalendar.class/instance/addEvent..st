@@ -1,4 +1,4 @@
 accessing
 addEvent: anEvent
 
-	self events add: anEvent
+	self eventsDictionary add: anEvent

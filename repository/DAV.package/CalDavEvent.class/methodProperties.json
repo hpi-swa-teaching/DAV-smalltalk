@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"newIn:withId:withUrl:" : "pre 4/11/2017 11:35",
+		"newIn:withId:withUrl:" : "c a 6/15/2019 15:32",
 		"newIn:withUrl:" : "pre 3/15/2017 14:18" },
 	"instance" : {
 		"calendar" : "pre 3/15/2017 14:18",
@@ -11,7 +11,7 @@
 		"etag" : "pre 3/15/2017 14:19",
 		"etag:" : "pre 3/15/2017 14:19",
 		"initialize" : "pre 4/11/2017 11:34",
-		"initializeServerData" : "c a 6/14/2019 10:36",
+		"initializeServerData" : "c a 6/15/2019 15:55",
 		"isDirty" : "pre 4/6/2017 12:44",
 		"newServerData" : "pre 4/11/2017 11:18",
 		"save" : "pre 4/11/2017 12:04",

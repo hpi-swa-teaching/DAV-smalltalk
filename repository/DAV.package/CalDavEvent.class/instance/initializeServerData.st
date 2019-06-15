@@ -10,5 +10,5 @@ initializeServerData
 		
 	self serverCalendar: (self client newServerCalendarFor: self calendar).
 	
-	self serverCalendar eventsDictionary add: self serverData.
+	self serverCalendar events add: self serverData.
 		

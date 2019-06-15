@@ -29,9 +29,9 @@ updateOrAddEvents: updateInformation
 		iCalendar := elem at: #calendarData. 
 		object etag: etag.
 		object serverCalendar: iCalendar.
-		object serverData: iCalendar eventsDictionary first.
+		object serverData: iCalendar events first.
 		
-		self eventsDictionary at: (elem at: #urlLocalPart) asSymbol put: object.
+		self addEvent: object.
 		].	
 		
 			

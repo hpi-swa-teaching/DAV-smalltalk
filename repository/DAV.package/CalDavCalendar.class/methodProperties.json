@@ -2,7 +2,7 @@
 	"class" : {
 		"calendarFieldsMapping" : "TSP 5/30/2019 16:05" },
 	"instance" : {
-		"addEvent:" : "c a 6/15/2019 16:20",
+		"addEvent:" : "TSP 6/15/2019 17:07",
 		"asTemporaryICCalendar" : "pre 4/6/2017 14:38",
 		"buildUrlFor:" : "TSP 6/12/2019 15:43",
 		"calendarName" : "pre 4/11/2017 11:29",
@@ -19,8 +19,8 @@
 		"serverColor:" : "pre 1/20/2017 16:52",
 		"serverData" : "pre 1/20/2017 16:36",
 		"serverData:" : "pre 1/20/2017 16:36",
-		"updateCalendar" : "pre 1/20/2017 16:44",
-		"updateEvents" : "TSP 6/12/2019 15:17",
+		"updateCalendar" : "TSP 6/15/2019 17:04",
+		"updateEvents" : "TSP 6/15/2019 17:03",
 		"updateOrAddEvents:" : "c a 6/15/2019 16:08",
 		"url" : "pre 1/20/2017 10:43",
 		"url:" : "pre 1/20/2017 15:53" } }

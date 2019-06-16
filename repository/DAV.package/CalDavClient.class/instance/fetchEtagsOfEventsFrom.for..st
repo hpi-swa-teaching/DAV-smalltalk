@@ -1,4 +1,4 @@
-requests
+fetching
 fetchEtagsOfEventsFrom: anUrl for: hrefArray
 
 	| response query |

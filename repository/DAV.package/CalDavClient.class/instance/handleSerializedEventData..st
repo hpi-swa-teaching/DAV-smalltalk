@@ -3,10 +3,9 @@ handleSerializedEventData: anEventString
 
 	| newEventStrings newData methodString |
 	
-	methodString := (Character cr asString, 'METHOD:PUBLISH') withUnixLineEndings.
-	newEventStrings := (anEventString subStrings: (Array with: Character cr)) select: [:line | line ~= methodString].	
+	methodString := 'METHOD:'.
+	newEventStrings := (anEventString subStrings: (Array with: Character cr)) select: [:line | (line includesSubString: methodString) not].	
 	newData := ''.
 	newEventStrings do: [:elem | newData := (newData, elem)].
-
 	^ newData
 		

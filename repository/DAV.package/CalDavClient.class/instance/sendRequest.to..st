@@ -6,7 +6,6 @@ sendRequest: aQuery to: anUrl
 	self addAuthorizationInformation: aQuery.
 	client := self webDavClient new.
 	aQuery initializeFromUrl: anUrl asString.
-	self halt.
 	response := client sendRequest: aQuery.
 	
 	^ response.

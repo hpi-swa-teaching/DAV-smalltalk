@@ -2,6 +2,7 @@ fetching
 updateEventData: anEvent
 
 	| iCal response query payload |
+	
 	self assumesAuthorization.
 	
 	iCal := self serializeEvent: anEvent.

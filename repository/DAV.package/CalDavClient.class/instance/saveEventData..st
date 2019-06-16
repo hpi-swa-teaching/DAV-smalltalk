@@ -8,7 +8,6 @@ saveEventData: anEvent
 	iCal := self serializeEvent: anEvent.
 	payload := self handleSerializedEventData: iCal.
 	query := self putEventDataQueryWithPayload: payload withInternetLineEndings. 
-	self halt.
 	response := self sendRequest: query to: anEvent url.
 	
 	^ response content

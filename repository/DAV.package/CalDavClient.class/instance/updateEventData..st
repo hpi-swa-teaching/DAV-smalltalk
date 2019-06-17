@@ -6,7 +6,7 @@ updateEventData: anEvent
 	
 	iCal := self serializeEvent: anEvent.
 	payload := self handleSerializedEventData: iCal.
-	query := self putEventDataQueryWithPayload: payload ifMatch: anEvent etag. 
+	query := self putEventDataQueryWithPayload: payload withInternetLineEndings ifMatch: anEvent etag. 
 	response := self sendRequest: query to: anEvent url.
 	
 	^ response content

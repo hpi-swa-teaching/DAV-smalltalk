@@ -25,7 +25,8 @@ updateOrAddEvents: updateInformation
 		| url etag object iCalendar |
 		url := self buildUrlFor: (elem at: #urlLocalPart).
 		etag := elem at: #'d:getetag'.
-		object := CalDavEvent newIn: self withUrl: url.
+		object := self eventsDictionary at: (elem at: #urlLocalPart ) ifAbsent: [
+			CalDavEvent newIn: self withUrl: url.].
 		iCalendar := elem at: #calendarData. 
 		object etag: etag.
 		object serverCalendar: iCalendar.

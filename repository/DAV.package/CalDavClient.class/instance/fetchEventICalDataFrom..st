@@ -1,4 +1,4 @@
-requests
+fetching
 fetchEventICalDataFrom: aHref
 
 	| response |

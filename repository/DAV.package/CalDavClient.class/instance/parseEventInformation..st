@@ -1,4 +1,4 @@
-requests
+parsing
 parseEventInformation: anEventNode
 
 	| properties propertyStatus resultProperties |

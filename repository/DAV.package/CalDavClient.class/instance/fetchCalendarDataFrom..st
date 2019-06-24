@@ -1,4 +1,4 @@
-requests
+fetching
 fetchCalendarDataFrom: anUrl
 
 	| response |

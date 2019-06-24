@@ -1,4 +1,4 @@
-requests
+fetching
 fetchEtagsOfEventsFrom: anUrl
 
 	| response |

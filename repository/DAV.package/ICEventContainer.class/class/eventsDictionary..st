@@ -1,3 +1,3 @@
 accessing
-events: anObject
+eventsDictionary: anObject
 	^ Events := anObject

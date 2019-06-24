@@ -3,7 +3,7 @@ newIn: calendar withId: id withUrl: url
 
 	^ self new
 		calendar: calendar;
+		url: url;
 		initializeServerData;
 		uid: id;
-		url: url;
 		yourself

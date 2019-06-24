@@ -1,4 +1,4 @@
-requests
+fetching
 fetchEventsICalDataFrom: anUrl for: hrefArray
 
 	| response query |

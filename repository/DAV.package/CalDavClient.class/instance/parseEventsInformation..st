@@ -1,4 +1,4 @@
-requests
+parsing
 parseEventsInformation: responseContent
 
 	| xmlDocument |

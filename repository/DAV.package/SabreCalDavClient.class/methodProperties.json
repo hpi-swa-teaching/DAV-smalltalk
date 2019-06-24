@@ -4,6 +4,10 @@
 	"instance" : {
 		"addAuthorizationInformation:" : "c a 5/30/2019 17:19",
 		"assumesAuthorization" : "GL 5/15/2019 16:22",
+		"eventUrlFor:withId:" : "c a 6/15/2019 16:18",
+		"newEventIdFor:" : "c a 6/15/2019 15:20",
+		"newRandomId" : "c a 6/15/2019 15:21",
+		"newServerCalendarFor:" : "c a 6/15/2019 15:41",
 		"password" : "TSP 6/1/2019 15:44",
 		"password:" : "JB 5/27/2019 19:54",
 		"username" : "TSP 6/1/2019 15:43",

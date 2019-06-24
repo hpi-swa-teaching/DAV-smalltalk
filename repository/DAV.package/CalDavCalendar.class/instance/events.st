@@ -1,4 +1,4 @@
 accessing
 events
 
-	^ events
+	^ self eventsDictionary values

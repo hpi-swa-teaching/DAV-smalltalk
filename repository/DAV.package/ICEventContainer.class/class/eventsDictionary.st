@@ -1,3 +1,3 @@
 accessing
-events
+eventsDictionary
 	^ Events

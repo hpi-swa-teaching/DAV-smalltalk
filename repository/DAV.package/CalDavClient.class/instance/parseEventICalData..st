@@ -1,4 +1,4 @@
-requests
+parsing
 parseEventICalData: anEventNode
 
 	| resultProperties iCalString |

@@ -1,5 +1,5 @@
-requests
-parseCompleteEventInformation: responseContent
+parsing
+parseICalData: responseContent
 
 	| iCalCalendar |
 	iCalCalendar := ICCalendarHandParser parseCalendarString: responseContent.

@@ -1,4 +1,4 @@
-requests
+fetching
 fetchEventsDataFrom: anUrl
 
 	| response |

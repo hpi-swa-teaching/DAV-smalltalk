@@ -1,15 +1,14 @@
 {
-	"category" : "DAV-Cal",
+	"category" : "DAV-Web",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"username",
-		"password" ],
-	"name" : "NameOfSubclass",
+		 ],
+	"name" : "DAVPutQuery",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "WebDAVQuery",
 	"type" : "normal" }

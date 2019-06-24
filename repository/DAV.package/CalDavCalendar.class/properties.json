@@ -7,9 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"url",
-		"events",
 		"serverData",
-		"calendarName" ],
+		"calendarName",
+		"eventsDictionary" ],
 	"name" : "CalDavCalendar",
 	"pools" : [
 		 ],

@@ -1,12 +1,10 @@
-requests
+fetching
 fetchEtagOfEventFrom: anUrl
 
-	| response responseContent nodes |
+	| response parsedInformation |
 	self assumesAuthorization.
-	response := self sendPropfindTo: anUrl 
-					theRequest: self fetchEtagOfEventQuery 
-					withHeader: { 'Depth' -> '1' }.
+	response := self sendRequest: self fetchEtagOfEventQuery to: anUrl.
 
-	responseContent := response content.
-	nodes := self parseXML: responseContent.
-	^ (nodes firstTagNamed: #'d:getetag') contents first string
+	parsedInformation := self parseEventsInformation: response content.
+	
+	^ parsedInformation first at: #'d:getetag'

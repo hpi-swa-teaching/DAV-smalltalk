@@ -1,5 +1,6 @@
 queries
-putEventDataQueryWithPayload: aPayload 
+putEventDataQueryWithPayload: aString 
 
-	^ self putEventDataQuery
-		body: aPayload.
+	^ (WebRequest new)
+		method: 'PUT';
+		content: aString

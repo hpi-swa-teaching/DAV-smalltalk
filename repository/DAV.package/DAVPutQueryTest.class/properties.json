@@ -1,15 +1,14 @@
 {
-	"category" : "DAV-Cal-Tests",
+	"category" : "DAV-Web-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"client",
-		"query" ],
-	"name" : "CalDavClientTest",
+		 ],
+	"name" : "DAVPutQueryTest",
 	"pools" : [
 		 ],
-	"super" : "WebClientServerTest",
+	"super" : "WebDAVQueryTest",
 	"type" : "normal" }

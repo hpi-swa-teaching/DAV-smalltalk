@@ -1,13 +1,10 @@
 tests - queries
 testFetchEventDataQuery
-
-	| query |
 	
-	query := client fetchEventDataQuery.
-	query createXmlBody.
+	self query: client fetchEventDataQuery.
 	
-	self assert: 'PROPFIND' equals: query method.
-	
-	"self assert: '' equals: query body."
+	self assert: 'PROPFIND' equals: self query method.
+	self assert: (self hasCorrectHeaders: self query).
+	self assert: (self query body matchesRegex: self regexForFetchEventDataQuery)
 	
 	

@@ -1,5 +1,5 @@
 fetching
-updateEventData: anEvent
+pushEvent: anEvent
 
 	| iCal response query payload |
 	self assumesAuthorization.

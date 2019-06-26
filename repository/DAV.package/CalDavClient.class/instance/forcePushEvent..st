@@ -1,5 +1,5 @@
 fetching
-saveEventData: anEvent
+forcePushEvent: anEvent
 
 	| response query payload iCal |
 	

@@ -10,4 +10,4 @@ testFetchEventsDataQuery
 	self assert: (query properties includes: 'd:getlastmodified').
 	self assert: (query properties includes: 'd:getcontenttype').
 	
-	self assert: (self query body matchesRegex: self regexForFetchEventsDataQuery)
+	self assert: (self query content matchesRegex: self regexForFetchEventsDataQuery)

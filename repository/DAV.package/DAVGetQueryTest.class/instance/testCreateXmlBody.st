@@ -1,4 +1,4 @@
 tests - xml
 testCreateXmlBody
 
-	self assert: self query body isEmpty
+	self assert: self query content isEmpty

@@ -5,7 +5,7 @@ testEmptyCalDAVReportQuery
 
 	self query: CalDAVReportQuery empty.
 	queryTypeRegex := self query defaultQueryType copyReplaceAll: ':' with: '\:'.
-	self assert: (self query body matchesRegex:
+	self assert: (self query content matchesRegex:
 		'<\?xml  version="1.0" \?>\s*<', queryTypeRegex,
 		' xmlns\:d="DAV\:">\s*</', queryTypeRegex, '>').
 	self assert: 'REPORT' equals: self query method

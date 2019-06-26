@@ -13,4 +13,4 @@ sendDavRequest: anUrl method: method query: query do: aBlock
 	aBlock value: request.
 	"^self sendRequest: request content: query readStream size: query size"
 
-	^self sendRequest: request content: query body readStream size: query size
+	^self sendRequest: request content: query content readStream size: query size

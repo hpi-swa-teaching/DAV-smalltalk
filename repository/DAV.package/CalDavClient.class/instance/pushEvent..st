@@ -9,4 +9,4 @@ pushEvent: anEvent
 	query := self putEventDataQueryWithPayload: payload withInternetLineEndings ifMatch: anEvent etag. 
 	response := self sendRequest: query to: anEvent url.
 	
-	^ response content
+	^ response

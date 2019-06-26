@@ -1,4 +1,4 @@
-accessing
+manipulating
 updateOrNotDependingOnChangeInEtag: newEtag
 
 	self etag ~= newEtag 

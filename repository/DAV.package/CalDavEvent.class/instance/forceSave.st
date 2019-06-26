@@ -1,8 +1,8 @@
 manipulating
-save
+forceSave
 	| response |
 	
-	response := self client pushEvent: self.	
+	response := self client forcePushEvent: self.	
 
 
 	" self isDirty ifTrue: [

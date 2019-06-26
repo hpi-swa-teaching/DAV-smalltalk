@@ -1,4 +1,4 @@
 accessing
 size
 
-	^ body size
+	^ content size

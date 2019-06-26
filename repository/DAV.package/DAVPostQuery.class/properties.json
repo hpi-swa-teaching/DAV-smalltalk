@@ -1,0 +1,14 @@
+{
+	"category" : "DAV-Web",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "DAVPostQuery",
+	"pools" : [
+		 ],
+	"super" : "DAVHttpQuery",
+	"type" : "normal" }

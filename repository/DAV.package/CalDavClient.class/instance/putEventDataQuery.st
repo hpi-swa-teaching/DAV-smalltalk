@@ -1,6 +1,5 @@
 queries
 putEventDataQuery
 
-	^ (WebRequest new)
-		method: 'PUT';
+	^ (DAVPutQuery new)
 		headerAt: 'Content-Type' put: 'text/calendar; charset=utf-8'

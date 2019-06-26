@@ -10,5 +10,5 @@ testFetchEventsDataQueryForHrefs
 	self assert: (query properties includes: 'd:getlastmodified').
 	self assert: (query properties includes: 'd:getcontenttype').
 	
-	self assert: (self query body includesSubstring: '<d:href>testUrl</d:href>').
-	self assert: (self query body matchesRegex: self regexForFetchEventDataQueryWithHrefs)
+	self assert: (self query content includesSubstring: '<d:href>testUrl</d:href>').
+	self assert: (self query content matchesRegex: self regexForFetchEventDataQueryWithHrefs)

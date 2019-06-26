@@ -1,5 +1,5 @@
 accessing
-body
+content
 			
 	self createXmlBody.
-	^ body
+	^ content

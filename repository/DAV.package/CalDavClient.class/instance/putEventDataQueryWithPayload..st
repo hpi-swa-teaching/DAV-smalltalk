@@ -1,6 +1,5 @@
 queries
 putEventDataQueryWithPayload: aString 
 
-	^ (WebRequest new)
-		method: 'PUT';
+	^ (DAVPutQuery new)
 		content: aString

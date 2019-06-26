@@ -8,8 +8,7 @@
 	"instvars" : [
 		"fullUrl",
 		"namespaces",
-		"properties",
-		"body" ],
+		"properties" ],
 	"name" : "WebDAVQuery",
 	"pools" : [
 		 ],

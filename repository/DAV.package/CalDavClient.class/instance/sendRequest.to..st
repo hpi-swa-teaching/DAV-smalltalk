@@ -1,12 +1,12 @@
 requests
 sendRequest: aQuery to: anUrl
 
-	| client response |
+	| response |
 	
 	self addAuthorizationInformation: aQuery.
-	client := self webDavClient new.
+	self webDAVClient: (WebDAVClient url: anUrl asString).
 	aQuery initializeFromUrl: anUrl asString.
-	response := client sendRequest: aQuery.
+	response := self webDAVClient sendRequest: aQuery.
 	
 	^ response.
 	

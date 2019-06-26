@@ -1,3 +1,4 @@
 accessing
-webDAVClient: anObject
-	webDAVClient := anObject
+webDAVClient: aWebDAVClient
+
+	webDAVClient := aWebDAVClient

@@ -4,7 +4,7 @@ sendPutTo: anUrl theRequest: payload withHeader: headerConfigs
 	| sendRequest |
 	sendRequest := [
 		| response |
-		response := self webDavClient new davPut: anUrl data: payload do: [:request |
+		response := self webDAVClient new davPut: anUrl data: payload do: [:request |
 			headerConfigs do: [:config | request headerAt: config key put: config value].
 			self addAuthorizationInformation: request].
 		^ self handleResponse: response.].

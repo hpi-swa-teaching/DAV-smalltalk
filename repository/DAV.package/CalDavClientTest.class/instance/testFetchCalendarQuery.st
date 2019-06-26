@@ -1,17 +1,8 @@
 tests - queries
 testFetchCalendarQuery
 
-	| query |
+	self query: self client fetchCalendarQuery.
 	
-	query := client fetchCalendarQuery.
-	query createXmlBody.
-	
-	self assert: 'PROPFIND' equals: query method.
-	
-	self assert: 'return-minimal' equals: (query headerAt: 'Prefer').
-	self assert: '1' equals: (query headerAt: 'Depth').
-	self assert: 'application/xml' equals: (query headerAt: 'Content-Type').
-	
-	self assert: CalDavClientTest mockFetchCalendarQueryBody equals: query body.
-	
-	
+	self assert: 'PROPFIND' equals: self query method.
+	self assert: (self hasCorrectHeaders: self query).
+	self assert: (self query content matchesRegex: self regexForFetchCalendarQuery)

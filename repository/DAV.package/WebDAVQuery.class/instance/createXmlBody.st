@@ -7,5 +7,5 @@ createXmlBody
 	xmlWriter xmlDeclaration: '1.0'.
 	self
 		createQuerySpecificXmlOn: xmlWriter;
-		body: xmlWriter flush stream contents;	
+		content: xmlWriter flush stream contents;	
 		headerAt: 'Content-Length' put: self size

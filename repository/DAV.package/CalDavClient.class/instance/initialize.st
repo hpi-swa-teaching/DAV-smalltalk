@@ -1,4 +1,4 @@
 initialization
 initialize
 	
-	self webDAVClient:  WebDAVClient new.
+	self webDAVClient:  WebDAVClient new

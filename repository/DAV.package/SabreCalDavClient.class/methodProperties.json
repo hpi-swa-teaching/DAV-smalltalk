@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"newWithUrl:username:password:" : "TSP 6/26/2019 16:12" },
 	"instance" : {
 		"addAuthorizationInformation:" : "c a 5/30/2019 17:19",
 		"assumesAuthorization" : "GL 5/15/2019 16:22",

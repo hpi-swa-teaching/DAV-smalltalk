@@ -5,7 +5,7 @@ sendReportTo: anUrl theRequest: queryString withHeader: headerConfigs
 	sendRequest := [
 		| response |
 		self halt.
-		response := self webDavClient new davReport: anUrl query: queryString do: [:request |
+		response := self webDAVClient new davReport: anUrl query: queryString do: [:request |
 			headerConfigs do: [:config | request headerAt: config key put: config value].
 			self addAuthorizationInformation: request].
 		^ self handleResponse: response.].

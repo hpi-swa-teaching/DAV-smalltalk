@@ -2,6 +2,8 @@ methods
 davReport: urlString namespaces: namespacesArray properties: propertiesArray queryType: aString
 
 	| request |
+		
+	self initializeFromUrl: urlString.
 	
 	request := CalDAVReportQuery
 		url: urlString

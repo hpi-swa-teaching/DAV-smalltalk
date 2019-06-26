@@ -4,7 +4,7 @@ sendGetTo: anUrl theRequest: query withHeader: headerConfigs
 	| sendRequest |
 	sendRequest := [
 		| response |
-		response := self webDavClient new davGet: anUrl query: query do: [:request |
+		response := self webDAVClient new davGet: anUrl query: query do: [:request |
 			headerConfigs do: [:config | request headerAt: config key put: config value].
 			self addAuthorizationInformation: request].
 		^ self handleResponse: response.].

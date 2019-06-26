@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"fullUrl",
-		"namespaces",
-		"properties" ],
-	"name" : "WebDAVQuery",
+		 ],
+	"name" : "DAVHttpQuery",
 	"pools" : [
 		 ],
-	"super" : "WebRequest",
+	"super" : "WebDAVQuery",
 	"type" : "normal" }

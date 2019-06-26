@@ -1,4 +1,4 @@
 queryBuilding
 createXmlBody
-	
+
 	self content: ''

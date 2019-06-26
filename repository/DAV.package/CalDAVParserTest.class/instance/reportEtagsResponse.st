@@ -1,4 +1,4 @@
-mockResponses
+helpers
 reportEtagsResponse
 
 	^ '<?xml version="1.0"?>

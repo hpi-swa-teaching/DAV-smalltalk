@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
+		"propfindResponse" : "JB 6/26/2019 20:54",
+		"reportEtagsResponse" : "JB 6/26/2019 20:54",
 		"setUp" : "TSP 5/15/2019 17:00",
-		"testCheckParsing" : "TSP 6/10/2019 22:08",
-		"testPropfindParsing" : "TSP 6/10/2019 22:11" } }
+		"testCheckParsing" : "JB 6/26/2019 20:54",
+		"testPropfindParsing" : "JB 6/26/2019 20:54" } }

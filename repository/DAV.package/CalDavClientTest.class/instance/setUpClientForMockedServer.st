@@ -1,6 +1,4 @@
 setup
 setUpClientForMockedServer
 
-	self client: (SabreCalDavClient url: self setUpDefaultMockedRoute username: '' password: '').
-	
-	^ self setUpDefaultMockedRoute
+	self client: (SabreCalDavClient url: self localHostUrl username: '' password: '')

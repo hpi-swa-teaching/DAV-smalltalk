@@ -1,10 +1,10 @@
 tests - fetching
-testFetchEtagsOfEvents
+testFetchEtagsOfEventsWithRealServer
 
-	| url eventData |
+	| eventData |
 
-	url := self setUpClientForRealServer. 
-	eventData := client fetchEtagsOfEventsFrom: url.
+	self setUpClientForRealServer. 
+	eventData := client fetchEtagsOfEventsFrom: self calendarUrlOnRealServer.
 	
 	self assert: 2 equals: eventData size.
 	

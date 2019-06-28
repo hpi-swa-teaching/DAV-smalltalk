@@ -1,4 +1,4 @@
-setup
+testUrls
 eventUrlOnRealServer
 	
 	^	'https://www.caldavserver.com/DAV/calendars/',

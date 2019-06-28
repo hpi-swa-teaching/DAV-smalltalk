@@ -1,10 +1,10 @@
 tests - fetching
 testFetchCalendarDataWithRealServer
 
-	| url calendarData |
+	| calendarData |
 
-	url := self setUpClientForRealServer.
-	calendarData := self client fetchCalendarDataFrom: url.
+	self setUpClientForRealServer.
+	calendarData := self client fetchCalendarDataFrom: self calendarUrlOnRealServer.
 	
 	self assert: 'Cal 1' equals: (calendarData at: #'d:displayname').
 	

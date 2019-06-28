@@ -1,8 +1,8 @@
 tests - requests
 testSendRequestTo
 
-	| url resp |
+	| resp |
 
-	url := self setUpClientForMockedServer.
-	resp := self client sendRequest: self query to: url.
+	self setUpClientForMockedServer.
+	resp := self client sendRequest: self query to: self defaultRouteOnMockedServer.
 	self assert: 200 equals: resp code

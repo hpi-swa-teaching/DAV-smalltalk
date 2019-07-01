@@ -1,10 +1,11 @@
 fetching
 fetchEtagOfEventFrom: anUrl
 
-	| response parsedInformation |
+	| response eventInformation |
+	
 	self assumesAuthorization.
 	response := self sendRequest: self fetchEtagOfEventQuery to: anUrl.
 
-	parsedInformation := self parseEventsInformation: response content.
+	eventInformation := self parseEventsInformation: response content.
 	
-	^ parsedInformation first at: #'d:getetag'
+	^ eventInformation first at: #'d:getetag'

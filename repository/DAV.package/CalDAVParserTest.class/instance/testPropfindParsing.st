@@ -4,7 +4,7 @@ testPropfindParsing
 	| parser response |
 	
 	parser := CalDAVParser new.
-	response := parser parsePropfindResponse: (CalDavTest propfindResponse).
+	response := parser parsePropfindResponse: (self propfindResponse).
 	
 	self assert: 'SWT (hendrik.patzlaff)' equals: (response at: #calendarName).
 	self assert: 'http://sabre.io/ns/sync/23' equals: (response at: #ctag).

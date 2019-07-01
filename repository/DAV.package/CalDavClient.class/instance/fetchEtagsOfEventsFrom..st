@@ -8,4 +8,3 @@ fetchEtagsOfEventsFrom: anUrl
 	response := self sendRequest: self fetchEtagsOfEventsQuery to: anUrl.
 	
 	^ self parseEventsInformation: response content
-

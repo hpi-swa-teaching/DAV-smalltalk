@@ -1,0 +1,4 @@
+testUrls
+eventUrlsOnRealServer
+
+	^ {self eventUrlOnRealServer}

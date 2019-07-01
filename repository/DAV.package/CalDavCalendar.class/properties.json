@@ -10,7 +10,8 @@
 		"serverData",
 		"calendarName",
 		"eventsDictionary",
-		"uidDictionary" ],
+		"uidDictionary",
+		"ctag" ],
 	"name" : "CalDavCalendar",
 	"pools" : [
 		 ],

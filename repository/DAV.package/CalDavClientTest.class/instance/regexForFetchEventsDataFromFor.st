@@ -1,5 +1,5 @@
 helpers
-regexForFetchEtagsOfEventsQueryWithHrefs
+regexForFetchEventsDataFromFor
 
 	^	'<\?xml  version="1.0" \?>\s*',
 		'<c\:calendar-multiget ',

@@ -1,5 +1,5 @@
 helpers
-eventsXml
+eventsICalData
 	
 	^	 '<?xml version="1.0" encoding="utf-8"?>',
 			'<d:multistatus xmlns:d="DAV:">',
@@ -15,7 +15,6 @@ eventsXml
 										'Sun, 09 Jun 2019 10:14:57 GMT',
 									'</d:getlastmodified>',
       							 '<d:getcontenttype>text/calendar</d:getcontenttype>',
-								'<cal:calendar-data>', self iCalData, '</cal:calendar-data>',
 							'</d:prop>',
 						'</d:propstat>',
 					'</d:response>',

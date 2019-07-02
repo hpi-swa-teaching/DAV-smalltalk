@@ -6,4 +6,5 @@ setUp
 	self query: DAVGetQuery new.
 	self setUpDefaultRouteOnMockedServer.
 	self setUpCalendarRouteOnMockedServer.
-	self setUpEventRouteOnMockedServer
+	self setUpEventRouteOnMockedServer.
+	self setUpCalendarRouteOnMockedServer

@@ -6,5 +6,5 @@ fetchEventsICalDataFrom: anUrl for: hrefArray
 	
 	query := self fetchEventsICalDataQueryFor: hrefArray.
 	response := self sendRequest: query to: anUrl.
-	
+	self halt.
 	^ self parseEventsICalData: response content

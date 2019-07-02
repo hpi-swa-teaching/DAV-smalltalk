@@ -7,5 +7,5 @@ fetchEventsDataFrom: anUrl for: hrefArray
 	
 	query := self fetchEventsDataQueryFor: hrefArray.
 	response := self sendRequest: query to: anUrl.
-	
+
 	^ self parseEventsInformation: response content

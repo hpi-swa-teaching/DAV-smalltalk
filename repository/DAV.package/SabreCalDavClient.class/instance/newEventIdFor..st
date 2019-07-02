@@ -1,4 +1,4 @@
-as yet unclassified
+events handling
 newEventIdFor: aCalendar
 
 	^ self newRandomId asString

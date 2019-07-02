@@ -5,8 +5,6 @@ fetchEventsDataFrom: anUrl
 	self assumesAuthorization.
 	
 	response := self sendRequest: self fetchEventsDataQuery to: anUrl.
-	"response := self sendPropfindTo: anUrl theRequest: self fetchEventsDataQuery .withHeader: {
-		'Prefer' -> 'return-minimal'.
-		'Depth' -> '1' }."
+	self handleResponse: response.
 	
 	^ self parseEventsInformation: response content

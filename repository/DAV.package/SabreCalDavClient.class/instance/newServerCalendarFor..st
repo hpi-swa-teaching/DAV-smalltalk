@@ -1,4 +1,4 @@
-as yet unclassified
+events handling
 newServerCalendarFor: aCalDavCalendar
 
 	^ ICCalendar new

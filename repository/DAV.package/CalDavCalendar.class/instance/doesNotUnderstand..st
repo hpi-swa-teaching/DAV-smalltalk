@@ -1,4 +1,4 @@
-error handling
+deprecated
 doesNotUnderstand: aMessage
 
 	| key |

@@ -8,4 +8,4 @@ fetchEtagOfEventFrom: anUrl
 	self handleResponse: response.
 	eventInformation := self parseEventsInformation: response content.
 	
-	^ eventInformation first at: #'d:getetag'
+	^ eventInformation first at: #getetag

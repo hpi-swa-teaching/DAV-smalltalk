@@ -1,5 +1,6 @@
-deprecated
+methods
 davDelete: anUrl do: aBlock
-	"deprecated"
+	
+	self initializeFromUrl: anUrl.
 
-	^ self sendDavRequest: anUrl method: 'DELETE' query: '' do: aBlock
+	^ self sendRequest: DAVDeleteQuery new do: aBlock

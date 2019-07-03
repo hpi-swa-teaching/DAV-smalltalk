@@ -1,4 +1,4 @@
-accessing
+events handling
 newEvent
 	
 	| newId event |

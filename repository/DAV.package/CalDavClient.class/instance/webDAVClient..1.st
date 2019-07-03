@@ -1,3 +1,0 @@
-accessing
-webDAVClient
-	^ webDAVClient

@@ -1,4 +1,4 @@
-accessing
+manipulating
 delete
 
-	^ self client deleteEvent: self at: self url at: self etag
+	^ self calendar removeEvent: self

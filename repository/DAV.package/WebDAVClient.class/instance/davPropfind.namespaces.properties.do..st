@@ -3,6 +3,8 @@ davPropfind: urlString namespaces: namespacesArray properties: propertiesArray d
 
 	| request |
 	
+	self initializeFromUrl: urlString.
+		
 	request := DAVPropfindQuery
 		url: urlString
 		namespaces: namespacesArray

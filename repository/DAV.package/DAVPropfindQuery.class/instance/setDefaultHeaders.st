@@ -1,4 +1,4 @@
-accessing
+initialization
 setDefaultHeaders	
 	
 	self

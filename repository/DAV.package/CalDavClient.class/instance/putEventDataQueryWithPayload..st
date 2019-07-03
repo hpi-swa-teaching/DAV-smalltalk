@@ -1,5 +1,5 @@
 queries
-putEventDataQueryWithPayload: aPayload 
+putEventDataQueryWithPayload: aString 
 
-	^ self putEventDataQuery
-		body: aPayload.
+	^ (DAVPutQuery new)
+		content: aString

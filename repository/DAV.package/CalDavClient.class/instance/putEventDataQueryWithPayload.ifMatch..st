@@ -1,5 +1,5 @@
 queries
-putEventDataQueryWithPayload: aPayload ifMatch: aData 
+putEventDataQueryWithPayload: aPayloadString ifMatch: anEtagString
 
-	^ (self putEventDataQueryWithPayload: aPayload)
-		headerAt: 'If-Match' put: aData
+	^ (self putEventDataQueryWithPayload: aPayloadString)
+		headerAt: 'If-Match' put: anEtagString

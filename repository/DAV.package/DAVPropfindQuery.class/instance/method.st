@@ -1,4 +1,4 @@
-queryBuilding
+accessing
 method
 
 	^ 'PROPFIND'

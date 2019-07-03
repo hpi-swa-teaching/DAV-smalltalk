@@ -1,4 +1,0 @@
-queryBuilding
-createXmlBody
-	
-	self body: ''

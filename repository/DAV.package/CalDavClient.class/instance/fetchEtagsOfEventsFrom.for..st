@@ -1,13 +1,12 @@
 fetching
-fetchEtagsOfEventsFrom: anUrl for: hrefArray
+fetchEtagsOfEventsFrom: anCalendarUrl for: eventUrlArray
 
 	| response query |
 	
 	self assumesAuthorization.
 	
-	query := self fetchEtagsOfEventsQueryFor: hrefArray.
-	
-	response := self sendRequest: query to: anUrl.
+	query := self fetchEtagsOfEventsQueryFor: eventUrlArray.
+	response := self sendRequest: query to: anCalendarUrl.
+	self handleResponse: response.
 	
 	^ self parseEventsInformation: response content
-

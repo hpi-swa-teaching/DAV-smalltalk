@@ -3,5 +3,5 @@
 		 },
 	"instance" : {
 		"setUp" : "JB 6/10/2019 11:01",
-		"testEmptySyncTokenDAVReportQuery" : "JB 6/11/2019 21:07",
-		"testWebDAVReportSyncTokenQuery" : "JB 6/11/2019 22:09" } }
+		"testEmptySyncTokenDAVReportQuery" : "JB 6/25/2019 20:38",
+		"testWebDAVReportSyncTokenQuery" : "JB 6/25/2019 20:38" } }

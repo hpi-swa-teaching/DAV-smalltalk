@@ -1,4 +1,4 @@
-authorization
+configuration
 newEventUrlFor: aCalendar
 
 	self subclassResponsibility

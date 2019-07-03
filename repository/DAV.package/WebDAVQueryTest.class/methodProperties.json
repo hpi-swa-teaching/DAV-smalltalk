@@ -12,5 +12,7 @@
 		"testMethodOfEmptyQueries" : "JB 6/24/2019 16:22",
 		"testNameSpacesDictionary" : "JB 6/11/2019 20:49",
 		"testNamespacesSetToLowerCase" : "JB 6/11/2019 20:50",
+		"testNewWithNamespacesAndProperties" : "JB 7/2/2019 11:45",
+		"testNewWithUrlAndNamespacesAndProperties" : "JB 7/2/2019 11:50",
 		"testPropertiesSetToLowerCase" : "JB 6/11/2019 20:50",
 		"testQueryCreation" : "JB 6/11/2019 20:50" } }

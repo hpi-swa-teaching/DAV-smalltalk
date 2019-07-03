@@ -6,6 +6,5 @@ fetchEventDataFrom: anUrl
 	
 	response := self sendRequest: self fetchEventDataQuery to: anUrl.
 
-
 	^ (self parseEventsInformation: response content) first
 	

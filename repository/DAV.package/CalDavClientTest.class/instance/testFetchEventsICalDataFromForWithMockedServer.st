@@ -13,5 +13,4 @@ testFetchEventsICalDataFromForWithMockedServer
 	self assert: 	'eventUrl' 
 		equals: ((eventData at: 1) at: #urlLocalPart).
 	self assert: '"eTag"' equals: ((eventData at: 1) at: #'d:getetag').
-	self assert: self iCalData
-		equals: ((eventData at: 1) at: #'cal:calendar-data').
+	self assert: '-//ownCloud calendar v1.6.2' equals: ((eventData at: 1) at: #'calendarData') productId

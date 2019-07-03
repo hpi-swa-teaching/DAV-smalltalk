@@ -10,6 +10,6 @@ parseEventICalData: anEventNode
 		#'calendar-data')].
 	iCalString := parsedEventNode contents first string.
 	resultProperties at: #calendarData put: (self parseICalData: iCalString withInternetLineEndings).
-	resultProperties removeKey: #'cal:calendar-data' ifAbsent: [].	
-	
+	"resultProperties removeKey: #'cal:calendar-data' ifAbsent: [].	"
+
 	^ resultProperties

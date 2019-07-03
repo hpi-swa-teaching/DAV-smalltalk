@@ -1,4 +1,4 @@
-as yet unclassified
+configuration
 newEventUrlFor: aCalendar
 
 	self subclassResponsibility

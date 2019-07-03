@@ -1,7 +1,6 @@
-accessing
+initialization
 initialize
-
-	"self events: Set new"
 	
 	self eventsDictionary: Dictionary new.
 	self uidDictionary: Dictionary new.
+	self calendarColor: (Color fromString: ('#00000000'))

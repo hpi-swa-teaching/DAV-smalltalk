@@ -1,10 +1,11 @@
 tests - methods
 testDAVEmptyPropfind
 
-	| resp url |
+	| resp |
 
-	url := self setUpMockedPropfindRoute.
+	self client initializeFromUrl: self setUpMockedPropfindRoute.
 
-	query := DAVPropfindQuery empty.
-	resp := self client davPropfind: url properties: query.
+	self query: DAVPropfindQuery empty.
+	self query initializeFromUrl: self setUpMockedPropfindRoute.
+	resp := self client sendRequest: self query.
 	self assert: 200 equals: resp code

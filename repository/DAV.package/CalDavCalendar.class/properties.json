@@ -7,11 +7,13 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"url",
-		"serverData",
 		"calendarName",
 		"eventsDictionary",
 		"uidDictionary",
-		"ctag" ],
+		"ctag",
+		"syncToken",
+		"contentType",
+		"calendarColor" ],
 	"name" : "CalDavCalendar",
 	"pools" : [
 		 ],

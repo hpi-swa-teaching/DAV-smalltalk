@@ -1,0 +1,4 @@
+testUrls
+eventUrlsOnMockedServer
+
+	^ {self eventUrlOnMockedServer}

@@ -1,8 +1,8 @@
 {
 	"class" : {
 		"calendarFieldsMapping" : "TSP 5/30/2019 16:05",
-		"exampleCreateAndPushEvent" : "TSP 7/9/2019 14:29",
-		"exampleCreateEvent" : "TSP 7/9/2019 14:32",
+		"exampleCreateAndPushEvent" : "TSP 7/9/2019 15:25",
+		"exampleCreateEvent" : "TSP 7/9/2019 15:25",
 		"exampleCreateEventManually" : "TSP 7/9/2019 14:35",
 		"exampleSetUpCalendar" : "TSP 7/9/2019 14:18",
 		"exampleUpdateCalendar" : "TSP 7/9/2019 14:22" },
@@ -17,8 +17,8 @@
 		"collectHrefsToFetch:" : "TSP 6/26/2019 16:06",
 		"contentType" : "TSP 7/2/2019 12:08",
 		"contentType:" : "TSP 7/2/2019 12:08",
-		"createAndPushEven:StartDate:EndDate:Recurrence:" : "c a 7/9/2019 14:06",
 		"createAndPushEvent:StartDate:EndDate:" : "c a 7/9/2019 14:05",
+		"createAndPushEvent:StartDate:EndDate:Recurrence:" : "TSP 7/9/2019 15:23",
 		"createAndPushFullDayEvent:Date:Recurrence:" : "c a 7/9/2019 14:07",
 		"createAndPushFullDayEvent:withDate:" : "c a 7/9/2019 14:06",
 		"createEvent:StartDate:EndDate:" : "c a 7/9/2019 14:05",

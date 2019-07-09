@@ -1,5 +1,5 @@
 pushing events
-createAndPushEven: aSummary StartDate: aStartData EndDate: anEndDate Recurrence: aRecurrenceRule
+createAndPushEvent: aSummary StartDate: aStartData EndDate: anEndDate Recurrence: aRecurrenceRule
 
 	| newEvent |
 	

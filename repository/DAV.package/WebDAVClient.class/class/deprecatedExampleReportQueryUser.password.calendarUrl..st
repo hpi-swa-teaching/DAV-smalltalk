@@ -1,5 +1,5 @@
 documentation
-deprecatedExampleReportQueryUser: aUsername password: aPassword url: aCalendarUrl
+deprecatedExampleReportQueryUser: aUsername password: aPassword calendarUrl: aCalendarUrl
 "EmptyPropfindQuery returns eTags of all Calendar Events"
 
 	| client url response |

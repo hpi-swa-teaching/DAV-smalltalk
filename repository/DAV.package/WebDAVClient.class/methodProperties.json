@@ -1,5 +1,7 @@
 {
 	"class" : {
+		"deprecatedExampleReportQueryUser:password:calendarUrl:" : "GL 7/9/2019 12:34",
+		"exampleEmptyPropfindUser:password:calendarUrl:" : "GL 7/9/2019 12:34",
 		"exampleGetQueryUser:password:eventUrl:" : "JB 7/9/2019 12:33",
 		"examplePropfindQueryCreationUser:password:calendarUrl:" : "JB 7/9/2019 12:45",
 		"examplePropfindQueryUser:password:calendarUrl:" : "JB 7/9/2019 12:45",

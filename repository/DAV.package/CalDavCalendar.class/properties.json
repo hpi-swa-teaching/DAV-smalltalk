@@ -9,7 +9,6 @@
 		"url",
 		"calendarName",
 		"eventsDictionary",
-		"uidDictionary",
 		"ctag",
 		"syncToken",
 		"contentType",

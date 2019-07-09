@@ -7,6 +7,5 @@ Instance Variables
 	ctag:		String
 	eventsDictionary:		Dictionary
 	syncToken:		String
-	uidDictionary:		Dictionary
 	url:		Url
 

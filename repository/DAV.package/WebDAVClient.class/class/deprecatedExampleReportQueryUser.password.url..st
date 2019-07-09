@@ -1,12 +1,12 @@
 documentation
-deprecatedExampleReportQueryUser: aUsername password: aPassword url: anUrl
+deprecatedExampleReportQueryUser: aUsername password: aPassword url: aCalendarUrl
 "EmptyPropfindQuery returns eTags of all Calendar Events"
 
 	| client url response |
 	client := WebDAVClient new. 
 	client username: aUsername. 
 	client password: aPassword.   
-	url := anUrl. 
+	url := aCalendarUrl. 
 
 	response := client davReport: url
 					namespaces: #((c 'urn:ietf:params:xml:ns:caldav'))

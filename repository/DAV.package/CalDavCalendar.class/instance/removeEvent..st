@@ -3,9 +3,9 @@ removeEvent: anEvent
 
 	| key |
 	
+	self client deleteEvent: anEvent.
 	key := anEvent url schemeSpecificPart asSymbol.
 	self eventsDictionary removeKey: key ifAbsent: [].
-	self client deleteEvent: anEvent.
 	anEvent setDirty.
 	
 	^ anEvent

@@ -1,9 +1,12 @@
 {
 	"class" : {
 		"ClientRegistry" : "pre 1/20/2017 10:47",
+		"exampleFetchInformationOfEvent" : "TSP 7/9/2019 11:38",
+		"exampleFetchInformationOfEvents" : "TSP 7/9/2019 11:59",
+		"exampleFetchInformationOfSpecificEvents" : "TSP 7/9/2019 11:46",
+		"exampleSetUpClient" : "TSP 7/9/2019 11:21",
 		"registerClient:for:" : "pre 1/20/2017 15:55",
-		"registeredClientFor:" : "pre 1/20/2017 15:53",
-		"setUpClient" : "TSP 7/9/2019 11:19" },
+		"registeredClientFor:" : "pre 1/20/2017 15:53" },
 	"instance" : {
 		"addAuthorizationInformation:" : "pre 1/20/2017 10:55",
 		"assumesAuthorization" : "pre 1/20/2017 10:54",
@@ -26,8 +29,10 @@
 		"fetchEventsDataFrom:for:" : "c a 7/6/2019 19:13",
 		"fetchEventsDataQuery" : "JB 6/24/2019 15:07",
 		"fetchEventsDataQueryFor:" : "JB 6/24/2019 15:53",
+		"fetchEventsICalDataFrom:" : "TSP 7/9/2019 11:56",
 		"fetchEventsICalDataFrom:for:" : "c a 7/6/2019 19:14",
-		"fetchEventsICalDataQueryFor:" : "JB 6/24/2019 15:59",
+		"fetchEventsICalDataQuery" : "TSP 7/9/2019 11:55",
+		"fetchEventsICalDataQueryFor:" : "TSP 7/9/2019 11:54",
 		"forcePushEvent:" : "TSP 6/26/2019 16:44",
 		"handleResponse:" : "TSP 7/2/2019 11:56",
 		"handleSerializedEventData:" : "TSP 6/16/2019 12:49",

@@ -1,11 +1,12 @@
 {
 	"class" : {
 		"deprecatedExampleReportQueryUser:password:calendarUrl:" : "GL 7/9/2019 12:34",
+		"exampleDeleteQueryUser:password:eventUrl:" : "GL 7/9/2019 12:49",
 		"exampleEmptyPropfindUser:password:calendarUrl:" : "GL 7/9/2019 12:34",
 		"url:" : "JB 7/2/2019 11:38",
 		"url:username:password:" : "JB 7/2/2019 11:33" },
 	"instance" : {
-		"davDelete:do:" : "JB 7/2/2019 12:21",
+		"davDelete:do:" : "GL 7/9/2019 12:42",
 		"davGet:data:do:" : "JB 7/2/2019 12:19",
 		"davPropfind:namespaces:properties:" : "ph 6/26/2019 15:53",
 		"davPropfind:namespaces:properties:do:" : "ph 6/26/2019 15:54",

@@ -1,6 +1,10 @@
 methods
 davDelete: anUrl do: aBlock
 	
+	| request |
 	self initializeFromUrl: anUrl.
+	
+	request := DAVDeleteQuery new.
+	request initializeFromUrl: anUrl.
 
-	^ self sendRequest: DAVDeleteQuery new do: aBlock
+	^ self sendRequest: request do: aBlock

@@ -2,7 +2,8 @@
 	"class" : {
 		"ClientRegistry" : "pre 1/20/2017 10:47",
 		"registerClient:for:" : "pre 1/20/2017 15:55",
-		"registeredClientFor:" : "pre 1/20/2017 15:53" },
+		"registeredClientFor:" : "pre 1/20/2017 15:53",
+		"setUpClient" : "TSP 7/9/2019 11:19" },
 	"instance" : {
 		"addAuthorizationInformation:" : "pre 1/20/2017 10:55",
 		"assumesAuthorization" : "pre 1/20/2017 10:54",

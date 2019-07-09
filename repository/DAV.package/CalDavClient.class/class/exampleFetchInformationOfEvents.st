@@ -1,7 +1,7 @@
 usage
 exampleFetchInformationOfEvents
 
-	| calendarUrl client eventsData etagsOfAllEvents|
+	| calendarUrl client eventsData etagsOfAllEvents eventsICalData |
 	"client must be already set up"
 	
 	calendarUrl := 'https://calendarUrl'.
@@ -9,3 +9,4 @@ exampleFetchInformationOfEvents
 	
 	eventsData := client fetchEventsDataFrom: calendarUrl.
 	etagsOfAllEvents := client fetchEtagsOfEventsFrom: calendarUrl.
+	eventsICalData := client fetchEventsICalDataFrom: calendarUrl.	

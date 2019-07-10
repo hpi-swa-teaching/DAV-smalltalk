@@ -16,6 +16,12 @@ Run this command in workspace, to load all required packages.
 To get an overview of the library, the following pictures can help. 
 
 ### WebDAV
+
+Current features:
+
+- object representation of WebDAV queries (PROPFIND, REPORT) and wrapper objects for standard http queries (GET, PUT, DELETE) extending WebRequest
+- WebDAVClient extending WebClient providing convinience methods for sending WebDAV requests
+
 General structure of WebDAV package:
 ![image has been removed](https://owncloud.hpi.de/s/gd43fYnczuRjJNZ/download)
 

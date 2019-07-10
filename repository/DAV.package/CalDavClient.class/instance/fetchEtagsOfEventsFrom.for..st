@@ -7,6 +7,5 @@ fetchEtagsOfEventsFrom: anCalendarUrl for: eventUrlArray
 	
 	query := self fetchEtagsOfEventsQueryFor: eventUrlArray.
 	response := self sendRequest: query to: anCalendarUrl.
-	self handleResponse: response.
 	
 	^ self parseEventsInformation: response content

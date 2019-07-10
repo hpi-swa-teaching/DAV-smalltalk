@@ -17,6 +17,7 @@
 		"setUp" : "JB 6/10/2019 20:48",
 		"setUpMockedPropfindRoute" : "JB 6/12/2019 14:43",
 		"setUpMockedReportRoute" : "JB 6/12/2019 14:43",
+		"setUpMockedStandardHttpRoute" : "JB 7/10/2019 14:15",
 		"setUpRealTestServer" : "JB 6/12/2019 14:25",
 		"testCalDAVReportWithRealServer" : "ph 6/26/2019 16:06",
 		"testDAVEmptyPropfind" : "JB 7/2/2019 12:09",
@@ -26,5 +27,8 @@
 		"testDAVReportNamespacesPropertiesQueryType" : "JB 6/12/2019 14:25",
 		"testDAVReportNamespacesPropertiesQueryTypeFilters" : "JB 6/12/2019 14:25",
 		"testDAVReportNamespacesPropertiesQueryTypeFiltersDo" : "JB 6/12/2019 14:25",
+		"testDavDelete" : "JB 7/10/2019 14:17",
+		"testDavGet" : "JB 7/10/2019 14:16",
+		"testDavPut" : "JB 7/10/2019 14:21",
 		"testNewWithUrl" : "JB 7/2/2019 11:31",
 		"testNewWithUrlAndUsernameAndPassword" : "JB 7/2/2019 11:32" } }

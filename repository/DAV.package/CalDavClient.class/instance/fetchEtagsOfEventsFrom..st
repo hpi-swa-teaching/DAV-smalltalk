@@ -6,6 +6,5 @@ fetchEtagsOfEventsFrom: anUrl
 	self assumesAuthorization.
 	
 	response := self sendRequest: self fetchEtagsOfEventsQuery to: anUrl.
-	self handleResponse: response.
 	
 	^ self parseEventsInformation: response content

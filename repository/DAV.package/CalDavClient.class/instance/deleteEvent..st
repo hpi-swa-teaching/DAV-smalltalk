@@ -1,10 +1,11 @@
 deleting
 deleteEvent: anEvent
 
-	| response |
+	| response query |
 	
 	self assumesAuthorization.
+	query := DAVDeleteQuery new.
+	query headerAt: 'If-Match' put: anEvent etag.
+	response := self sendRequest: query to: anEvent url.
 	
-	response := self sendRequest: DAVDeleteQuery new to: anEvent url.
-	
-	^ anEvent
+	^ self handleResponse: response

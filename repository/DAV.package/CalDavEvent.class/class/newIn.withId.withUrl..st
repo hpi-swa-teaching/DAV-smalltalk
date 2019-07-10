@@ -1,4 +1,4 @@
-as yet unclassified
+creating
 newIn: calendar withId: id withUrl: url
 
 	^ self new

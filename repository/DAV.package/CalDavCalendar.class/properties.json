@@ -4,12 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "TSP 7/9/2019 13:50",
 	"instvars" : [
 		"url",
 		"calendarName",
 		"eventsDictionary",
-		"uidDictionary",
 		"ctag",
 		"syncToken",
 		"contentType",

@@ -7,4 +7,5 @@ newEvent
 		newIn: self 
 		withId: newId
 		withUrl: (self client eventUrlFor: self withId: newId).
+	event setClean.
 	^ event

@@ -7,5 +7,4 @@ removeDeletedEvents: updateInformation
 				
 	urlsToRemove do: [ :elem |
 		self eventsDictionary removeKey: elem ifAbsent: [].
-		self uidDictionary removeKey: elem serverData uid ifAbsent: [].
 		].

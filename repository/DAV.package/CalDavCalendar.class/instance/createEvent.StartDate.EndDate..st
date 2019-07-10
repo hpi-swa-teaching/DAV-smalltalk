@@ -1,5 +1,5 @@
 creating events
-createEventWithSummary: aSummary withStartDate: aStartData withEndDate: anEndDate
+createEvent: aSummary StartDate: aStartData EndDate: anEndDate
 
 	| newEvent |
 	

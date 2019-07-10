@@ -6,5 +6,6 @@ davGet: anUrl data: aString do: aBlock
 	self initializeFromUrl: anUrl.
 	
 	request := DAVGetQuery new content: aString.
+	request initializeFromUrl: anUrl.
 
 	^ self sendRequest: request do: aBlock

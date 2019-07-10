@@ -1,5 +1,5 @@
 creating events
-createEventWithSummary: aSummary withStartDate: aStartData withEndDate: anEndDate withRecurrence: aRecurrenceRule
+createEvent: aSummary StartDate: aStartData EndDate: anEndDate Recurrence: aRecurrenceRule
 
 	| newEvent |
 	

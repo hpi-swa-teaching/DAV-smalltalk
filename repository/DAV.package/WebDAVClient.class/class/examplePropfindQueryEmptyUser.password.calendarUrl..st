@@ -1,5 +1,5 @@
-documentation
-exampleEmptyPropfindUser: aUsername password: aPassword calendarUrl: aCalendarUrl
+usage
+examplePropfindQueryEmptyUser: aUsername password: aPassword calendarUrl: aCalendarUrl
 "EmptyPropfindQuery returns eTags of all Calendar Events"
 
 	| client url res |

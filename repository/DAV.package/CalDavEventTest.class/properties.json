@@ -1,0 +1,16 @@
+{
+	"category" : "DAV-Cal-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"client",
+		"query",
+		"calendar" ],
+	"name" : "CalDavEventTest",
+	"pools" : [
+		 ],
+	"super" : "WebClientServerTest",
+	"type" : "normal" }

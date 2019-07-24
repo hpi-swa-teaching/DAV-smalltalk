@@ -6,5 +6,6 @@ removeDeletedEvents: updateInformation
 						difference: (updateInformation collect: [:info | info at: #urlLocalPart asSymbol])).
 				
 	urlsToRemove do: [ :elem |
+		self eventsDictionary at: elem setDirty.
 		self eventsDictionary removeKey: elem ifAbsent: [].
 		].

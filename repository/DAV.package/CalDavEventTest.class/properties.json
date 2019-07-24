@@ -7,7 +7,6 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"client",
-		"query",
 		"calendar" ],
 	"name" : "CalDavEventTest",
 	"pools" : [

@@ -1,4 +1,4 @@
-manipulating
+accessing
 setDirty
 
 	dirty := true.

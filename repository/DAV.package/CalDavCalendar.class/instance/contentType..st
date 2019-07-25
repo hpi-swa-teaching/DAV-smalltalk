@@ -1,3 +1,4 @@
 accessing
-contentType: anObject
-	contentType := anObject
+contentType: aString
+
+	contentType := aString

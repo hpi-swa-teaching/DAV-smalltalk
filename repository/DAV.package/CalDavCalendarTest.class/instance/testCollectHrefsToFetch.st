@@ -24,5 +24,4 @@ testCollectHrefsToFetch
 		self assert: (hrefsToFetch includes: (((self updateInformation at: i) at: #url) asString) ).
 	].
 
-	self assert: (hrefsToFetch includes: ('https://', self calendarAuthority , (hrefs at: 1))).
-	
+	self assert: (hrefsToFetch includes: ('https://', self calendarAuthority , (hrefs at: 1)))	

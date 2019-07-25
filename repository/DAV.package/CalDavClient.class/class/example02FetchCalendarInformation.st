@@ -1,4 +1,4 @@
-usage
+examples
 example02FetchCalendarInformation
 
 	| calendarUrl client calendarData |
@@ -7,4 +7,4 @@ example02FetchCalendarInformation
 	calendarUrl := 'https://calendarUrl'.
 	"full url of calendar server"
 	
-	calendarData := client fetchCalendarDataFrom: calendarUrl.	
+	calendarData := client fetchCalendarDataFrom: calendarUrl	

@@ -24,5 +24,4 @@ testRemoveDeletedEvents
 		self assert: (self calendar eventsDictionary includes: (hrefs at: i) asSymbol) not.
 	].
 
-	self assert: (self calendar eventsDictionary includesKey: (hrefs at: 1) asSymbol).
-	
+	self assert: (self calendar eventsDictionary includesKey: (hrefs at: 1) asSymbol)

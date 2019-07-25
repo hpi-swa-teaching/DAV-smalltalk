@@ -4,9 +4,9 @@ createAndPushEvent: aSummary StartDate: aStartData EndDate: anEndDate Recurrence
 	| newEvent |
 	
 	newEvent := self createEvent: aSummary 
-			StartDate: aStartData 
-			EndDate: anEndDate 
-			Recurrence: aRecurrenceRule.
+					startDate: aStartData 
+					endDate: anEndDate
+					recurrence: aRecurrenceRule.
 	self client forcePushEvent: newEvent.
 		
 	^ newEvent

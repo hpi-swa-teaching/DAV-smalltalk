@@ -1,4 +1,4 @@
-accessing
+initialization
 initializeServerData
 
 	self serverData: (ICEvent new
@@ -10,5 +10,4 @@ initializeServerData
 		
 	self serverCalendar: (self client newServerCalendarFor: self calendar).
 	
-	self serverCalendar events add: self serverData.
-		
+	self serverCalendar events add: self serverData		

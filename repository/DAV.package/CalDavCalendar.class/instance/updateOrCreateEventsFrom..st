@@ -3,7 +3,7 @@ updateOrCreateEventsFrom: iCalData
 
 	iCalData do: [ :elem |
 		| url etag event iCalendar |
-		url := self buildUrlFor: (elem at: #urlLocalPart).
+		url := self buildUrlFrom: (elem at: #urlLocalPart).
 		etag := elem at: #'getetag'.
 		iCalendar := elem at: #calendarData.
 		 
@@ -14,4 +14,4 @@ updateOrCreateEventsFrom: iCalData
 		event serverData: iCalendar events first.
 		event setClean.
 		self addEvent: event.
-		].	
+		]

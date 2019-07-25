@@ -8,4 +8,4 @@ sendRequest: aQuery to: anUrl
 	aQuery initializeFromUrl: anUrl asString.
 	
 	response := self webDAVClient sendRequest: aQuery.
-	^ self handleResponse: response.
+	^ self handleResponse: response

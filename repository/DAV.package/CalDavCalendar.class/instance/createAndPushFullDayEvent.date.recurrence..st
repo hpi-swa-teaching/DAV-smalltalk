@@ -1,11 +1,11 @@
 pushing events
-createAndPushFullDayEvent: aSummary Date: aDate Recurrence: aRecurrenceRule
+createAndPushFullDayEvent: aSummary date: aDate recurrence: aRecurrenceRule
 
 	| newEvent |
 	
 	newEvent := self createFullDayEvent: aSummary 
-				Date: aDate 
-				Recurrence: aRecurrenceRule.
+				date: aDate 
+				recurrence: aRecurrenceRule.
 	self client forcePushEvent: newEvent.
 		
 	^ newEvent

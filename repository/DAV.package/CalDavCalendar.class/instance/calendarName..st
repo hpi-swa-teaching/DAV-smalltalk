@@ -1,4 +1,4 @@
 accessing
-calendarName: anObject
+calendarName: aString
 
-	calendarName := anObject
+	calendarName := aString

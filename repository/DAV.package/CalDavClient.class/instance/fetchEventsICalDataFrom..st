@@ -2,6 +2,7 @@ fetching
 fetchEventsICalDataFrom: anUrl
 
 	| response query |
+	
 	self assumesAuthorization.
 	
 	query := self fetchEventsICalDataQuery.

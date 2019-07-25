@@ -1,4 +1,4 @@
 ICEvent accessing
-summary: aSummary
+summary: aString
 
-	^ self serverData summary: aSummary
+	^ self serverData summary: aString

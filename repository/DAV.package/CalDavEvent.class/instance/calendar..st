@@ -1,4 +1,4 @@
 accessing
-calendar: anObject
+calendar: anCalDavCalendar
 
-	calendar := anObject
+	calendar := anCalDavCalendar

@@ -11,6 +11,6 @@ updateInformation
 		dict at: #urlLocalPart put: (self hrefsOfEvents at: i).
 		dict at: #url put: ('https://', self calendarAuthority , (self hrefsOfEvents at: i)) asURI.
 		updateInformation add: dict
-		].
+	].
 	
 	^ updateInformation

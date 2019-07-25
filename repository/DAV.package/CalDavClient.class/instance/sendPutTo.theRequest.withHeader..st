@@ -10,4 +10,4 @@ sendPutTo: anUrl theRequest: payload withHeader: headerConfigs
 		^ self handleResponse: response.].
 	
 	[sendRequest on: CalDavRetryException do: sendRequest]
-		on: CalDavRetryException do: [Exception signal].
+		on: CalDavRetryException do: [Exception signal]

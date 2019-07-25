@@ -1,4 +1,4 @@
-usage
+examples
 example03FetchInformationOfEvent
 
 	| eventUrl client eventData eventICalData etagOfEvent|
@@ -9,4 +9,4 @@ example03FetchInformationOfEvent
 	
 	eventData := client fetchEventDataFrom: eventUrl.
 	eventICalData := client fetchEventICalDataFrom: eventUrl.
-	etagOfEvent := client fetchEtagOfEventFrom: eventUrl.
+	etagOfEvent := client fetchEtagOfEventFrom: eventUrl

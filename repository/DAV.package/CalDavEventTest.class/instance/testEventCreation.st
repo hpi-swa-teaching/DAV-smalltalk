@@ -5,5 +5,5 @@ testEventCreation
 	
 	event := CalDavEvent newIn: self calendar withUrl: self calendarUrl.
 	self assert: self calendar equals: event calendar.
-	self assert: self calendarUrl equals: event url.
+	self assert: self calendarUrl equals: event url
 	 

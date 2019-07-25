@@ -1,4 +1,4 @@
-usage
+examples
 example03CreateEvent
 
 	| calendar event recurrentEvent fullDayEvent |
@@ -6,15 +6,15 @@ example03CreateEvent
 	"events are created locally but not pushed on the server"
 	
 	event := calendar createEvent: 'Summary'
-		StartDate:  (DateAndTime year: 2019 month: #July day: 15 hour: 14 minute: 30)
-		EndDate: (DateAndTime year: 2019 month: #July day: 15 hour: 17 minute: 0).
+		startDate:  (DateAndTime year: 2019 month: #July day: 15 hour: 14 minute: 30)
+		endDate: (DateAndTime year: 2019 month: #July day: 15 hour: 17 minute: 0).
 		
 	recurrentEvent := calendar createEvent: 'Summary'
-		StartDate:  (DateAndTime year: 2019 month: #July day: 15 hour: 14 minute: 30)
-		EndDate: (DateAndTime year: 2019 month: #July day: 15 hour: 17 minute: 0)
-		Recurrence: ICRecurrenceRule weekly.
+		startDate:  (DateAndTime year: 2019 month: #July day: 15 hour: 14 minute: 30)
+		endDate: (DateAndTime year: 2019 month: #July day: 15 hour: 17 minute: 0)
+		recurrence: ICRecurrenceRule weekly.
 		
 	fullDayEvent := calendar createFullDayEvent: 'Summary'
-		Date:  (Date year: 2019 month: #June day: 26)
-		Recurrence: ICRecurrenceRule weekly.
+		date:  (Date year: 2019 month: #June day: 26)
+		recurrence: ICRecurrenceRule weekly.
 	

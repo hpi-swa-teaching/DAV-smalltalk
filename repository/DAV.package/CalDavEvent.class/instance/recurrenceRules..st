@@ -1,4 +1,4 @@
 ICEvent accessing
-recurrenceRules: aRulesCollection
+recurrenceRules: aCollection
 
-	^ self serverData recurrenceRules: aRulesCollection
+	^ self serverData recurrenceRules: aCollection

@@ -1,4 +1,4 @@
-usage
+examples
 example01SetUpClient 
 
 	| client url |
@@ -8,4 +8,4 @@ example01SetUpClient
 	client username: 'Max'. 
 	client password: '12345678'. 
 	url := 'https://urlOfTheCalendar'. 
-	CalDavClient registerClient: client for: url.
+	CalDavClient registerClient: client for: url

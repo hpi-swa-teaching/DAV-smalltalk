@@ -8,8 +8,8 @@ testCreateEvent
 	endDate := (DateAndTime year: 2019 month: #July day: 15 hour: 17 minute: 0).
 	
 	event := self calendar createEvent: summary
-		StartDate:  startDate
-		EndDate: endDate.
+		startDate:  startDate
+		endDate: endDate.
 		
 	self assert: summary equals: event summary.
 	self assert: startDate equals: event start.

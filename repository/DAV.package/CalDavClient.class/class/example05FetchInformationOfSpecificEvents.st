@@ -1,4 +1,4 @@
-usage
+examples
 example05FetchInformationOfSpecificEvents
 
 	| calendarUrl client href1 href2 hrefArray 
@@ -16,4 +16,4 @@ example05FetchInformationOfSpecificEvents
 	
 	specificEventsData := client fetchEventsDataFrom: calendarUrl for: hrefArray.
 	etagsOfSpecificEvents := client fetchEtagsOfEventsFrom: calendarUrl for: hrefArray.
-	specificEventsICalData := client fetchEventsICalDataFrom: calendarUrl for: hrefArray.	
+	specificEventsICalData := client fetchEventsICalDataFrom: calendarUrl for: hrefArray

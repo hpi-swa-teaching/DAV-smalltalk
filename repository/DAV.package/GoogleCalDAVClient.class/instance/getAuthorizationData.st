@@ -11,4 +11,4 @@ getAuthorizationData
 	result := WebClient httpPost: 'https://accounts.google.com/o/oauth2/device/code' 
 				content: postBody 
 				type: 'application/x-www-form-urlencoded'.
-	^ WebUtils jsonMapFrom: (ReadStream on: result content).
+	^ WebUtils jsonMapFrom: (ReadStream on: result content)

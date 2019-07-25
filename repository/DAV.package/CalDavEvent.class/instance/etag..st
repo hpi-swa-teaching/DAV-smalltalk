@@ -1,4 +1,4 @@
 accessing
-etag: anObject
+etag: aString
 
-	etag := anObject
+	etag := aString

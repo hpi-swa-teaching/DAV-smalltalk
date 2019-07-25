@@ -1,4 +1,4 @@
 accessing
-eventsDictionary: anObject
+eventsDictionary: aDictionary
 
-	eventsDictionary := anObject
+	eventsDictionary := aDictionary

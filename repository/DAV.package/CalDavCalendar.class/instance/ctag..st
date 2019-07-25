@@ -1,3 +1,4 @@
 accessing
-ctag: anObject
-	ctag := anObject
+ctag: aString
+
+	ctag := aString

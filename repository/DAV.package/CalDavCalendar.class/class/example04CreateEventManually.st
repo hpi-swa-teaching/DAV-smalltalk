@@ -1,4 +1,4 @@
-usage
+examples
 example04CreateEventManually
 
 	| calendar event |

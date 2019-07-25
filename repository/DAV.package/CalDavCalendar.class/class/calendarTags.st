@@ -1,8 +1,7 @@
 constants
 calendarTags
 	
-	^ {
-		#'d:displayname' .
+	^ {	#'d:displayname' .
 		#'d:getcontenttype' .
 		#'cs:getctag'.
 		#'d:sync-token'.

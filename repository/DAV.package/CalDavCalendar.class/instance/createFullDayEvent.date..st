@@ -1,5 +1,5 @@
 creating events
-createFullDayEvent: aSummary Date: aDate
+createFullDayEvent: aSummary date: aDate
 
 	| newEvent |
 	

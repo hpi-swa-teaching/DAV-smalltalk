@@ -1,4 +1,4 @@
-usage
+examples
 example08DeleteEvent
 
 	| client anEvent |
@@ -6,5 +6,5 @@ example08DeleteEvent
 	"an Event must already have an URL (authority of the server + local part (href))"
 	
 	client deleteEvent: anEvent. 		   "delete only if anEvent is the same version as on the server" 	
-	client forceDeleteEvent: anEvent.  "delete anyway"
+	client forceDeleteEvent: anEvent  "delete anyway"
 	

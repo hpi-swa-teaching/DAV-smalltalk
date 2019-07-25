@@ -1,4 +1,4 @@
 ICEvent accessing
-end: anEndDate
+end: aDate
 
-	^ self serverData end: anEndDate
+	^ self serverData end: aDate

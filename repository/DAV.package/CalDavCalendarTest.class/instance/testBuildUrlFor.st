@@ -4,7 +4,7 @@ testBuildUrlFor
 	| href url |
 	
 	href := '/remote/eventId.ics'.
-	url := self calendar buildUrlFor: href.
+	url := self calendar buildUrlFrom: href.
 	
 	self assert: 'calendarAuthority' equals: url authority asString.
 	self assert: '/remote/eventId.ics' equals: url schemeSpecificPart.

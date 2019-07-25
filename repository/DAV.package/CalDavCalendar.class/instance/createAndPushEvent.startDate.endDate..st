@@ -1,11 +1,11 @@
 pushing events
-createAndPushEvent: aSummary StartDate: aStartData EndDate: anEndDate
+createAndPushEvent: aSummary startDate: aStartData endDate: anEndDate
 
 	| newEvent |
 	
 	newEvent := self createEvent: aSummary 
-				StartDate: aStartData 
-				EndDate: anEndDate.
+					startDate: aStartData 
+					endDate: anEndDate.
 	self client forcePushEvent: newEvent.
 		
 	^ newEvent

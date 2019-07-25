@@ -1,12 +1,12 @@
 creating events
-createEvent: aSummary StartDate: aStartData EndDate: anEndDate
+createEvent: aSummary startDate: aStartDate endDate: anEndDate
 
 	| newEvent |
 	
 	newEvent := self newEvent.
 	newEvent
 			summary: aSummary; 
-			start: aStartData;
+			start: aStartDate;
 			end: anEndDate.
 	self addEvent: newEvent.
 	

@@ -2,6 +2,7 @@ fetching
 fetchEventsICalDataFrom: anUrl for: hrefArray
 
 	| response query |
+	
 	self assumesAuthorization.
 	
 	query := self fetchEventsICalDataQueryFor: hrefArray.

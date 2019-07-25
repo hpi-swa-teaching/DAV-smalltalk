@@ -1,4 +1,4 @@
 events handling
 addEvent: anEvent
 
-	self eventsDictionary add: anEvent url schemeSpecificPart asSymbol -> anEvent.
+	self eventsDictionary at: anEvent url schemeSpecificPart asSymbol put: anEvent.

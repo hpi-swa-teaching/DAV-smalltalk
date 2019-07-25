@@ -10,4 +10,3 @@ testNewEventSchouldBeDirty
 	
 	self assert: event1 isDirty.
 	self assert: event2 isDirty
-	

@@ -13,7 +13,7 @@ iCalDataOfEvents
 			at: #url put: ('https://', self calendarAuthority , (self hrefsOfEvents at: i)) asURI;
 			yourself.
 		iCalData add: dict		  
-		].		
+		].
 		
 	^ iCalData
 	

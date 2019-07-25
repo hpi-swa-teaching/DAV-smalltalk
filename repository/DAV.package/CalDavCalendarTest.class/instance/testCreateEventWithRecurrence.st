@@ -9,9 +9,9 @@ testCreateEventWithRecurrence
 	recurrence := ICRecurrenceRule weekly.
 	
 	event := self calendar createEvent: summary
-		StartDate:  startDate
-		EndDate: endDate
-		Recurrence: recurrence.
+		startDate:  startDate
+		endDate: endDate
+		recurrence: recurrence.
 		
 	self assert: summary equals: event summary.
 	self assert: startDate equals: event start.

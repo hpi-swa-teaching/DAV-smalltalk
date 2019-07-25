@@ -5,12 +5,7 @@
 		"example02UpdateCalendar" : "GL 7/25/2019 12:22",
 		"example03CreateEvent" : "GL 7/25/2019 12:23",
 		"example04CreateEventManually" : "GL 7/25/2019 12:23",
-		"example05CreateAndPushEvent" : "GL 7/25/2019 12:23",
-		"exampleCreateAndPushEvent" : "TSP 7/9/2019 15:25",
-		"exampleCreateEvent" : "TSP 7/9/2019 15:25",
-		"exampleCreateEventManually" : "TSP 7/9/2019 14:35",
-		"exampleSetUpCalendar" : "TSP 7/9/2019 14:18",
-		"exampleUpdateCalendar" : "TSP 7/9/2019 14:22" },
+		"example05CreateAndPushEvent" : "GL 7/25/2019 12:23" },
 	"instance" : {
 		"addEvent:" : "TSP 7/9/2019 13:45",
 		"asTemporaryICCalendar" : "pre 4/6/2017 14:38",

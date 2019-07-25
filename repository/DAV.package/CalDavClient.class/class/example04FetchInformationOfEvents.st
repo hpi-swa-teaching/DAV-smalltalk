@@ -1,5 +1,5 @@
 usage
-exampleFetchInformationOfEvents
+example04FetchInformationOfEvents
 
 	| calendarUrl client eventsData etagsOfAllEvents eventsICalData |
 	"client must be already set up"

@@ -1,5 +1,5 @@
 usage
-examplePropfindQueryUser: aUsername password: aPassword calendarUrl: anUrl 
+example03PropfindQueryUser: aUsername password: aPassword calendarUrl: anUrl 
 
 	| client response |
 

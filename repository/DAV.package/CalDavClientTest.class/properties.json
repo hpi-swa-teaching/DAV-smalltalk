@@ -7,7 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"client",
-		"query" ],
+		"query",
+		"calendar" ],
 	"name" : "CalDavClientTest",
 	"pools" : [
 		 ],

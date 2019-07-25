@@ -1,4 +1,4 @@
-parsing
+parsing - helpers
 deleteMethodLineFrom: anEventString
 
 	| newEventString |

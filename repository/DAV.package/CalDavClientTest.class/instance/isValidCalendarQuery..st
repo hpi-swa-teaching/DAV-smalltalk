@@ -1,4 +1,4 @@
-helpers
+helpers - requests
 isValidCalendarQuery: aDAVQuery
 
 	^ 	(aDAVQuery content matchesRegex: self regexForFetchCalendarQuery)

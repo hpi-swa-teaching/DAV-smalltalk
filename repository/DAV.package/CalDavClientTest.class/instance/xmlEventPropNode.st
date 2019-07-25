@@ -1,5 +1,5 @@
-helpers
-xmlPropNode
+helpers - parsing
+xmlEventPropNode
 
 	^ (XMLElement named: #'d:prop')
 		addElement: ((XMLElement named: #'d:getetag') addContent: 'eTag' asText);

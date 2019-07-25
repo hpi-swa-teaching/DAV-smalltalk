@@ -1,4 +1,4 @@
-parsing
+parsing - helpers
 parseICalData: responseContent
 
 	| iCalCalendar |

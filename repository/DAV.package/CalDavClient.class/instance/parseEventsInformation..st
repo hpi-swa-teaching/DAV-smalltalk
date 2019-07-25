@@ -1,9 +1,7 @@
-parsing
+parsing - core
 parseEventsInformation: responseContent
 
 	| xmlDocument |
-
-	self flag: #TODO. "einheitliche Benennung - element or node"
 
 	xmlDocument := self parseXML: responseContent.
 	

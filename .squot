@@ -1,4 +1,4 @@
 OrderedDictionary {
-	'repository\/DAV.package' : #SquotCypressCodeSerializer,
-	'repository\/BaselineOfDAV.package' : #SquotCypressCodeSerializer
+	'repository\/BaselineOfDAV.package' : #SquotCypressCodeSerializer,
+	'repository\/DAV.package' : #SquotCypressCodeSerializer
 }

@@ -1,4 +1,4 @@
-helpers
+helpers - requests
 isValidEventQuery: aDAVQuery
 
 	^ 	(aDAVQuery content matchesRegex: self regexForFetchEventsDataQuery)

@@ -1,7 +1,13 @@
 tests
 testNewEventSchouldBeDirty
 
-	| event |
+	| event1 event2 id eventUrl |
 	
-	event := CalDavEvent new.
-	self assert: event isDirty 
+	id := 'eventId'.
+	eventUrl := 'eventUrl'.
+	event1 := CalDavEvent newIn: self calendar withUrl: eventUrl.
+	event2 := CalDavEvent new.
+	
+	self assert: event1 isDirty.
+	self assert: event2 isDirty
+	

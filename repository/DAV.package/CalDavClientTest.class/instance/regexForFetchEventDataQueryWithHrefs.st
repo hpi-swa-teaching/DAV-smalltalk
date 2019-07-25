@@ -1,4 +1,4 @@
-helpers
+helpers - requests
 regexForFetchEventDataQueryWithHrefs
 
 	^	'<\?xml  version="1.0" \?>\s*',

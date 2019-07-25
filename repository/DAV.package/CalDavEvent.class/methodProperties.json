@@ -4,7 +4,7 @@
 		"example02SaveEvent" : "GL 7/25/2019 12:25",
 		"example03UpdateEvent" : "GL 7/25/2019 12:25",
 		"example04DeleteEvent" : "GL 7/25/2019 12:26",
-		"newIn:withId:withUrl:" : "c a 6/15/2019 15:32",
+		"newIn:withId:withUrl:" : "TSP 7/25/2019 14:00",
 		"newIn:withUrl:" : "pre 3/15/2017 14:18" },
 	"instance" : {
 		"calendar" : "pre 3/15/2017 14:18",
@@ -35,9 +35,8 @@
 		"summary" : "TSP 6/29/2019 12:12",
 		"summary:" : "TSP 6/29/2019 12:32",
 		"update" : "TSP 7/9/2019 15:03",
-		"updateEtag" : "TSP 6/28/2019 23:17",
+		"updateEtag" : "c a 7/25/2019 12:12",
 		"updateICalData" : "TSP 6/28/2019 23:17",
-		"updateOrNotDependingOnChangeInEtag:" : "c a 6/14/2019 10:36",
 		"url" : "pre 3/15/2017 14:18",
 		"url:" : "pre 4/11/2017 12:49",
 		"validate" : "TSP 7/9/2019 15:02" } }

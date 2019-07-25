@@ -1,0 +1,1 @@
+A DAVDeleteQuery is WebDav Query using the DELETE http method.

@@ -1,15 +1,11 @@
-parsing
+parsing - core
 parseEventInformation: anEventNode
 
-	| properties resultProperties |
+	| propertyNodes eventProperties |
 	
-	self checkPropertyStatus: anEventNode.
+	self checkStatusCode: anEventNode.
+	propertyNodes := (anEventNode firstTagNamed: #'d:prop') elements.
+	eventProperties := self createEventPropertyLookup: propertyNodes.
+	eventProperties at: #urlLocalPart put: (self retrieveHref: anEventNode).
 		
-	properties := (anEventNode firstTagNamed: #'d:prop') elements.
-	resultProperties := Dictionary newFrom: {#urlLocalPart -> (anEventNode firstTagNamed: #'d:href') contents first string}.
-	properties 
-		select: [:property | property contents notEmpty]
-		thenDo: [:property |
-			resultProperties at: (self tagWithOutNamespace: property name) asSymbol put: property contents first string ].
-		
-	^ resultProperties
+	^ eventProperties

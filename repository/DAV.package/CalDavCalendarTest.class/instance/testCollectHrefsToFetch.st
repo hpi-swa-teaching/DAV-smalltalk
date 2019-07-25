@@ -4,7 +4,7 @@ testCollectHrefsToFetch
 	| hrefs event hrefsToFetch updateInformation |
 	
 	hrefs := OrderedCollection new.
-	updateInformation := self updateInformation.
+	updateInformation := self updateEventsInformation.
 	
 	4 timesRepeat: [
 		event := self calendar newEvent.
@@ -21,7 +21,7 @@ testCollectHrefsToFetch
 	hrefsToFetch := self calendar collectHrefsToFetch: updateInformation.
 	
 	1 to: 6 do: [:i |	
-		self assert: (hrefsToFetch includes: (((self updateInformation at: i) at: #url) asString) ).
+		self assert: (hrefsToFetch includes: (((self updateEventsInformation at: i) at: #url) asString) ).
 	].
 
 	self assert: (hrefsToFetch includes: ('https://', self calendarAuthority , (hrefs at: 1))).

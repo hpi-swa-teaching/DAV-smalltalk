@@ -11,4 +11,5 @@ example03PropfindQueryUser: aUsername password: aPassword calendarUrl: anUrl
 	response := client davPropfind: anUrl
 			namespaces: #((cs 'http://calendarserver.org/ns/'))
 			properties: #('D:displayname' 'cs:getctag' 'D:sync-token'). 
+			
 	^ response content

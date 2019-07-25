@@ -4,7 +4,7 @@ testRemoveDeletedEvents
 	| hrefs event updateInformation |
 	
 	hrefs := OrderedCollection new.
-	updateInformation := self updateInformation.
+	updateInformation := self updateEventsInformation.
 	
 	4 timesRepeat: [
 		event := self calendar newEvent.

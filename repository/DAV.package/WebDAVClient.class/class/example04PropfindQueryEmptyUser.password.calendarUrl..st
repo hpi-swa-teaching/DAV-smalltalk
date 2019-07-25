@@ -2,10 +2,12 @@ usage
 example04PropfindQueryEmptyUser: aUsername password: aPassword calendarUrl: aCalendarUrl
 "EmptyPropfindQuery returns eTags of all Calendar Events"
 
-	| client url res |
+	| client url response |
+	
 	client := WebDAVClient new.
 	client username: aUsername.
 	client password: aPassword.
 	url := aCalendarUrl. 
-	res := client davPropfind: url namespaces: #() properties: #(). 
-	^ res content
+	response := client davPropfind: url namespaces: #() properties: #(). 
+	
+	^ response content

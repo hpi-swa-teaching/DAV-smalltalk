@@ -1,5 +1,5 @@
 helpers
-updateInformation
+updateEventsInformation
 
 	| updateInformation dict |
 	

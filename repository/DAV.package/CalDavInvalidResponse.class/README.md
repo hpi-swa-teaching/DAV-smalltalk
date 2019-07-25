@@ -1,0 +1,1 @@
+A CalDavInvalidResponse is an error when an invalid response is retrieved.

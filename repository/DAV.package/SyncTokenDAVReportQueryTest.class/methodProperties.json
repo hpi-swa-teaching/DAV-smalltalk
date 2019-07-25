@@ -1,7 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"setUp" : "JB 6/10/2019 11:01",
-		"testEmptySyncTokenDAVReportQuery" : "JB 6/25/2019 20:38",
-		"testWebDAVReportSyncTokenQuery" : "JB 6/25/2019 20:38" } }

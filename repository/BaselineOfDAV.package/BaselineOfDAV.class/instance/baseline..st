@@ -10,8 +10,6 @@ baseline: spec
 						className: 'ConfigurationOfICal';
 						repository: 'github://codezeilen/ical-smalltalk/repository'];
 				package: 'DAV' with: [spec requires: #('ICal')];
-				"package: 'DAV-Cal' with: [spec requires: #('DAV-Web')];
-				package: 'DAV-Web-Tests' with: [spec requires: #('DAV-Web')];"
 				yourself.
 			spec
 				group: 'default' with: #('DAV');

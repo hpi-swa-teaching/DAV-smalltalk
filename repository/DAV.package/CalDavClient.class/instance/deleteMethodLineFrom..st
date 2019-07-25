@@ -1,8 +1,8 @@
 parsing
 deleteMethodLineFrom: anEventString
 
-	| newEventStrings |
+	| newEventString |
 	
-	newEventStrings := anEventString lines reject: [:line | (line includesSubstring: 'METHOD:')].	
-	^ newEventStrings inject: '' into:
-		[:concatenatedString :line | concatenatedString, line, Character cr asString ]
+	newEventString := anEventString lines reject: [:line | (line includesSubstring: 'METHOD:')].	
+	^ newEventString inject: '' into:
+		[:concatenatedString :line | concatenatedString, line, Character cr asString]

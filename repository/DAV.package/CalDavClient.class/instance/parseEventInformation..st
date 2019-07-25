@@ -3,7 +3,7 @@ parseEventInformation: anEventNode
 
 	| properties resultProperties |
 	
-	self checkPropertyStatus: anEventNode.
+	self checkStatusCode: anEventNode.
 		
 	properties := (anEventNode firstTagNamed: #'d:prop') elements.
 	resultProperties := Dictionary newFrom: {#urlLocalPart -> (anEventNode firstTagNamed: #'d:href') contents first string}.

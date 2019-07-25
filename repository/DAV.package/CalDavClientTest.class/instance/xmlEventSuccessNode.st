@@ -1,6 +1,6 @@
 helpers
-xmlEventNode
+xmlEventSuccessNode
 		
 	^ (XMLElement named: 'd:response') 
-		addElement: self xmlPropstatNode;
+		addElement: self xmlPropstatSuccesNode;
 		addElement: self xmlHrefNode

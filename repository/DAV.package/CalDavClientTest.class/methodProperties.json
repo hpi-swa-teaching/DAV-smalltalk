@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
+		"calendar" : "TSP 7/24/2019 17:02",
+		"calendar:" : "TSP 7/24/2019 17:02",
 		"calendarUrlOnMockedServer" : "JB 6/27/2019 15:33",
 		"calendarUrlOnRealServer" : "JB 6/27/2019 14:54",
 		"calendarXml" : "GL 7/2/2019 11:55",
@@ -33,7 +35,7 @@
 		"regexForFetchEventICalDataQueryWithHrefs" : "JB 6/24/2019 16:05",
 		"regexForFetchEventsDataFromFor" : "GL 7/2/2019 11:12",
 		"regexForFetchEventsDataQuery" : "JB 6/24/2019 15:05",
-		"setUp" : "GL 7/3/2019 15:32",
+		"setUp" : "TSP 7/24/2019 17:02",
 		"setUpCalendarRouteOnMockedServer" : "JB 6/27/2019 22:21",
 		"setUpClientForMockedServer" : "JB 6/27/2019 14:52",
 		"setUpClientForRealServer" : "JB 6/27/2019 14:55",

@@ -2,15 +2,16 @@ updating
 updateOrCreateEventsFrom: iCalData
 
 	iCalData do: [ :elem |
-		| url etag object iCalendar |
+		| url etag event iCalendar |
 		url := self buildUrlFor: (elem at: #urlLocalPart).
 		etag := elem at: #'d:getetag'.
-		object := self eventsDictionary at: (elem at: #urlLocalPart ) ifAbsent: [
+		iCalendar := elem at: #calendarData.
+		 
+		event := self eventsDictionary at: (elem at: #urlLocalPart ) ifAbsent: [
 			CalDavEvent newIn: self withUrl: url.].
-		iCalendar := elem at: #calendarData. 
-		object etag: etag.
-		object serverCalendar: iCalendar.
-		object serverData: iCalendar events first.
-		
-		self addEvent: object.
+		event etag: etag.
+		event serverCalendar: iCalendar.
+		event serverData: iCalendar events first.
+		event setClean.
+		self addEvent: event.
 		].	

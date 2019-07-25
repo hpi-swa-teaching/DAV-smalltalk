@@ -10,5 +10,5 @@
 	"name" : "CalDavGenericException",
 	"pools" : [
 		 ],
-	"super" : "Exception",
+	"super" : "Error",
 	"type" : "normal" }

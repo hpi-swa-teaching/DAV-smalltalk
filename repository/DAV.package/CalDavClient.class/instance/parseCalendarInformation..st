@@ -1,12 +1,12 @@
 parsing
 parseCalendarInformation: responseContent
 
-	| nodes result |
-	nodes := self parseXML: responseContent.
+	| xmlNodes tagsMappendOnContent |
+	xmlNodes := self parseXML: responseContent.
 
 	self flag: #TODO. "This is brittle as it assumes that the prefixes stay the same for namespaces, e.g. D: for DAV "
-	result := CalDavCalendar calendarFieldsMapping values
-				collect: [:elementName | (nodes firstTagNamed: elementName)
-							ifNotNil: [:element | elementName -> element contentString]].
+	tagsMappendOnContent := CalDavCalendar calendarTags
+				collect: [:calendarTag | (xmlNodes firstTagNamed: calendarTag)
+							ifNotNil: [:xmlNode | calendarTag -> xmlNode contentString]].
 						
-	^ Dictionary newFrom: (result reject: [:o | o isNil]) 
+	^ Dictionary newFrom: (tagsMappendOnContent reject: [:association | association isNil]) 

@@ -8,11 +8,11 @@
 		"client" : "TSP 7/24/2019 17:59",
 		"client:" : "TSP 7/24/2019 17:59",
 		"setUp" : "TSP 7/24/2019 18:15",
-		"testAssignedEventSchouldBeClear" : "TSP 7/24/2019 18:05",
+		"testAssignedEventSchouldBeClear" : "TSP 7/25/2019 14:01",
 		"testAssignedEventSchouldHaveServerData" : "TSP 7/24/2019 18:05",
 		"testAssignedEventShouldBeClear" : "c a 7/25/2019 11:29",
 		"testAssignedEventShouldHaveServerData" : "c a 7/25/2019 11:25",
 		"testEventCreation" : "c a 7/25/2019 13:56",
-		"testNewEventSchouldBeDirty" : "TSP 7/24/2019 17:48",
+		"testNewEventSchouldBeDirty" : "TSP 7/25/2019 14:01",
 		"testNewEventShouldBeDirty" : "c a 7/25/2019 11:25",
 		"testValidateEvent" : "c a 7/25/2019 12:15" } }

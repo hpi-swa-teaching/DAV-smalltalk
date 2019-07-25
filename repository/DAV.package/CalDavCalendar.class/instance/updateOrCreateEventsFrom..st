@@ -4,7 +4,7 @@ updateOrCreateEventsFrom: iCalData
 	iCalData do: [ :elem |
 		| url etag event iCalendar |
 		url := self buildUrlFor: (elem at: #urlLocalPart).
-		etag := elem at: #'d:getetag'.
+		etag := elem at: #'getetag'.
 		iCalendar := elem at: #calendarData.
 		 
 		event := self eventsDictionary at: (elem at: #urlLocalPart ) ifAbsent: [

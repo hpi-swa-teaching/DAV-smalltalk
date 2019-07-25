@@ -6,7 +6,7 @@ collectHrefsToFetch: updateInformation
 	urlsToFetch := OrderedCollection new.
 	
 	updateInformation do: [ :rawEventData | | url href etag eventObject |
-		etag := rawEventData at: #'d:getetag'.
+		etag := rawEventData at: #getetag.
 		url := rawEventData at: #url.
 		href := rawEventData at: #urlLocalPart.
 		

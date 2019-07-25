@@ -1,4 +1,4 @@
-usage
+examples
 exampleUpdateCalendar
 
 	| calendar events |

@@ -1,4 +1,4 @@
-usage
+examples
 exampleSetUpCalendar
 
 	| calendar calendarUrl |

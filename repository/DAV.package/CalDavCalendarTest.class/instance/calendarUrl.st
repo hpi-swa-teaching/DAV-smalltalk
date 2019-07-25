@@ -1,4 +1,4 @@
 helpers
 calendarUrl
 
-	^ 'https//calendarUrl/remote'
+	^ 'https://calendarAuthority/remote'

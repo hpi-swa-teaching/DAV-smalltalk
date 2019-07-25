@@ -1,4 +1,4 @@
-usage
+examples
 example04PropfindQueryEmptyUser: aUsername password: aPassword calendarUrl: aCalendarUrl
 "EmptyPropfindQuery returns eTags of all Calendar Events"
 

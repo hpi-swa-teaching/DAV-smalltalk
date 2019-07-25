@@ -1,4 +1,4 @@
-usage
+examples
 example02DeleteQueryUser: aUsername password: aPassword eventUrl: anUrl 
 
 	| client response | 

@@ -1,4 +1,4 @@
-usage
+examples
 example06PutQueryUser: aUsername password: aPassword eventUrl: anUrl 
 
 	| client response | 

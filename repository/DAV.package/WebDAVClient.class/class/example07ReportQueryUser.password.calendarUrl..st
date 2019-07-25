@@ -1,4 +1,4 @@
-usage
+examples
 example07ReportQueryUser: aUsername password: aPassword calendarUrl: anUrl
 
 	| client response |

@@ -1,4 +1,4 @@
-usage
+examples
 example05PropfindQueryCreationUser: aUsername password: aPassword calendarUrl: anUrl
 
 	| client query response |

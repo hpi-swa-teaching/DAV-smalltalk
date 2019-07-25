@@ -1,9 +1,8 @@
-parsing
+parsing - core
 parseEventsICalData: responseContent
 
 	| xmlDocument |
 
 	xmlDocument := self parseXML: responseContent.
 	
-	^ xmlDocument root elements collect: [:element | self parseEventICalData: element]	
-		
+	^ xmlDocument root elements collect: [:element | self parseEventICalData: element]

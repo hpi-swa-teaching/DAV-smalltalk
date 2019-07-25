@@ -1,5 +1,7 @@
-helpers
+helpers - parsing
 xmlEventFailureNode
 		
 	^ (XMLElement named: 'd:response') 
-		addElement: self xmlPropstatFailureNode
+		addElement:
+			(self xmlPropstatNodeWithStatus: 'HTTP/1.1 400 BAD REQUEST'
+				andProperties: self xmlEventPropNode)

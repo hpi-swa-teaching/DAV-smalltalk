@@ -1,4 +1,4 @@
 helpers
-event
+calDavEvent
 
 	^ CalDavEvent new serverCalendar: ICCalendar new

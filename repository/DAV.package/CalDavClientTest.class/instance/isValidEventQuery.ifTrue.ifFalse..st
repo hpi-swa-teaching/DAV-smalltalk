@@ -1,4 +1,4 @@
-helpers
+helpers - requests
 isValidEventQuery: aDAVQuery ifTrue: aTrueBlock ifFalse: aFalseBlock
 
 	(self isValidEventQuery: aDAVQuery)

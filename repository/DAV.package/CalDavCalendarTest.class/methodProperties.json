@@ -23,5 +23,8 @@
 		"testCreateFullDayEventWithRecurrence" : "ph 7/25/2019 18:17",
 		"testRemoveDeletedEvents" : "ph 7/25/2019 18:17",
 		"testRemoveEvent" : "TSP 7/24/2019 18:30",
+		"testUpdateCalendar" : "TSP 7/25/2019 16:08",
 		"testUpdateOrCreateEventsFrom" : "TSP 7/25/2019 15:01",
+		"updateCalendarInformation" : "TSP 7/25/2019 16:05",
+		"updateEventsInformation" : "TSP 7/25/2019 16:01",
 		"updateInformation" : "ph 7/25/2019 18:16" } }

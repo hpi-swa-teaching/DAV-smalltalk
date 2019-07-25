@@ -1,4 +1,4 @@
-usage
+examples
 example07ReportQueryUser: aUsername password: aPassword calendarUrl: anUrl
 
 	| client response |
@@ -12,6 +12,6 @@ example07ReportQueryUser: aUsername password: aPassword calendarUrl: anUrl
 		namespaces: #((c 'urn:ietf:params:xml:ns:caldav'))
 		properties: #('D:getetag' 'c:calendar-data')
 		queryType: 'c:calendar-query'
-		filters: #(('c:comp-filter' #(('name' 'VCALENDAR')))).
+		filters: #(('c:comp-filter' #(('name' 'VCALENDAR')) )).
 
 	^ response content

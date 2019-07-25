@@ -1,4 +1,4 @@
-usage
+examples
 example08ReportQueryCreationUser: aUsername password: aPassword calendarUrl: anUrl
 
 	| client query response |
@@ -15,4 +15,5 @@ example08ReportQueryCreationUser: aUsername password: aPassword calendarUrl: anU
 		filters: #(('c:comp-filter' #(('name' 'VCALENDAR')))).
 		
 	response := client sendRequest: query.
-	^response content
+	
+	^ response content

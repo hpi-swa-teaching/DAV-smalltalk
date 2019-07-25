@@ -6,4 +6,4 @@ initialize
 		namespaces: #();
 		properties: #();
 		initializeFromUrl: '';
-		setDefaultHeaders.
+		setDefaultHeaders

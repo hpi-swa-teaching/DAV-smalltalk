@@ -14,4 +14,5 @@ example05PropfindQueryCreationUser: aUsername password: aPassword calendarUrl: a
 		properties: #('cs:getctag').
 
 	response := client sendRequest: query.
+	
 	^ response content

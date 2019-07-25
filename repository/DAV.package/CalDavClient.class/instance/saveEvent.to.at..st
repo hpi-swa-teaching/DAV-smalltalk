@@ -17,6 +17,4 @@ saveEvent: anIcalObject to: anUrl at: etag
 	
 	response := self sendPutTo: anUrl theRequest: serializedEvent withHeader: header.
 	
-	response isSuccess ifFalse: [Exception signal].
-	
-	^ true
+	self handleResponse: response

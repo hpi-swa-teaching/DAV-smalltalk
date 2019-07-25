@@ -1,4 +1,4 @@
-usage
+examples
 exampleCreateAndPushEvent
 
 	| calendar event recurrentEvent fullDayEvent |

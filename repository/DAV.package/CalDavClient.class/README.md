@@ -2,3 +2,6 @@ A CalDavClient can be used to communicate with a CalDavServer. Multiple convenie
 
 Instance Variables
 	webDAVClient:		WebDAVClient
+			
+webDAVClient:
+	- client for sending http requests

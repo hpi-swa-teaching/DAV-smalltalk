@@ -1,11 +1,12 @@
-A GoogleCalDAVClient is a specific Client for the Google Calendar API.
+A GoogleCalDAVClient is a CalDavClient to connect to Google CalDavClients (e.g. Owncloud). It is responible for handling the authentication. Find information about the usage in readme.me in our repository
+
 
 Instance Variables
-	accessToken:		<Object>
-	refreshToken:		<Object>
+	accessToken:		String
+	refreshToken:		String
 
 accessToken
-	- xxxxx
+	- Google Access Token for authentication
 
 refreshToken
-	- xxxxx
+	- Google Refresh Token for authentication.

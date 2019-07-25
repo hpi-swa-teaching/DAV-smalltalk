@@ -1,0 +1,1 @@
+A DAVPutQuery is a WebDav Query using the PUT http method.

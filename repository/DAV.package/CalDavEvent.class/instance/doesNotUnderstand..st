@@ -1,8 +1,9 @@
 accessing
 doesNotUnderstand: aMessage
 
-	| key |
-	key := (self serverData respondsTo: aMessage selector) ifFalse: 
+	"passes messages to wrapped ICEvent"
+	
+	(self serverData respondsTo: aMessage selector) ifFalse: 
 			[self serverData ifNil: [^ 'uninitialized event'].
 			 super doesNotUnderstand: aMessage].
 	

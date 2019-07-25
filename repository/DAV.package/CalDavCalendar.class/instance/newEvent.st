@@ -2,7 +2,6 @@ events handling
 newEvent
 	
 	| newId event |
-	
 	newId := self client newEventIdFor: self. 
 	event := CalDavEvent 
 		newIn: self 

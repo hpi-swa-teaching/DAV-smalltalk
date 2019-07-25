@@ -13,6 +13,6 @@
 		"testAssignedEventShouldBeClear" : "c a 7/25/2019 11:29",
 		"testAssignedEventShouldHaveServerData" : "c a 7/25/2019 11:25",
 		"testEventCreation" : "ph 7/25/2019 18:30",
-		"testNewEventSchouldBeDirty" : "ph 7/25/2019 18:31",
+		"testNewEventSchouldBeDirty" : "ph 7/25/2019 18:58",
 		"testNewEventShouldBeDirty" : "c a 7/25/2019 11:25",
 		"testValidateEvent" : "ph 7/25/2019 18:31" } }

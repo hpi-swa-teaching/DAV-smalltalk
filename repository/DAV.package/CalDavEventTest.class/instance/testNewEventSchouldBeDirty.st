@@ -1,9 +1,8 @@
 tests
 testNewEventSchouldBeDirty
 
-	| event1 event2 id eventUrl |
+	| event1 event2 eventUrl |
 	
-	id := 'eventId'.
 	eventUrl := 'eventUrl'.
 	event1 := CalDavEvent newIn: self calendar withUrl: eventUrl.
 	event2 := CalDavEvent new.

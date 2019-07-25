@@ -15,6 +15,7 @@
 		"serverDataWithOffset:" : "TSP 7/25/2019 14:29",
 		"setUp" : "TSP 7/25/2019 11:14",
 		"testAddEvent" : "TSP 7/24/2019 18:28",
+		"testBuildUrlFor" : "TSP 7/25/2019 15:17",
 		"testCollectHrefsToFetch" : "TSP 7/25/2019 14:53",
 		"testCreateEvent" : "TSP 7/24/2019 18:23",
 		"testCreateEventWithRecurrence" : "TSP 7/24/2019 18:23",

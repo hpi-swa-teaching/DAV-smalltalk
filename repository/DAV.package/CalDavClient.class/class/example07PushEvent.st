@@ -1,5 +1,5 @@
 usage
-examplePushEvent
+example07PushEvent
 
 	| client anEvent |
 	"client must be already set up"

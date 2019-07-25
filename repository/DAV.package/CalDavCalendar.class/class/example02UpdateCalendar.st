@@ -1,5 +1,5 @@
-examples
-exampleUpdateCalendar
+usage
+example02UpdateCalendar
 
 	| calendar events |
 	"calendar must be already set up"

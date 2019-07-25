@@ -1,18 +1,17 @@
 usage
-exampleReportQueryCreationUser: aUsername password: aPassword calendarUrl: anUrl
+example07ReportQueryUser: aUsername password: aPassword calendarUrl: anUrl
 
-	| client query response |
+	| client response |
 
-	client := WebDAVClient new. 
+	client := WebDAVClient new.
 	client username: aUsername. 
 	client password: aPassword.
 	client initializeFromUrl: anUrl.
 
-	query := CalDAVReportQuery
-		calendarQueryFromUrl: anUrl
+	response := client davReport: anUrl
 		namespaces: #((c 'urn:ietf:params:xml:ns:caldav'))
 		properties: #('D:getetag' 'c:calendar-data')
+		queryType: 'c:calendar-query'
 		filters: #(('c:comp-filter' #(('name' 'VCALENDAR')))).
-		
-	response := client sendRequest: query.
-	^response content
+
+	^ response content

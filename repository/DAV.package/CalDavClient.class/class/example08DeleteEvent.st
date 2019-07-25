@@ -1,5 +1,5 @@
 usage
-exampleDeleteEvent
+example08DeleteEvent
 
 	| client anEvent |
 	"client must be already set up"

@@ -1,9 +1,9 @@
 {
 	"class" : {
-		"exampleCreateEvent" : "TSP 7/9/2019 14:54",
-		"exampleDeleteEvent" : "TSP 7/9/2019 15:17",
-		"exampleSaveEvent" : "TSP 7/9/2019 14:57",
-		"exampleUpdateEvent" : "TSP 7/9/2019 15:16",
+		"example01CreateEvent" : "GL 7/25/2019 12:25",
+		"example02SaveEvent" : "GL 7/25/2019 12:25",
+		"example03UpdateEvent" : "GL 7/25/2019 12:25",
+		"example04DeleteEvent" : "GL 7/25/2019 12:26",
 		"newIn:withId:withUrl:" : "TSP 7/25/2019 14:00",
 		"newIn:withUrl:" : "pre 3/15/2017 14:18" },
 	"instance" : {

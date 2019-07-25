@@ -1,5 +1,5 @@
 usage
-exampleGetQueryUser: aUsername password: aPassword eventUrl: anUrl
+example01GetQueryUser: aUsername password: aPassword eventUrl: anUrl
 
 	| client response |
 

@@ -1,13 +1,14 @@
 {
 	"class" : {
 		"ClientRegistry" : "pre 1/20/2017 10:47",
-		"exampleDeleteEvent" : "TSP 7/9/2019 14:10",
-		"exampleFetchCalendarInformation" : "TSP 7/9/2019 12:22",
-		"exampleFetchInformationOfEvent" : "TSP 7/9/2019 11:38",
-		"exampleFetchInformationOfEvents" : "TSP 7/9/2019 11:59",
-		"exampleFetchInformationOfSpecificEvents" : "TSP 7/9/2019 11:46",
-		"examplePushEvent" : "TSP 7/9/2019 14:12",
-		"exampleSetUpClient" : "TSP 7/9/2019 11:21",
+		"example01SetUpClient" : "GL 7/25/2019 12:16",
+		"example02FetchCalendarInformation" : "GL 7/25/2019 12:18",
+		"example03FetchInformationOfEvent" : "GL 7/25/2019 12:18",
+		"example04FetchInformationOfEvents" : "GL 7/25/2019 12:18",
+		"example05FetchInformationOfSpecificEvents" : "GL 7/25/2019 12:19",
+		"example06FetchInformationOfSpecificEvents" : "GL 7/25/2019 12:19",
+		"example07PushEvent" : "GL 7/25/2019 12:20",
+		"example08DeleteEvent" : "GL 7/25/2019 12:20",
 		"registerClient:for:" : "pre 1/20/2017 15:55",
 		"registeredClientFor:" : "pre 1/20/2017 15:53" },
 	"instance" : {

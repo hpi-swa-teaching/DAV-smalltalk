@@ -1,5 +1,5 @@
 usage
-exampleFetchInformationOfSpecificEvents
+example06FetchInformationOfSpecificEvents
 
 	| calendarUrl client href1 href2 hrefArray 
 	specificEventsData etagsOfSpecificEvents specificEventsICalData|

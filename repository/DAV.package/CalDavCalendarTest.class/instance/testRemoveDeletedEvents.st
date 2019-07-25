@@ -13,7 +13,7 @@ testRemoveDeletedEvents
 	].
 	
 	updateInformation add: ( Dictionary new 
-		at: #'d:getetag' put: 'newEtag';
+		at: #getetag put: 'newEtag';
 		at: #urlLocalPart put: (hrefs at: 1);
 		at: #url put: ('https://', self calendarAuthority , (hrefs at: 1)) asURI;
 		yourself

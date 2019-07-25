@@ -10,5 +10,4 @@ forcePushEvent: anEvent
 	query := self putEventDataQueryWithPayload: payload withInternetLineEndings. 
 	response := self sendRequest: query to: anEvent url.
 	
-	
 	^  self handleResponse: response

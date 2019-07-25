@@ -76,6 +76,7 @@
 		"testFetchEventsICalDataFromForWithRealServer" : "JB 7/3/2019 21:27",
 		"testFetchEventsICalDataFromWithMockedServer" : "c a 7/25/2019 15:06",
 		"testFetchEventsICalDataQueryForHrefs" : "JB 6/25/2019 20:39",
+		"testHandleResponse" : "JB 7/25/2019 16:10",
 		"testParseCalendarInformation" : "JB 7/25/2019 14:43",
 		"testParseEventICalData" : "JB 7/25/2019 14:42",
 		"testParseEventInformation" : "JB 7/25/2019 14:13",

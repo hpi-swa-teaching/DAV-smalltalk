@@ -1,4 +1,4 @@
 tests - parsing
 testThrowEventParsingExecption
 
-	self should: [self client throwEventParsingExecption] raise: Error
+	self should: [self client throwEventParsingException] raise: Error

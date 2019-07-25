@@ -1,5 +1,5 @@
 usage
-exampleFetchCalendarInformation
+example02FetchCalendarInformation
 
 	| calendarUrl client calendarData |
 	"client must be already set up"

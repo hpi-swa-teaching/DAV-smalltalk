@@ -1,5 +1,5 @@
 usage
-exampleFetchInformationOfEvent
+example03FetchInformationOfEvent
 
 	| eventUrl client eventData eventICalData etagOfEvent|
 	"client must be already set up"

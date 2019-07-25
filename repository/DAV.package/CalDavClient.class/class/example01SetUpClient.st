@@ -1,5 +1,5 @@
 usage
-exampleSetUpClient 
+example01SetUpClient 
 
 	| client url |
 	

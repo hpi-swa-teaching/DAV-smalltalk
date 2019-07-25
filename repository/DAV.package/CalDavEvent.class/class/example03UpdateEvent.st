@@ -1,5 +1,5 @@
 usage
-exampleUpdateEvent	
+example03UpdateEvent	
 
 	| event |
 	"event must be already assigned to the calendar object"

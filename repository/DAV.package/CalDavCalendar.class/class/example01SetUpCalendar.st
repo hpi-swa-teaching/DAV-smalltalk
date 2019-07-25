@@ -1,5 +1,5 @@
 usage
-exampleSetUpCalendar
+example01SetUpCalendar
 
 	| calendar calendarUrl |
 	

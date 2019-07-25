@@ -1,0 +1,1 @@
+A DAVPropfindQuery is a WebDav Query using the Propfind method.

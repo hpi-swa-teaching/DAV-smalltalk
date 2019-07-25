@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		"ClientRegistry" ],
-	"commentStamp" : "c a 7/9/2019 13:55",
+	"commentStamp" : "ph 7/25/2019 12:01",
 	"instvars" : [
 		"webDAVClient" ],
 	"name" : "CalDavClient",

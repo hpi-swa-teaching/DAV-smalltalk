@@ -5,10 +5,10 @@ updateCalendar
 	
 	updateInformation := self client fetchCalendarDataFrom: self url.
 	self
-		calendarName: (updateInformation at: #'d:displayname');
-		ctag: (updateInformation at: #'cs:getctag');
-		syncToken: (updateInformation at: #'d:sync-token');
-		contentType: (updateInformation at: #'d:getcontenttype');
+		calendarName: (updateInformation at: #'displayname');
+		ctag: (updateInformation at: #'getctag');
+		syncToken: (updateInformation at: #'sync-token');
+		contentType: (updateInformation at: #'getcontenttype');
 		calendarColor:
-			(Color fromString: (updateInformation at: #'ical:calendar-color'
-				ifAbsent: [self defaultColor]))
+			(Color fromString: (updateInformation at: #'icalendar-color'
+				ifAbsent: [self defaultColor asString]))

@@ -1,5 +1,4 @@
-parsing
+parsing - helpers
 parseXML: string
 
-	^ XMLDOMParser parseDocumentFrom: string readStream.
-	
+	^ XMLDOMParser parseDocumentFrom: string readStream

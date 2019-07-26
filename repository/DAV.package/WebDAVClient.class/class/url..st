@@ -1,6 +1,6 @@
 instance creation
 url: anUrlString
 
-	^ (self new)
+	^ self new
 		initializeFromUrl: anUrlString;
 		yourself

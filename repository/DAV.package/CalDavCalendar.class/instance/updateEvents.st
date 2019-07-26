@@ -2,14 +2,12 @@ updating
 updateEvents
 	
 	| etagsOfEvents |
+	
 	etagsOfEvents := self client fetchEtagsOfEventsFrom: self url.
 	
 	etagsOfEvents do: [:rawEventData | 
-		rawEventData at: #url put: ('https://', self url authority , (rawEventData at: #urlLocalPart)) asURI].
+		rawEventData at: #url put:	(self buildUrlFrom: (rawEventData at: #urlLocalPart))].
 	
 	self 
 		removeDeletedEvents: etagsOfEvents;
-		updateOrAddEvents: etagsOfEvents.
-		
-	
-	
+		updateOrAddEvents: etagsOfEvents

@@ -1,4 +1,4 @@
 accessing
-serverData: anObject
+serverData: anICEvent
 
-	serverData := anObject
+	serverData := anICEvent

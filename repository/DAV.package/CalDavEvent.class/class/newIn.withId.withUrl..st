@@ -1,4 +1,4 @@
-as yet unclassified
+creating
 newIn: calendar withId: id withUrl: url
 
 	^ self new
@@ -6,4 +6,5 @@ newIn: calendar withId: id withUrl: url
 		url: url;
 		initializeServerData;
 		uid: id;
+		setClean;
 		yourself

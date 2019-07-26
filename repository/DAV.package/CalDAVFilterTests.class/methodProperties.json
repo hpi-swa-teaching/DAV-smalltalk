@@ -7,5 +7,6 @@
 		"setUp" : "JB 6/8/2019 15:31",
 		"testAttributesDictionary" : "JB 6/8/2019 15:50",
 		"testFilterCreation" : "JB 6/8/2019 15:46",
-		"testFiltersAsXml" : "JB 6/11/2019 21:17",
+		"testFiltersAsXmlCompFilter" : "TSP 7/25/2019 17:34",
+		"testFiltersAsXmlTimeRange" : "TSP 7/25/2019 17:33",
 		"testTypeSetter" : "JB 6/8/2019 15:46" } }

@@ -4,7 +4,6 @@ testCalDAVReportWithRealServer
 	 | url resp |
 
 	url := self setUpRealTestServer.	
-
 	self client initializeFromUrl: url.
  
 	self query: (CalDAVReportQuery

@@ -1,5 +1,4 @@
-parsing
+parsing - helpers
 serializeEvent: anEvent
 
-	^ (ICCalendarExporter calendar: anEvent serverCalendar) export export dataStream contents
-	
+	^ (ICCalendarExporter calendar: anEvent serverCalendar) export dataStream contents

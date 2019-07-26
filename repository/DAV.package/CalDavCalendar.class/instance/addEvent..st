@@ -1,5 +1,7 @@
-accessing
+events handling
 addEvent: anEvent
 
-	self eventsDictionary add: anEvent url schemeSpecificPart asSymbol -> anEvent.
-	self uidDictionary add: anEvent serverData uid -> anEvent.
+	self eventsDictionary at: anEvent url schemeSpecificPart asSymbol put: anEvent.
+	anEvent
+		setClean;
+		calendar: self

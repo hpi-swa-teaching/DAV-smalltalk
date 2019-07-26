@@ -2,10 +2,7 @@ updating
 removeDeletedEvents: updateInformation
 
 	| urlsToRemove |
-	urlsToRemove := ((self eventsDictionary keys) 
-						difference: (updateInformation collect: [:info | info at: #urlLocalPart asSymbol])).
+	
+	urlsToRemove := self determineUrlsToRemove: updateInformation.
 				
-	urlsToRemove do: [ :elem |
-		self eventsDictionary removeKey: elem ifAbsent: [].
-		self uidDictionary removeKey: elem serverData uid ifAbsent: [].
-		].
+	urlsToRemove do: [:url | self deleteEventOf: url]

@@ -1,3 +1,4 @@
 accessing
-syncToken: anObject
-	syncToken := anObject
+syncToken: aString
+
+	syncToken := aString

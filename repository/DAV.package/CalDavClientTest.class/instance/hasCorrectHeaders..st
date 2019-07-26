@@ -1,4 +1,4 @@
-helpers
+helpers - requests
 hasCorrectHeaders: aDAVQuery
 
 	^	('return-minimal' = (aDAVQuery headerAt: 'Prefer')) and:

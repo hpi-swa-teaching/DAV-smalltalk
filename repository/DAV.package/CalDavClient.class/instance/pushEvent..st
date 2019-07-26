@@ -5,8 +5,9 @@ pushEvent: anEvent
 	self assumesAuthorization.
 	
 	iCal := self serializeEvent: anEvent.
-	payload := self handleSerializedEventData: iCal.
-	query := self putEventDataQueryWithPayload: payload withInternetLineEndings ifMatch: anEvent etag. 
+	payload := self deleteMethodLineFrom: iCal.
+	query := self putEventDataQueryWithPayload: 
+		payload withInternetLineEndings ifMatch: anEvent etag. 
 	response := self sendRequest: query to: anEvent url.
 	
-	^ response
+	^ self handleResponse: response

@@ -1,4 +1,4 @@
 accessing
-serverCalendar: anObject
+serverCalendar: anICCalendar
 
-	serverCalendar := anObject
+	serverCalendar := anICCalendar
